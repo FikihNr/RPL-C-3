@@ -138,3 +138,20 @@ No.	Kelompok Projek	Jobdesk
 4.	Muhammad Bimo Abdithama	(Programmer)
 5.	Widi Indriyani	(Desain UI/UX)
 
+
+#BAB IV
+
+##Proses Teknis
+
+4.1 Metoda, Tools, dan Teknik
+
+Metoda yang kami gunakan yaitu dengan Mengolah Data Nilai dan Absensi Siswa Siswi Ganesha Operations (GO) serta memberikan informasi kepada user seputar Jadwal Try Out dan Hasil Nilai.. Tools yang digunakan adalah Sublime Text, Xampp, database Mysql, PHP, HTML, Javascript, Bootstrap dan Codeigniter sebagai Framework untuk PHP. Teknik yang digunakan adalah pemrograman beroreintasi objek.
+
+4.2 Dokumentasi Perangkat Lunak
+
+Dokumentasi perangkat lunak yang digunakan berdasarkan standar internasional IEEE, karena telah menyediakan kerangka kerja yang menghubungkan seluruh spektrum siklus hidup perangkat lunak.
+
+4.3 Fungsi-fungsi Pendukung Proyek
+
+Kami membutuhkan technical support di bagian desain project sebanyak 1 orang. Kami membutuhkan technical support di bagian coding program sebanyak 2 orang. Kami membutuhkan specialist di bagian database sebanyak 2 orang.
+
