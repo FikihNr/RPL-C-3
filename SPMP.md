@@ -71,3 +71,70 @@ diberikan dan ditentukan atas keberhasilan pembuatan proyek
 * Uji Coba aplikasi
 * Final Deliverable
 
+# BAB III
+
+3.Proses Manajerial
+
+3.1 Tujuan dan Prioritas Manajemen
+
+3.1.1 Prioritas Jadwal
+
+Prioritas jadwal yang dilakukan pada saat ini adalah membuat sebuah sistemyang akan dibuat seperti :dokumenprojek,jadwalkegiatan,strukturpembuatanprojekdan organisasi.
+
+3.1.2 Budget
+
+Prioritas budget untuk projek saat ini lebih ditekankan pada kualitas software.
+
+3.1.3 Kemampuan (Kualitas dan reusability)
+
+Projek yang kita buat saat ini mempunyai kelebihan dalam memanajemen, pembuatan projek ini berbasis website yang membuat konsumen merasa lebih mudah dalam berinteraksi.
+
+3.2 Asumsi – asumsi, ketergantungan / keterkaitan, dan Batasan – Batasan
+
+3.2.1 Asumsi
+
+Aplikasi yang sejenis aplikasi manajemen berbasis website, projek yang kami buat ini membutuhkankomputer sebagai media penghubungnya.
+
+3.2.2 Ketergantungan / Keterkaitan dan Batasan – Batasan
+
+Dalam projek yang kami buat ada beberapa software website yangmendukungnya, seperti xampp sebagai perantara mysqli database. Namun ada batasannya, yaitu tidak bisa digunakan secara online.
+
+3.3 Manajemen resiko
+
+3.3.1 Dampak Negatif
+
+Tabel Manajemen Resiko
+
+No.	Resiko	Teknis Memanajemen Resiko
+
+1.	
+
+
+
+
+
+
+
+
+3.4 Mekanisme monitoring dan kontroling
+
+3.4.1 Monitoring
+
+Proses monitoring di lakukan secara kelompok, adapun proses tersebut dilaksanakan setiap hari senin dan rabu.
+
+3.4.2 Kontroling
+
+Sedangkan proses kontroling dilaksanakan setiap hari jum’at, hal ini dilakukan agar hasil kerja projek yang kita buat dapat di evaluasi.
+
+3.5 Perencanaan staf
+
+Tabel perencanaan staf
+
+No.	Kelompok Projek	Jobdesk
+
+1.	Fikih Nur Ramadan	(Project Manager)
+2.	Firda Faradila	(Database)
+3.	Lulu Mukhoyyaroh	(Analisys)
+4.	Muhammad Bimo Abdithama	(Programmer)
+5.	Widi Indriyani	(Desain UI/UX)
+
