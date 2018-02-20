@@ -3,9 +3,9 @@
 
 
 
-BAB I
+# BAB I
 
-1.PENDAHULUAN
+###1.PENDAHULUAN
 
 1.1.Gambaran Proyek
 
@@ -39,3 +39,35 @@ IEEE	: The International Institute of Electronic and Electrical Engineers
 RFID adalah sebuah metodeidentifikasidengan menggunakan sarana yangdisebut label RFID atautransponder untuk menyimpan dan mengambil data jarak jauh.
 
 IEEE adalah standar yang mendefinisikan lapisan fisik dan sublapisan media akses kontrol dari lapisan data-link dari standar Ethernet berkabel
+
+# BAB II #
+
+**Organisasi Proyek** 
+
+###2.1 Model Proses
+Proses yang digunakan untuk proyek ini adalah model Waterfall sehingga setiap tahap pengerjaan memungkinkan kita untuk memperbarui rencana proyek dan kiriman lainnya.
+Kami menggunakan Web untuk memperkenalkan aplikasi yang kita buat.
+###2.2 Struktur Organisasi
+* Fikih Nur Ramadhan (Project Manager)
+* Firda Faradila ( Database Engineer)
+* Lulu Mukhoyyaroh (Analyz Project)
+* M. Bimo Abditama (Programmer)
+* Widi Indriyani (Design UI/UX)
+
+###2.3 Batasan dan Antarmuka Organisasi
+Pemimpin tim atau Project Manager selama masa pengerjaan proyek akan bertanggung jawab 
+mengkoordinasikan pertemuan tim,update, dan komunikasi.
+###2.4 Lingkup Tanggung jawab
+Untuk tanggung jawab per-jobdesk keseluruhan wajib bertanggung jawab akan tugas yang telah 
+diberikan dan ditentukan atas keberhasilan pembuatan proyek
+
+####Tugas kebutuhan proyek.
+
+* Rencana Proyek
+* Spesifikasi Kebutuhan
+* Analisis
+* Mendesain aplikasi
+* Mengembangkan aplikasi
+* Uji Coba aplikasi
+* Final Deliverable
+
