@@ -192,3 +192,71 @@ Dalam proses pengerjaan proyek yang kami buat ini, keterkaitan dalam tugas masin
 
 Untuk pembuatan aplikasi ini akan dikerjakan oleh 5 (lima) orang.
 
+5.3.1 Kebutuhan Sumber Daya Manusia
+
+-Fikih Nur Ramadan (Project Manager)
+
+-Muhammad Bimo Abditama (Programmer)
+
+-Firda Faradila
+
+-Lulu Mukhoyyaroh
+
+-Widi Indriyani
+
+5.3.2 Kebutuhan Sumber Daya Software
+
+    Sublime
+
+    Xampp
+
+    php
+
+    html
+
+    Javascript
+
+    Boostrap
+
+    Mysql
+
+    Codeigniter
+
+5.3.3 Kebutuhan Sumber Daya Hardware
+
+    Laptop/PC
+
+    flashdisk/hardisk
+
+    Mouse
+
+5.4 Alokasi budget dan sumber daya
+
+Berikut adalah rincian biaya yang diperlukan dalam pengerjaan proyek kami
+
+    Ongkos survey ke mitra Rp.20.000
+
+5.5 Jadwal
+
+Untuk menyelesaikan proyek ini diperlukan waktu kurang lebih 4 bulan. Dimana rincian kerja pembuatan web ini sebagai berikut
+
+Mulai proyek 6 Februari 2018
+
+Perencanaan 7 Februari 2018
+
+Pelaksanaan
+
+    Analisa sistem 8 Februari 2018
+
+    Desain Database Sistem 12 Februari 2018
+
+    Desain Antarmuka Sistem 16 Februari 2018
+
+    Koding dan Testing 20 Maret 2018
+
+    Dokumentasi Sistem 27 April 2018
+
+Implementasi3 Mei 2018
+
+Penutupan Proyek18 Mei 2018
+
