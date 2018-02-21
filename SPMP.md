@@ -1,4 +1,4 @@
-##Software Project Management Plan
+﻿##Software Project Management Plan
 
 
 
@@ -155,11 +155,10 @@ Dokumentasi perangkat lunak yang digunakan berdasarkan standar internasional IEE
 
 Kami membutuhkan technical support di bagian desain project sebanyak 1 orang. Kami membutuhkan technical support di bagian coding program sebanyak 2 orang. Kami membutuhkan specialist di bagian database sebanyak 2 orang.
 
+#Bab 5 
+###Paket Kerja, jadwal, Anggaran
 
-#Bab 5
-####Paket Kerja, jadwal, Anggaran
-
-#####5.1 Paket pekerjaan
+5.1 Paket pekerjaan
 
 Nama
 
@@ -184,4 +183,12 @@ Kategori Kegiatan :
     Melakukan perbaikan proyek yang sudah di cek.
 
     Presentasi Proyek
+
+5.2 Ketergantungan/keterkaitan
+
+Dalam proses pengerjaan proyek yang kami buat ini, keterkaitan dalam tugas masing-masing sangat membantu agar terbentuknya ketelitian saat mengerjakan dan mendapatkan hasil yang bagus.
+
+5.3 Kebutuhan-kebutuhan sumber daya
+
+Untuk pembuatan aplikasi ini akan dikerjakan oleh 5 (lima) orang.
 
