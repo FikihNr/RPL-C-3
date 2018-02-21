@@ -155,3 +155,33 @@ Dokumentasi perangkat lunak yang digunakan berdasarkan standar internasional IEE
 
 Kami membutuhkan technical support di bagian desain project sebanyak 1 orang. Kami membutuhkan technical support di bagian coding program sebanyak 2 orang. Kami membutuhkan specialist di bagian database sebanyak 2 orang.
 
+
+#Bab 5
+####Paket Kerja, jadwal, Anggaran
+
+#####5.1 Paket pekerjaan
+
+Nama
+
+    Fikih Nur Ramadan
+
+    Muhammad Bimo Abditama
+
+    Firda Faradila
+
+    Lulu Mukhoyyaroh
+
+    Widi Indriyani
+
+Kategori Kegiatan :
+
+    Persiapan proyek dan pengumpulan sumber daya yang diperlukan.
+
+    Pengerjaan proyek dari koding dan pencarian referensi hingga dilakukan pengecekan.
+
+    Pengecekan hasil proyek, berupa pengecekan terhadap error code pada program.
+
+    Melakukan perbaikan proyek yang sudah di cek.
+
+    Presentasi Proyek
+
