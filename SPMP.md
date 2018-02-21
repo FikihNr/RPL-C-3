@@ -109,7 +109,7 @@ Tabel Manajemen Resiko
 
 | No. | Resiko | Teknik Manajemen Resiko |
 |-----|-----|-----|
-| 1 |  | Pengembangannya terlalu sulit secara teknis | Analisa teknis |
+| 1 | Pengembangannya terlalu sulit secara teknis | Analisa teknis |
 | | | Analisa software |
 | | | Analisa biaya |
 | 2 | Kegagalan kinerja real time | Membangun kelompok |
