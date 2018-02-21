@@ -1,4 +1,4 @@
-﻿##Software Project Management Plan
+##Software Project Management Plan
 
 
 
@@ -105,9 +105,22 @@ Dalam projek yang kami buat ada beberapa software website yangmendukungnya, sepe
 
 Tabel Manajemen Resiko
 
-No.	Resiko	Teknis Memanajemen Resiko
 
-1.	
+
+| No. | Resiko | Teknik Manajemen Resiko |
+|-----|-----|-----|
+| 1 |  | Pengembangannya terlalu sulit secara teknis | Analisa teknis |
+| | | Analisa software |
+| | | Analisa biaya |
+| 2 | Kegagalan kinerja real time | Membangun kelompok |
+| | | Kesungguhan dalam kelompok |
+| 3 | Estimasi waktu yang tidak realistis | Menganalisa project yang akan dibuat |
+ 
+
+
+ 
+
+
 
 
 
