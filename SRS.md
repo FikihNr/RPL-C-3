@@ -72,7 +72,84 @@ __2.1.4	Antarmuka perangkat lunak__
 2. Bahasa Pemograman (HTML, PHP, JavaScript)
 3. Software Pengolah (--)
 4. Database Enginee (MySQL/SQL)
-5. Software Pendukung (Framework CodeIng)
+5. Software Pendukung (Framework CodeIgniter)
+
+__2.2. Fungsi – fungsi produk__
+
+Perangkat lunak system informasi bimbingan belajar ini mempunyai beberapa fungsi utama, antara lain :
+
+1.	Fungsi administrasi 
+Fungsi utama yang melayani admin untuk mengakses dan mengelola data system.
+ 
+Terdiri dari beberapa subfungsi :
+
+•	Subfungsi Insert Data
+
+Subfungsi ini digunakan untuk memasukan data ke dalam database system.
+
+•	Subfungsi Update Data
+
+Subfungsi ini digunakan untuk mengubah data di dalam database system.
+
+•	Subfungsi Delete Data
+
+Subfungsi ini digunakan untuk menghapus data dari dalam database sistem.
+
+__2.3. Karakteristik pengguna__
+
+Dalam website SIMBEL ini. Terdapat empat user berdasarkan (privilege) dalam system, antara lain :
+
+1.	Administrator
+
+•	Memiliki hak penuh terhadap system, mampu merubah isi system.
+
+•	Memiliki hak akses secara langsung pada database system.
+
+•	User ini ada untuk melakukan maintenance terhadap system (jika diperlukan dan keadaan darurat).
+
+2.	Pengajar (Tenor)
+
+•	Memberikan pengajaran terhadap pelajar (siswa) setelah melakukan keikut sertaan dalam kerja sama.
+
+•	Memberikan laporan data penilaian dan absensi yang dapat diinformasikan kepada user melalui SIMBEL.
+
+•	Menjawab konsultasi bimbingan yang diberikan oleh pelajar (tenor).
+
+•	Tidak memiliki hak penuh terhadap system dan database secara langsung.
+
+3.	Pelajar (Siswa)
+
+•	Haknya sangat terbatas, user ini hanya diizinkan untuk melihat nilai, mata pelajaran, jadwal try out, sarana dan prasarana dan data absensi yang di berikan oleh pengajar (tenor) melalui SIMBEL.
+
+•	Memberikan konsultasi bimbingan kepada pengajar (tenor).
+
+•	Tidak memiliki hak akses apapun.
+
+4.	Orang Tua
+ 
+•	Haknya sangat terbatas, eser ini hanya diizinkan melihat nilai, mata pelajaran, jadwal try out, sarana dan prasarana dan data absensi yang di berikan oleh pengajar (tenor) melalui SIMBEL.
+
+•	Tidak memiliki hak akses apapun.
+
+__2.4.  Batasan – Batasan__
+
+1. Perangkat lunak hanya bisa di akses ketika terhubung dengan internet.
+
+2. Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan.
+
+3.Pengembangan perangkat lunak tidak akan merubah file - file ataupun database yang ada.
+
+__2.5. Asumsi - asumsi dan ketergantungan/keterkaitan__
+
+Orang yang sudah login ketika webrowsernya di keluar maka anda di minta untuk login kembali.
+
+__2.6. Kebutuhan – kebutuhan penyeimbang__
+
+Website akan dijalankan di server dengan kecepatan akses internet yang tinggi. Kecepatan koneksi akan tergantung pada hardware dan karakteristik dari sistem.Website akan compatible dengan beberapa browser yang umum digunakan oleh customer,seperti Internet Explorer, Mozilla Firefox, Opera, Chrome, Safari dan Netscape. SIstem iniakan menggunakan internet security yang sama dengan yang digunakan di BPS.
+
+
+
+
 
  
 
