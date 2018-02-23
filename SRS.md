@@ -37,3 +37,43 @@ Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah:
 Dokumen SRS ini dibagi menjadi tiga bagian utama, yaitu :
 bagian pertama berisi penjelasan tentang dokumen SRS yang mencakup tujuan pembuatan dokumen ini, lingkup masalah yang diselesaikan oleh perangkat lunak yang dikembangkan, definisi, referensi dan deskripsi umum. Bagian kedua berisi penjelasan secara umum mengenai Sistem Informasi Bimbingan Belajar yang akan dibangun, meliputi fungsi dari perangkat lunak, karakteristik pengguna, batasan dan asumsi yang diambil dala pembuatan perangkat lunak. Bagian ketiga berisi uraian kebutuhan perangkat lunak secara lebih rinci.
 
+
+
+##2.	Gambaran Umum
+
+Aplikasi sistem informasi bimbingan belajar pada umumnya berhubungan dengan menampilkan laporan hasil kegiatan dia selama bimbingan belajar seperti nilai try out, absensi kehadiran siswa, jadwal try out, fitur chat konsultasi bimbingan belajar dan juga orang tua siswa dapat mengetahui grafik kehadiran anaknya yang telah terdaftar pada lembaga bimbingan belajar.
+Belum semua lembaga bimbingan belajar menggunakan aplikasi sistem informasi bimbingan belajar berbasis website. Pada aplikasi sistem informasi ini dapat di akses kapan pun dan di manapun tanpa harus datang langsung ke tempat bimbingan belajar. 
+
+__2.1	Perspektif produk__
+
+Perangkat lunak sistem informasi bimbingan belajar ini merupakan perangkat lunak yang digunakan untuk mempermudah proses pemberitahuan sebuah informasi dengan contoh pelaporan sebuah nilai dan absensi siswa, jadwal try out, fitur chat pada pengajar mengenai bimbingan konsultasi. Aplikasi sistem informasi berkaian dengan beberapa entitas lingkup lembaga bimbingan belajar yaitu siswa, pihak lembaga bimbingan belajar, dan orang tua siswa. Sistem informasi bimbingan belajar merupakan suatu web database application yang mengolah data dan melaporkan hasil study siswa pada saat kegiatan di lembaga bimbingan belajar.
+Siswa mendapatkan informasi laporan nilai dan absensi, konsultasi mengenai bimbingan belajar kepada pengajar atau tenor, mendapatkan informasi jadwal mata pelajaran dan jadwal try out, dan juga mendapatkan informasi data pengajar. Orang tua siswa hanya mendapatkan sebuah informasi laporan grafik nilai dan absensi anak nya yang telah mengikuti kegiatan proses belajar di lembaga bimbingan belajar. Pengajar atau tenor berhak memberikan nilai siswa nya ketika mengikuti try out atau tugas lainnya dan pengajar pun berhak memberikan jawaban konsultasi bimbingan belajar kepada siswa nya melalui chat.
+
+__2.1.1	Antarmuka sistem__
+
+Dalam penggunaan, pengguna berinteraksi dengan sebuah aplikasi melalui browser pada HP, PC/Laptop
+
+__2.1.2	Antarmuka pengguna__
+
+Aplikasi sistem informasi bimbingan belajar ini menggunakan antarmuka berbasis web, dan pengguna mengoperasikannya menggukan sebuah PC/Laptop dengan sistem operasi Windows dan linux serta dapat diakses menggunakan perangkat mobile seperti HP, PDA, dan lain-lain 
+
+__2.1.3	Antarmuka perangkat keras__
+
+Aplikasi ini berjalan diatas perangkat keras berupa beberapa PC/Laptop yang saling terhubung oleh jaringan internet dan berkomunikasi dengan protocol https. Dimana file aplikasi ditempatkan pada web hosting yang di operasikan oleh administrator. Kebutuhan minimum perangkat keras yang dapat digunakan oleh Sistem Informasi Bimbingan Belajar adalah :
+
+- PC/Laptop
+- Keyboard
+- Mouse
+- Modem
+
+__2.1.4	Antarmuka perangkat lunak__
+
+1. Sistem Operasi (Windows 7 or Higher)
+2. Bahasa Pemograman (HTML, PHP, JavaScript)
+3. Software Pengolah (--)
+4. Database Enginee (MySQL/SQL)
+5. Software Pendukung (Framework CodeIng)
+
+ 
+
+
