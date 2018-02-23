@@ -74,6 +74,22 @@ __2.1.4	Antarmuka perangkat lunak__
 4. Database Enginee (MySQL/SQL)
 5. Software Pendukung (Framework CodeIgniter)
 
+**2.1.5 **Antar muka komunikasi****
+
+Proses komunikasi dalam sistem ini menggunakan Bimbingan konsultasi yang terdapat pada fitur web sistem informasi bimbingan belajar Ganesha Operation, dimana Pelajar dan Tenorsaling berkomunikasi.
+
+**2.1.6 Batasan-batasan memori**
+
+Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,server 2008 dll). Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan. Pengembangan perangkat lunak tidak akan merubah file-file ataupun database yang ada pada saat ini tanpa adanya user.
+
+**2.1.7 Operasi-operasi**
+
+Sistem Informasi Bimbingan Belajar berbasis Web dapat dijalankan di PC atau Laptop manapun.
+
+**2.1.8 Kebutuhan-kebutuhan dalam tahap adaptasi**
+
+
+
 __2.2. Fungsi – fungsi produk__
 
 Perangkat lunak system informasi bimbingan belajar ini mempunyai beberapa fungsi utama, antara lain :
