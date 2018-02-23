@@ -164,6 +164,13 @@ __2.6. Kebutuhan – kebutuhan penyeimbang__
 Website akan dijalankan di server dengan kecepatan akses internet yang tinggi. Kecepatan koneksi akan tergantung pada hardware dan karakteristik dari sistem.Website akan compatible dengan beberapa browser yang umum digunakan oleh customer,seperti Internet Explorer, Mozilla Firefox, Opera, Chrome, Safari dan Netscape. SIstem iniakan menggunakan internet security yang sama dengan yang digunakan di BPS.
 
 
+###3.	Kebutuhan lain yang spesifik
+Kebutuhan Fungsional adalah kebutuhan yang harus dipenuhi agar suatu sistem dapat berjalan atau dapat dikatakan kebutuhan tambahan yang memiliki input, proses, dan output. Kebutuhan fungsional yang harus ada dalam sistem yang akan dikembangkan ini adalah sebagai berikut:
+
+-	Sistem harus dapat mempermudah pengguna / user dalam menggunkan aplikasi ini.
+
+###4.	Informasi pendukung
+
 
 
 
