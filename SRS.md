@@ -1,3 +1,38 @@
+##Software Requirements Specification
+
+###Version 1.1
+
+####Februari 18, 2018
+
+
+
+
+![](http://i68.tinypic.com/s5e7gh.png)
+
+
+
+###Sistem Informasi Bimbingan Belajar
+####"SIMBEL"
+
+Disusun oleh :
+
+Fikih Nur Ramadan	(1603068)
+
+Firda Faradila	(1603069)
+
+lulu Mukhoyyaroh	(16030)
+
+Muh. Bimo Abditama	(16030)
+
+Widi Indriyani	(16030)
+
+
+###Jurusan Teknik Infomatika
+
+###Politeknik Negeri Indramayu
+
+###2018
+
 1.	Pendahuluan
 
 1.1	Tujuan
