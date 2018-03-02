@@ -125,7 +125,8 @@ Sistem Informasi Bimbingan Belajar berbasis Web dapat dijalankan di PC atau Lapt
 
 
 
-__2.2. Fungsi – fungsi produk__
+__2.2. Spesifikasi kebutuhan fungsional
+![](http://i66.tinypic.com/2rqgl02.jpg)__
 
 Perangkat lunak system informasi bimbingan belajar ini mempunyai beberapa fungsi utama, antara lain :
 
