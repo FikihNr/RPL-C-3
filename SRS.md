@@ -1,6 +1,6 @@
 ##Software Requirements Specification
 
-###Version 1.1
+###Version 1.2
 
 ####Februari 18, 2018
 
@@ -161,10 +161,7 @@ Ergonomy	| Sistem informasi ini harus user friendly
 Portability	| Aplikasi ini berjalan pada platform atau sistem operasi apa
 saja yang mendukung aplikasi berbasis web
 Memory	| Minimum memory 128 MB
-Response | Time	Tidak lebih dari 3 detik
-Safety	|Menggunakan secure socket layer dengan sertifikasi
 Security|	Login (manajemen user) dan validasi data sangat penting
-karena menyangkut pembayaran secara online
 Bahasa	|Menggunakan bahasa Indonesia, kecuali ada penambahan
 Komunikasi|	Fasilitas untuk menggunakan bahasa lain selain bahasa Indonesia
 Halaman Utama|	Halaman utama harus menampilkan logo dari perusahaan yang bersangkutan
