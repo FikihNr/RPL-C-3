@@ -147,7 +147,31 @@ Subfungsi ini digunakan untuk mengubah data di dalam database system.
 
 Subfungsi ini digunakan untuk menghapus data dari dalam database sistem.
 
-__2.3. Karakteristik pengguna__
+__2.3. Spesifikasi kebutuhan non-fungsional__
+
+Dalam sistem informasi ini, kebutuhan yang mendukung kelancaran fungsi-fungsi utama dapat didefinisikan pada Tabel 1.
+
+Tabel 1 Kebutuhan Non Fungsional
+
+Parameter | Requirement
+----------| ----------------
+Availability |	24 jam nonstop, kecuali ada maintenance / perbaikan sistem
+Reliability |	Kegagalan yang ditolerir sekitar 5%
+Ergonomy	| Sistem informasi ini harus user friendly
+Portability	| Aplikasi ini berjalan pada platform atau sistem operasi apa
+saja yang mendukung aplikasi berbasis web
+Memory	| Minimum memory 128 MB
+Response | Time	Tidak lebih dari 3 detik
+Safety	|Menggunakan secure socket layer dengan sertifikasi
+Security|	Login (manajemen user) dan validasi data sangat penting
+karena menyangkut pembayaran secara online
+Bahasa	|Menggunakan bahasa Indonesia, kecuali ada penambahan
+Komunikasi|	Fasilitas untuk menggunakan bahasa lain selain bahasa Indonesia
+Halaman Utama|	Halaman utama harus menampilkan logo dari perusahaan yang bersangkutan
+
+
+
+__2.4. Karakteristik pengguna__
 
 Dalam website SIMBEL ini. Terdapat empat user berdasarkan (privilege) dalam system, antara lain :
 
@@ -183,7 +207,7 @@ Dalam website SIMBEL ini. Terdapat empat user berdasarkan (privilege) dalam syst
 
 •	Tidak memiliki hak akses apapun.
 
-__2.4.  Batasan – Batasan__
+__2.5.  Batasan – Batasan__
 
 1. Perangkat lunak hanya bisa di akses ketika terhubung dengan internet.
 
@@ -191,11 +215,11 @@ __2.4.  Batasan – Batasan__
 
 3.Pengembangan perangkat lunak tidak akan merubah file - file ataupun database yang ada.
 
-__2.5. Asumsi - asumsi dan ketergantungan/keterkaitan__
+__2.6. Asumsi - asumsi dan ketergantungan/keterkaitan__
 
 Orang yang sudah login ketika webrowsernya di keluar maka anda di minta untuk login kembali.
 
-__2.6. Kebutuhan – kebutuhan penyeimbang__
+__2.7. Kebutuhan – kebutuhan penyeimbang__
 
 Website akan dijalankan di server dengan kecepatan akses internet yang tinggi. Kecepatan koneksi akan tergantung pada hardware dan karakteristik dari sistem.Website akan compatible dengan beberapa browser yang umum digunakan oleh customer,seperti Internet Explorer, Mozilla Firefox, Opera, Chrome, Safari dan Netscape. SIstem iniakan menggunakan internet security yang sama dengan yang digunakan di BPS.
 
