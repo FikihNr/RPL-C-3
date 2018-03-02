@@ -1,6 +1,18 @@
-##Software Project Management Plan
+###Software Project Management Plan
+
+###Version 1.1
+
+####Februari 18, 2018
 
 
+
+
+![](http://i68.tinypic.com/s5e7gh.png)
+
+
+
+###Sistem Informasi Bimbingan Belajar
+####"SIMBEL"
 
 
 # BAB I
