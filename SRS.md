@@ -1,6 +1,6 @@
 ##Software Requirements Specification
 
-###Version 1.2
+###Version 1.3
 
 ####Maret 2, 2018
 
