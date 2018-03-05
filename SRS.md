@@ -266,6 +266,7 @@ Sistem Informasi Bimbingan Belajar berbasis Web dapat dijalankan di PC atau Lapt
 |Exception Push	|1. Tidak ada Koneksi |
 
 **2.2.10 CRUD Data Pelajar**
+
 |  |  |
 |--|--|
 | Nama fungsi  |CRUD Data Pelajar  |
@@ -278,6 +279,7 @@ Sistem Informasi Bimbingan Belajar berbasis Web dapat dijalankan di PC atau Lapt
 |Exception Push	|1. Tidak ada Koneksi |
 
 **2.2.11 CRUD Data Jadwal Try Out**
+
 |  |  |
 |--|--|
 | Nama fungsi  |CRUD Data Jadwal Try Out  |
@@ -290,6 +292,7 @@ Sistem Informasi Bimbingan Belajar berbasis Web dapat dijalankan di PC atau Lapt
 |Exception Push	|1. Tidak ada Koneksi |
 
 **2.2.12 Melihat Data Aspek Penilaian**
+
 |  |  |
 |--|--|
 | Nama fungsi  |Melihat Data Aspek Penilaian  |
@@ -302,6 +305,7 @@ Sistem Informasi Bimbingan Belajar berbasis Web dapat dijalankan di PC atau Lapt
 |Exception Push	|1. Tidak ada Koneksi |
 
 **2.2.13 Melihat Laporan Nilai Dan Absensi**
+
 |  |  |
 |--|--|
 | Nama fungsi  |Melihat Laporan Nilai Dan Absensi |
