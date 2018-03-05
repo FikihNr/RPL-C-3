@@ -146,26 +146,9 @@ Sistem Informasi Bimbingan Belajar berbasis Web dapat dijalankan di PC atau Lapt
 
 
 __2.2. Spesifikasi kebutuhan fungsional
-![](http://i66.tinypic.com/2rqgl02.jpg)__
+__![](http://i66.tinypic.com/t0oi8n.jpg)
 
-Perangkat lunak system informasi bimbingan belajar ini mempunyai beberapa fungsi utama, antara lain :
 
-1.	Fungsi administrasi 
-Fungsi utama yang melayani admin untuk mengakses dan mengelola data system.
- 
-Terdiri dari beberapa subfungsi :
-
-•	Subfungsi Insert Data
-
-Subfungsi ini digunakan untuk memasukan data ke dalam database system.
-
-•	Subfungsi Update Data
-
-Subfungsi ini digunakan untuk mengubah data di dalam database system.
-
-•	Subfungsi Delete Data
-
-Subfungsi ini digunakan untuk menghapus data dari dalam database sistem.
 
 __2.3. Spesifikasi kebutuhan non-fungsional__
 
