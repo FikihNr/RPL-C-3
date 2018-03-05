@@ -90,6 +90,26 @@ Dalam penggunaan, pengguna berinteraksi dengan sebuah aplikasi melalui browser p
 
 __2.1.2	Antarmuka pengguna__
 
+__Log In Admin__
+
+![](http://i66.tinypic.com/2zi3a4z.png)
+
+__Informasi__
+
+![](http://i67.tinypic.com/2uhl0u0.png)
+
+__Log In__
+
+![](http://i63.tinypic.com/2sbk5ya.png)
+
+__About__
+
+![](http://i66.tinypic.com/jskcps.png)
+
+__Home__
+
+![](http://i66.tinypic.com/fc1r3d.png)
+
 Aplikasi sistem informasi bimbingan belajar ini menggunakan antarmuka berbasis web, dan pengguna mengoperasikannya menggukan sebuah PC/Laptop dengan sistem operasi Windows dan linux serta dapat diakses menggunakan perangkat mobile seperti HP, PDA, dan lain-lain 
 
 __2.1.3	Antarmuka perangkat keras__
