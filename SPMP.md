@@ -170,6 +170,8 @@ No.	Kelompok Projek	Jobdesk
 
 4.1 Metoda, Tools, dan Teknik
 
+![](http://i67.tinypic.com/10qhwkh.png)
+
 Metoda yang kami gunakan yaitu dengan Mengolah Data Nilai dan Absensi Siswa Siswi Ganesha Operations (GO) serta memberikan informasi kepada user seputar Jadwal Try Out dan Hasil Nilai.. Tools yang digunakan adalah Sublime Text, Xampp, database Mysql, PHP, HTML, Javascript, Bootstrap dan Codeigniter sebagai Framework untuk PHP. Teknik yang digunakan adalah pemrograman beroreintasi objek.
 
 4.2 Dokumentasi Perangkat Lunak
@@ -265,23 +267,5 @@ Berikut adalah rincian biaya yang diperlukan dalam pengerjaan proyek kami
 
 Untuk menyelesaikan proyek ini diperlukan waktu kurang lebih 4 bulan. Dimana rincian kerja pembuatan web ini sebagai berikut
 
-Mulai proyek 6 Februari 2018
-
-Perencanaan 7 Februari 2018
-
-Pelaksanaan
-
-    Analisa sistem 8 Februari 2018
-
-    Desain Database Sistem 12 Februari 2018
-
-    Desain Antarmuka Sistem 16 Februari 2018
-
-    Koding dan Testing 20 Maret 2018
-
-    Dokumentasi Sistem 27 April 2018
-
-Implementasi3 Mei 2018
-
-Penutupan Proyek18 Mei 2018
+![](http://i68.tinypic.com/2lthxg6.png)
 
