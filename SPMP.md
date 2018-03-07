@@ -261,7 +261,7 @@ Untuk pembuatan aplikasi ini akan dikerjakan oleh 5 (lima) orang.
 
 Berikut adalah rincian biaya yang diperlukan dalam pengerjaan proyek kami
 
-    Ongkos survey ke mitra Rp.20.000
+![](http://i66.tinypic.com/vfidnc.jpg)
 
 5.5 Jadwal
 
