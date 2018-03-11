@@ -2,7 +2,7 @@
 <body>
 <div align="center"><h1>Software Design Document</h1></div>
 
-<p align="center"><b>Version X.X </b><br>
+<p align="center"><b>Version 1.1 </b><br>
 <p align="center">11 Maret 2018</b>
 <p align="center">
 <img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
@@ -83,5 +83,20 @@ Secara ringkas fungsi dari aplikasi ini diantaranya :
 IEEE, IEEE Draft Standard for Software Design Descriptions. IEEE P1 01 6/D5.0; 1 2 December 2005
 
 Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
-     
+
+###3. Penjelasan Dekomposisi
+
+
+3.1.1 Diagram Konteks
+
+Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem. Diagram konteks merupakan level tertinggi dari DFD yang menggambarkan seluruh input ke dalam sistem atau output dari sistem yang memberi gambaran tentang keseluruhan sistem. Sistem dibatasi oleh boundary (Digambarkan dengan garis putus - putus). Dalam diagram konteks hanya ada satu proses, tidak boleh ada store dalam diagram konteks. Berikut ini adalah gambar diagram konteks dari Sistem Informasi Akademik Bimbingan Belajar.
+
+![](http://i66.tinypic.com/qsmal2.jpg)
  
+
+3.1.2 DFD Level 0
+
+Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur. Berikut DFD Level 0 Sistem Informasi Akademik Bimbingan Belajar. 
+
+![](http://i63.tinypic.com/2v36g0l.jpg)
+
