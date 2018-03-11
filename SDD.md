@@ -40,8 +40,8 @@ Fungsi utama dari aplikasi ini adalah mempermudah user dalam memantau Nilai dan 
 
 Secara ringkas fungsi dari aplikasi ini diantaranya :
 
-.
-- user Login ke aplikasi jika belum terdaftar maka harus menghubungi Administrator terlebih dahulu
+
+- user Login ke aplikasi jika belum terdaftar maka harus menghubungi Administrator terlebih dahulu.
 - user dapat memantau Nilai dan Absensi nya
 - pengajar berkehendak untuk memberikan nilai dan absensi kepada pelajar
 - administrator memegang hak penuh dalam sistem
@@ -73,7 +73,8 @@ Secara ringkas fungsi dari aplikasi ini diantaranya :
 
      SKPL      : Spesifikasi Kebutuhan Perangkat Lunak
      SKPL      : Spesifikasi Perangkat Lunak
-     ADMIN     : Administrator
+     Administrator : pengelola sistem aplikasi.
+	 User      : Pengguna Aplikasi
 	 SIMBEL	   : Sistem informasi Akademik Bimbingan Belajar
 	 Siakad    : Sistem informasi akademik
 
