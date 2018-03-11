@@ -1,23 +1,30 @@
-###Software Project Management Plan
+<html>
+<body>
+<div align="center"><h1>Software Project Management Plan</h1></div>
 
-###Version 1.1
+<p align="center"><b>Version 1.1 </b><br>
+<p align="center">2 Maret 2018</b>
+<p align="center">
+<img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
+</p>
 
-####Maret 2, 2018
+<br><p align="center"><b> Sistem Informasi Akademik Bimbingan Belajar</b><br>
+<p align="center"><b>Aplikasi Menggunakan CodeIgniter
+</b>
+<p align="center">Kelompok 3 <br>
+ Fkih Nur Ramadan				(1603068)<br>
+ Firda Faradila		(1603069)<br>
+ Lulu Mukhoyyaroh			(1603075)<br>
+ Widi Indriyani		(1603087) <br>
+ Muhammad Bimo Abditama (1603078)	
+<br><br><br>
 
+<p align="center"><b>Jurusan Teknik Informatika</b><br>
+<p align="center"><b>Politeknik Negeri Indramayu</b>
+</p>
+</body>
+</html>
 
-
-
-![](http://i68.tinypic.com/s5e7gh.png)
-
-
-
-###Sistem Informasi Bimbingan Belajar
-####"SIMBEL"
-
-
-# BAB I
-
-###1.PENDAHULUAN
 
 1.1.Gambaran Proyek
 
