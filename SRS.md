@@ -1,5 +1,37 @@
 <html>
 <body>
+<HEAD>
+<div align="center"><h1> Software Requirements Spesification</h1></div>
+
+<p align="center"><b>Version 1.4 </b><br>
+<p align="center">2 Maret 2018</b>
+<p align="center">
+<img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
+</p>
+
+<br><p align="center"><b> SISTEM INFORMASI AKADEMIK BIMBINGAN BELAJAR GO</b><br>
+<p align="center"><b>Aplikasi dengan CodeIgniter
+</b>
+<p align="center">Kelompok 3 <br>
+ Fikih Nur Ramadan 				(1603068)<br>
+ Firda Faradila		(1603069)<br>
+ Lulu Mukhoyyaroh			(1603075)<br>
+ Muh. Bimo Abditama		(1603078)<br>
+ Widi Indriyani		(1603087)<br><br><br>
+
+<p align="center"><b>Jurusan Teknik Informatika</b><br>
+<p align="center"><b>Politeknik Negeri Indramayu</b>
+<p align="center"><b>2018</b>
+</p>
+</body>
+</html>
+
+
+----------
+
+
+----------
+=======
 <div align="center"><h1>Software Requirement Spesifications</h1></div>
 
 <p align="center"><b>Version 1.3 </b><br>
@@ -25,6 +57,7 @@
 </body>
 </html>
 
+>>>>>>> 154dae3f018a5f366c9777535c83a39d1d203d10
 
 1.	Pendahuluan
 
@@ -83,9 +116,126 @@ Dalam penggunaan, pengguna berinteraksi dengan sebuah aplikasi melalui browser p
 
 __2.1.2	Antarmuka pengguna__
 
+__Add Jadwal Mapel__
+
+![](http://i65.tinypic.com/24glox5.png)
+
+
+__Add Jadwal Try Out__
+
+![](http://i67.tinypic.com/10fde6h.png)
+
+__Add Kelas__
+
+![](http://i68.tinypic.com/33ysxah.png)
+
+__Add Tenor__
+
+![](http://i63.tinypic.com/3484jrl.png)
+
+__Add User Pelajar__
+
+![](http://i66.tinypic.com/35jlbu8.png)
+
+__Add User__
+
+![](http://i67.tinypic.com/2mzb77m.png)
+
+__Edit Pelajar__
+
+![](http://i66.tinypic.com/2daely0.png)
+
+__Form Pendaftaran Pada Admin__
+
+![](http://i68.tinypic.com/zwj3ox.png)
+
+__Index Edit Data__
+
+![](http://i63.tinypic.com/rcontj.png)
+
+__Index Edit Info__
+
+![](http://i65.tinypic.com/ayowlx.png)
+
+__Index Edit Jadwal__
+
+![](http://i64.tinypic.com/2ilzcle.png)
+
+__Index Edit User__
+
+![](http://i66.tinypic.com/ndmtf9.png)
+
 __Log In Admin__
 
 ![](http://i66.tinypic.com/2zi3a4z.png)
+
+__Dashboard Absensi__
+
+![](http://i67.tinypic.com/24e2ubo.png)
+
+__Dashboard Bimbingan__
+
+![](http://i66.tinypic.com/ycxno.png)
+
+__Dashboard Pelajar Hasil Nilai__
+
+![](http://i65.tinypic.com/2edw1s8.png)
+
+__Dashboard Pelajar__
+
+![](http://i64.tinypic.com/1zz573n.jpg)
+
+__Data Kelas__
+
+![](http://i63.tinypic.com/2j0zjhx.png)
+
+__Data Pelajar__
+
+![](http://i64.tinypic.com/20sc9y8.png)
+
+__Data Tenor__
+
+![](http://i67.tinypic.com/2mh7sb8.png)
+
+__Data__
+
+![](http://i68.tinypic.com/2v3r676.png)
+
+__Edit Data__
+
+![](http://i66.tinypic.com/284b2h.png)
+
+__Form Login Pelajar__
+
+![](http://i64.tinypic.com/ml57iq.png)
+
+__Form Login Tenor__
+
+![](http://i63.tinypic.com/2drt2kj.png)
+
+__Form Pendaftaran Pada Admin__
+
+![](http://i68.tinypic.com/zwj3ox.jpg)
+
+__Home__
+
+![](http://i66.tinypic.com/fc1r3d.jpg)
+
+__Jadwal Mata Pelajaran__
+
+![](http://i64.tinypic.com/1zmi4jd.png)
+
+__Jadwal Try Out__
+
+![](http://i67.tinypic.com/2q19k5h.png)
+
+__Login Orang Tua__
+
+![](http://i67.tinypic.com/m9oy81.png)
+
+__Syarat Add User__
+
+![](http://i68.tinypic.com/207nbds.png)
 
 __Informasi__
 
@@ -333,11 +483,66 @@ __2.4. Logika Struktur Data__
 
 ![](http://i65.tinypic.com/mb398g.jpg)
 
+<b>Pengajar</b>
+
+
+|Data Item| Type | Deskripsi|
+|--|--|--|
+|Nama |Text  |Nama pengajar|
+|Id_pengajar|Integer|nomor auto increment pengajar |
+|Alamat|Integer|Alamat Pengajar|
+|Jenis Kelamain|Varchar|Jenis kelamin pengajar|
+|Nomor Hp|Interger|No HP pengajar|
+|Password|Varchar|Password pengajar|
+|Email|Varchar|Email Pengajar|
+
+<b>Jadwal Pelajaran</b>
+
+|Data Item| Type | Deskripsi |
+|--|--|--|
+|Id_Pengajar|integer|nomor auto increment pengajar |
+|Id_Jadwal Mapel|integer|nomor auto increment Jadwal Mapel|
+|Kode Mapel|varchar|Kode mata pelajaran|
+|Nama Mapel|varchar|Nama mata pelajaran|
+
+<b>Siswa</b>
+
+|Data Item| Type | Deskripsi |
+|--|--|--|
+|Id_siswa|integer|nomor auto increment siwa|
+|Email|varchar|Email siswa|
+|Jenis kelamin|varchar|Jenis kelamin siswa|
+|Alamat|varchar|Alamat siswa|
+|Password|varchar|Password siswa|
+|Nama|varchar|Nama siswa|
+
+<b>Orang Tua</b>
+
+|Data Item| Type | Deskripsi |
+|--|--|--|
+|Id_siswa|integer|nomor auto increment siswa|
+|Id_orang tua|integer|nomor auto increment orang tua|
+|Alamat|varchar|alamat orang tua|
+|Jabatan|varchar|jabatan orang tua|
+|Email|varchar|Email orang tua|
+|Password|varchar|Password orang tua|
+|Nama Orang tua|varchar|Nama orang tua|
+
+<b>Kelas</b>
+
+|Data Item| Type | Deskripsi |
+|--|--|--|
+|Id_kelas|integer|nomor auto increment kelas|
+|Id_siswa|integer|nomor auto increment siswa|
+|Id_pengajar|integer|nomor auto increment pengajar|
+|Nama kelas|varchar|Nama kelas|
+
+
 __2.5. Karakteristik pengguna__
 
 Dalam website SIMBEL ini. Terdapat empat user berdasarkan (privilege) dalam system, antara lain :
 
-1.	Administrator
+1.Administrator
 
 •	Memiliki hak penuh terhadap system, mampu merubah isi system.
 
@@ -345,7 +550,7 @@ Dalam website SIMBEL ini. Terdapat empat user berdasarkan (privilege) dalam syst
 
 •	User ini ada untuk melakukan maintenance terhadap system (jika diperlukan dan keadaan darurat).
 
-2.	Pengajar (Tenor)
+2.Pengajar (Tenor)
 
 •	Memberikan pengajaran terhadap pelajar (siswa) setelah melakukan keikut sertaan dalam kerja sama.
 
@@ -355,7 +560,7 @@ Dalam website SIMBEL ini. Terdapat empat user berdasarkan (privilege) dalam syst
 
 •	Tidak memiliki hak penuh terhadap system dan database secara langsung.
 
-3.	Pelajar (Siswa)
+3.Pelajar (Siswa)
 
 •	Haknya sangat terbatas, user ini hanya diizinkan untuk melihat nilai, mata pelajaran, jadwal try out, sarana dan prasarana dan data absensi yang di berikan oleh pengajar (tenor) melalui SIMBEL.
 
@@ -363,7 +568,7 @@ Dalam website SIMBEL ini. Terdapat empat user berdasarkan (privilege) dalam syst
 
 •	Tidak memiliki hak akses apapun.
 
-4.	Orang Tua
+4.Orang Tua
  
 •	Haknya sangat terbatas, eser ini hanya diizinkan melihat nilai, mata pelajaran, jadwal try out, sarana dan prasarana dan data absensi yang di berikan oleh pengajar (tenor) melalui SIMBEL.
 
@@ -375,7 +580,7 @@ __2.6.  Batasan – Batasan__
 
 2. Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan.
 
-3.Pengembangan perangkat lunak tidak akan merubah file - file ataupun database yang ada.
+3. Pengembangan perangkat lunak tidak akan merubah file - file ataupun database yang ada.
 
 __2.7. Asumsi - asumsi dan ketergantungan/keterkaitan__
 
