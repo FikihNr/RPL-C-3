@@ -2,7 +2,7 @@
 <body>
 <div align="center"><h1>Software Design Document</h1></div>
 
-<p align="center"><b>Version 1.1 </b><br>
+<p align="center"><b>Version 1.2 </b><br>
 <p align="center">11 Maret 2018</b>
 <p align="center">
 <img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
@@ -91,12 +91,91 @@ Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 
 Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem. Diagram konteks merupakan level tertinggi dari DFD yang menggambarkan seluruh input ke dalam sistem atau output dari sistem yang memberi gambaran tentang keseluruhan sistem. Sistem dibatasi oleh boundary (Digambarkan dengan garis putus - putus). Dalam diagram konteks hanya ada satu proses, tidak boleh ada store dalam diagram konteks. Berikut ini adalah gambar diagram konteks dari Sistem Informasi Akademik Bimbingan Belajar.
 
-![](http://i66.tinypic.com/qsmal2.jpg)
+![](http://i68.tinypic.com/2zno93d.jpg)
  
 
 3.1.2 DFD Level 0
 
 Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur. Berikut DFD Level 0 Sistem Informasi Akademik Bimbingan Belajar. 
 
-![](http://i63.tinypic.com/2v36g0l.jpg)
+![](http://i67.tinypic.com/oua0qv.jpg)
+
+###3.2 Dekommposisi Proses Konkuren
+
+3.2.1 DFD Level 1 : Proses 1
+
+
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Siswa.
+
+![](http://i64.tinypic.com/29p96d4.jpg)
+
+3.2.2 DFD Level 1 : Proses 2
+
+
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Pengajar.
+
+![](http://i65.tinypic.com/289a3hl.jpg)
+
+3.2.3 DFD Level 1 : Proses 3
+
+
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Orang Tua.
+
+![](http://i67.tinypic.com/2j0e0jl.jpg)
+
+3.2.4 DFD Level 1 : Proses 4
+
+
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Kelas.
+
+![](http://i68.tinypic.com/rrqomh.jpg)
+
+3.2.5 DFD Level 1 : Proses 5
+
+
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Mata Pelajaran.
+
+![](http://i64.tinypic.com/230c3k.jpg)
+
+3.2.6 DFD Level 1 : Proses 6
+
+
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Jadwal Mata Pelajaran.
+
+![](http://i64.tinypic.com/2ekomtj.jpg)
+
+3.2.7 DFD Level 1 : Proses 7
+
+
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Jadwal Tryout.
+
+![](http://i67.tinypic.com/25z564m.jpg)
+
+3.2.8 DFD Level 1 : Proses 8
+
+
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Pengajar yang Mengelolah data Bimbingan.
+
+![](http://i65.tinypic.com/243euly.jpg)
+
+3.2.9 DFD Level 1 : Proses 9
+
+
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Pengajar yang Mengelolah data Nilai.
+
+![](http://i64.tinypic.com/eqw1eo.jpg)
+
+3.2.10 DFD Level 1 : Proses 10
+
+
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Pengajar yang Mengelolah data Absensi.
+
+![](http://i63.tinypic.com/50f6rn.jpg)
+
+
+
+
+
+
+
 
