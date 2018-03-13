@@ -1,4 +1,4 @@
-<html>
+ <html>
 <body>
 <div align="center"><h1>Software Design Document</h1></div>
 
@@ -98,7 +98,7 @@ Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan 
 
 Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur. Berikut DFD Level 0 Sistem Informasi Akademik Bimbingan Belajar. 
 
-![](http://i67.tinypic.com/oua0qv.jpg)
+![](http://i67.tinypic.com/2cp7y3r.jpg)
 
 ###3.2 Dekommposisi Proses Konkuren
 
@@ -171,6 +171,13 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Pengajar yang Mengelolah data Absensi.
 
 ![](http://i63.tinypic.com/50f6rn.jpg)
+
+3.2.11 DFD Level 1 : Proses 11
+
+
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Orang Tua yang melihat laporan Nilai dan Absensi.
+
+![](http://i64.tinypic.com/vwwj78.jpg)
 
 
 
