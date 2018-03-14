@@ -181,6 +181,7 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 
 
 ###3.3 Dekomposisi Data
+
 * Data User Siswa, Pengajar dan Orang Tua
 
 | No. |  Data	| Keterangan	  |
@@ -188,6 +189,39 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 | 1	| NIS	| Digunakan untuk login siswa |
 | 2	| NIP |Digunakan untuk login pelajar	
 | 3	| NIK|Digunakan untuk login orang tua |
+
+* Data Siswa
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+| 1	| id_siswa| primary key 
+| 2	| Nama |Nama siswa	
+| 3	| NIS| Nomor Induk siswa|
+|4| id_kelas|	kelas |
+|5| Alamat| Alamat rumah siswa	|
+|6|No_hp| Nomor handpone siswa	|
+|7|Status | Status siswa (Aktif/Tidak)
+
+* Data Pengajar
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+| 1	| id_pengajar| primary key 
+| 2	| Nama |Nama pengajar	
+| 3	| NIP| Nomor Induk Pegawai|
+|4| Alamat| Alamat rumah pengajar	|
+|5|No_hp| Nomor handpone pengajar 
+|6|Status | Status pengajar (Aktif/Tidak)
+
+* Data Orang Tua
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+| 1	| id_ortu| primary key 
+| 2	| id_siswa | foreign key |
+| 3	| NIK| Nomor Induk Kependudukan|
+|4| Alamat| Alamat rumah orang tua	|
+|5|No_hp| Nomor handpone orang tua 
 
 
 
