@@ -180,9 +180,14 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 ![](http://i64.tinypic.com/vwwj78.jpg)
 
 
+###3.3 Dekomposisi Data
+* Data User Siswa, Pengajar dan Orang Tua
 
-
-
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+| 1	| NIS	| Digunakan untuk login siswa |
+| 2	| NIP |Digunakan untuk login pelajar	
+| 3	| NIK|Digunakan untuk login orang tua |
 
 
 
