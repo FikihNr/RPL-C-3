@@ -266,9 +266,14 @@ Untuk pembuatan aplikasi ini akan dikerjakan oleh 5 (lima) orang.
 
 5.4 Alokasi budget dan sumber daya
 
-Berikut adalah rincian biaya yang diperlukan dalam pengerjaan proyek kami
+Berikut adalah rincian biaya yang diperlukan dalam pengerjaan proyek kami  sebesar Rp. 29.660.000 (Dua Puluh Sembilan Juta Enam Ratus Enam Puluh Ribu Rupiah) dengan rincian anggaran sebagai berikut :
 
-![](http://i66.tinypic.com/vfidnc.jpg)
+
+| No. | Kebutuhan | Jumlah |Harga Satuan|Total|
+|-----|-----|-----|-----|-----|
+|1|Laptop Core I5 RAM 8GB|2| 7.500.000| 15.000.000|
+|2|Hosting dan Domain|Pertahun| 180.000/bulan|2.160.000|
+|3|Konsumsi Tim|5|500.000/bulan|12.500.000|
 
 5.5 Jadwal
 
