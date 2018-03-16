@@ -454,7 +454,7 @@ Halaman Utama|	Halaman utama harus menampilkan logo dari perusahaan yang bersang
 
 __2.4. Logika Struktur Data__
 
-![](http://i65.tinypic.com/mb398g.jpg)
+![](http://i65.tinypic.com/2ljqbzb.png)
 
 <b>Pengajar</b>
 
@@ -462,7 +462,8 @@ __2.4. Logika Struktur Data__
 |Data Item| Type | Deskripsi|
 |--|--|--|
 |Nama |Text  |Nama pengajar|
-|Id_pengajar|Integer|nomor auto increment pengajar |
+|Id_pengajar|Integer|Nomor auto increment pengajar |
+|NIP|Integer|Nomor Induk Pegawai |
 |Alamat|Integer|Alamat Pengajar|
 |Jenis Kelamain|Varchar|Jenis kelamin pengajar|
 |Nomor Hp|Interger|No HP pengajar|
@@ -473,16 +474,26 @@ __2.4. Logika Struktur Data__
 
 |Data Item| Type | Deskripsi |
 |--|--|--|
-|Id_Pengajar|integer|nomor auto increment pengajar |
 |Id_Jadwal Mapel|integer|nomor auto increment Jadwal Mapel|
-|Kode Mapel|varchar|Kode mata pelajaran|
 |Nama Mapel|varchar|Nama mata pelajaran|
+
+<b>Detail Jadwal Pelajaran</b>
+
+|Data Item| Type | Deskripsi |
+|--|--|--|
+|Id_Detail_Jadwal Mapel|integer|nomor auto increment Detail Jadwal Mapel|
+|Nama Mapel|varchar|Nama mata pelajaran|
+|Id_Matpel|integer|nomor auto increment mata pelajaran|
+|Id_Pengajar|integer|nomor auto increment pengajar|
+|Tanggal|Date|Tanggal jadwal pelajaran|
+|Hari|varchar|Hari jadwal pelajaran|
 
 <b>Siswa</b>
 
 |Data Item| Type | Deskripsi |
 |--|--|--|
 |Id_siswa|integer|nomor auto increment siwa|
+|NIS|integer|Nomor Induk Siswa|
 |Email|varchar|Email siswa|
 |Jenis kelamin|varchar|Jenis kelamin siswa|
 |Alamat|varchar|Alamat siswa|
@@ -495,6 +506,7 @@ __2.4. Logika Struktur Data__
 |--|--|--|
 |Id_siswa|integer|nomor auto increment siswa|
 |Id_orang tua|integer|nomor auto increment orang tua|
+|NIK|integer|Nomor induk kependudukan|
 |Alamat|varchar|alamat orang tua|
 |Jabatan|varchar|jabatan orang tua|
 |Email|varchar|Email orang tua|
@@ -506,10 +518,44 @@ __2.4. Logika Struktur Data__
 |Data Item| Type | Deskripsi |
 |--|--|--|
 |Id_kelas|integer|nomor auto increment kelas|
-|Id_siswa|integer|nomor auto increment siswa|
-|Id_pengajar|integer|nomor auto increment pengajar|
 |Nama kelas|varchar|Nama kelas|
 
+<b>Jadwal Try Out</b>
+
+|Data Item| Type | Deskripsi |
+|--|--|--|
+|Id_jadwal_TO|integer|nomor auto increment jadwal_to|
+|Tahun_Ajaran|integer|Tahun ajaran try out|
+
+<b>Detail Jadwal Try Out</b>
+
+|Data Item| Type | Deskripsi |
+|--|--|--|
+|Id_Detail_jadwal_TO|integer|nomor auto increment detail_jadwal_to|
+|Id_jadwal_TO|integer|nomor auto increment jadwal_to|
+|Id_Matpel|integer|nomor auto increment matpel
+|Tanggal|date|Tanggal try out|
+|Hari|varchar|Hari try out|
+
+<b>Laporan Absensi</b>
+
+|Data Item| Type | Deskripsi |
+|--|--|--|
+|Id_Absensi|integer|nomor auto increment absensi|
+|Id_Matpel|integer|nomor auto increment mata pelajaran|
+|Id_Siswa|integer|nomor auto increment siswa|
+|Id_Pengajar|integer|nomor auto increment pengajar|
+|Id_Kelas|integer|nomor auto increment kelas|
+
+<b>Laporan Nilai</b>
+
+|Data Item| Type | Deskripsi |
+|--|--|--|
+|Id_Nilai|integer|nomor auto increment nilai|
+|Id_Matpel|integer|nomor auto increment mata pelajaran|
+|Id_Siswa|integer|nomor auto increment siswa|
+|Id_Pengajar|integer|nomor auto increment pengajar|
+|Id_Kelas|integer|nomor auto increment kelas|
 
 __2.5. Karakteristik pengguna__
 
