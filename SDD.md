@@ -223,7 +223,7 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 |4| Alamat| Alamat rumah orang tua	|
 |5|No_hp| Nomor handpone orang tua 
 
-<<<<<<< HEAD
+
 3.3.1.1 Fungsi Modul
 
 |No | Fungsi | Jenis | Tabel Terkait |
@@ -262,9 +262,8 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 
 
 
-=======
+
 * Data Kelas
->>>>>>> a97aa2224878c297022d6191618aa6464a4a5523
 
 | No. |  Data	| Keterangan	  |
 |-----|-----|-----|
