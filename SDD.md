@@ -232,8 +232,9 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 |2 | CRUD Data Tentor | Form Entry Tabular | Data pengajar |
 |3 | CRUD Jadwal Pelajaran | From Entry Tabular | Jadwal Mapel |
 |4 | CRUD Data Kelas | Form Entry Tabular | Data Kelas |
-|5 | Melihat Data Aspek Penilaian | Report Tabular | Laporan Nilai |
-|6 | Melihat Data Laporan Nilai dan Absensi | Report Tabular | Laporan Absensi dan Nilai |
+|5 | Melihat Data Aspek Penilaian | Report Tabular | Data Nilai |
+|6 | Melihat Data Laporan Absensi | Report Tabular | Data Absensi |
+|7 | Melihat Data Laporan Nilai  | Report Tabular | Data Nilai |
 
 3.3.1.2 Spesifikasi Layar Utama
 -
