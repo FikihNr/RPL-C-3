@@ -237,7 +237,8 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 |7 | Melihat Data Laporan Nilai  | Report Tabular | Data Nilai |
 
 3.3.1.2 Spesifikasi Layar Utama
--
+
+prototype belum jadi
 
 3.3.1.3 Spesifikasi Query
 
