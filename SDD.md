@@ -223,5 +223,43 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 |4| Alamat| Alamat rumah orang tua	|
 |5|No_hp| Nomor handpone orang tua 
 
+3.3.1.1 Fungsi Modul
+
+|No | Fungsi | Jenis | Tabel Terkait |
+|---|--------|-------|---------------|
+|1 | CRUD Data Siswa | From Entry Tabular | Data Siswa |
+|2 | CRUD Data Tentor | Form Entry Tabular | Data pengajar |
+|3 | CRUD Jadwal Pelajaran | From Entry Tabular | Jadwal Mapel |
+|4 | CRUD Data Kelas | Form Entry Tabular | Data Kelas |
+|5 | Melihat Data Aspek Penilaian | Report Tabular | Laporan Nilai |
+|6 | Melihat Data Laporan Nilai dan Absensi | Report Tabular | Laporan Absensi dan Nilai |
+
+3.3.1.2 Spesifikasi Layar Utama
+-
+
+3.3.1.3 Spesifikasi Query
+
+|ID Query| Deskripsi| Ekspresi Query|
+|--------|----------|---------------|
+|QUE-01 | Menampilkan Data Tentor | Select * From data_pengajar |
+|QUE-02 | Memasukkan Data Tentor  | insert into data_pengajar values.. |
+|QUE-03 | Mengubah Data Tentor | Upadte data_pengajar set... |
+|QUE-04 | Menampilkan Data siswa | select * from data_siswa |
+|QUE-05 | Memasukkan Data Siswa | insert into data_siswa values.. |
+|QUE-06 | Mengubah Data Siswa | update data_siswa set... |
+|QUE-07 | Menampilkan Data Orang tua | select * from data_orangtua|
+|QUE-08 | Memasukkan Data Orang Tua | insert into data_orangtua values.. |
+|QUE-09 | Mengubah Data Orang Tua | Update data_orangtua set.. |
+|QUE-10 | Menampilkan Data Kelas | select * from data_kelas |
+|QUE-11 | Memasukkan Data Kelas | insert into data_kelas values.. |
+|QUE-12 | Mengubah Data Kelas | update data_kelas set.. |
+|QUE-13 | Menampilkan Jadwal | select * from jadwal_mapel |
+|QUE-14 | Memasukkan Jadwal | insert into jadwal_mapel values.. |
+|QUE-15 | Mengubah Jadwal | update jadwal_mapel set.. |
+|QUE-16 | Menampilkan Laporan Nilai | Select * from data_absensi where id_siswa = 'id_siswa' |
+
+
+
+
 
 
