@@ -223,6 +223,7 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 |4| Alamat| Alamat rumah orang tua	|
 |5|No_hp| Nomor handpone orang tua 
 
+<<<<<<< HEAD
 3.3.1.1 Fungsi Modul
 
 |No | Fungsi | Jenis | Tabel Terkait |
@@ -261,5 +262,64 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 
 
 
+=======
+* Data Kelas
+>>>>>>> a97aa2224878c297022d6191618aa6464a4a5523
 
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+| 1	| id_kelas| primary key 
+| 2	|nama_kelas|nama kelas 
 
+* Data Mata Pelajaran (Mapel)
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+| 1	| id_mapel| primary key 
+| 2	|nama_mapel|nama mata pelajaran 
+
+* Data Jadwal Mata Pelajaran
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+| 1	| id_jadwal_mapel| primary key 
+| 2	|id_mapel|foreign key
+|3|semeter|semester yang dijalani tahun ini
+|4|tahun ajaran|tahun ajaran yang dijalani tahun ini
+
+* Data Jadwal TryOut
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+| 1	| id_jadwal_to| primary key 
+|2|tahun ajaran|tahun ajaran yang dijalani tahun ini
+
+* Data Bimbingan
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+| 1	| id_bimbingan|primary key
+|2|id_siswa|foreign key
+|3|id_pengajar|foreign key
+|4|tanggal|tanggal bimbingan|
+|5|pesan_bimbingan |pesan bimbingan antara pengajar dan siswanya
+
+* Data Nilai
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+|1|id_nilai|primary key
+|2|id_siswa|foreign key
+|3|id_pengajar|foreign key
+|4|id_kelas|foreign key
+|5|id_mapel |foreign key
+
+* Data Absensi
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+|1|id_absensi|primary key
+|2|id_siswa|foreign key
+|3|id_pengajar|foreign key
+|4|id_kelas|foreign key
+|5|id_mapel |foreign key
