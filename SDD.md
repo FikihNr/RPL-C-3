@@ -223,5 +223,42 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 |4| Alamat| Alamat rumah orang tua	|
 |5|No_hp| Nomor handpone orang tua 
 
+* Data Kelas
 
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+| 1	| id_kelas| primary key 
+| 2	|nama_kelas|nama kelas 
 
+* Data Mata Pelajaran (Mapel)
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+| 1	| id_mapel| primary key 
+| 2	|nama_mapel|nama mata pelajaran 
+
+* Data Jadwal Mata Pelajaran
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+| 1	| id_jadwal_mapel| primary key 
+| 2	|id_mapel|foreign key
+|3|semeter|semester yang dijalani tahun ini
+|4|tahun ajaran|tahun ajaran yang dijalani tahun ini
+
+* Data Jadwal TryOut
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+| 1	| id_jadwal_to| primary key 
+|2|tahun ajaran|tahun ajaran yang dijalani tahun ini
+
+* Data Bimbingan
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+| 1	| id_bimbingan|primary key
+|2|id_siswa|foreign key
+|3|id_pengajar|foreign key
+|4|tanggal|tanggal bimbingan|
+|5|pesan_bimbingan |pesan bimbingan antara pengajar dan siswanya
