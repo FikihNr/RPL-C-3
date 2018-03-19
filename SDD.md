@@ -262,3 +262,23 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 |3|id_pengajar|foreign key
 |4|tanggal|tanggal bimbingan|
 |5|pesan_bimbingan |pesan bimbingan antara pengajar dan siswanya
+
+* Data Nilai
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+|1|id_nilai|primary key
+|2|id_siswa|foreign key
+|3|id_pengajar|foreign key
+|4|id_kelas|foreign key
+|5|id_mapel |foreign key
+
+* Data Absensi
+
+| No. |  Data	| Keterangan	  |
+|-----|-----|-----|
+|1|id_absensi|primary key
+|2|id_siswa|foreign key
+|3|id_pengajar|foreign key
+|4|id_kelas|foreign key
+|5|id_mapel |foreign key
