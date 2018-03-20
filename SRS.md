@@ -454,7 +454,7 @@ Halaman Utama|	Halaman utama harus menampilkan logo dari perusahaan yang bersang
 
 __2.4. Logika Struktur Data__
 
-![](http://i65.tinypic.com/2ljqbzb.png)
+![](http://i63.tinypic.com/124an9v.png)
 
 <b>Pengajar</b>
 
@@ -537,7 +537,7 @@ __2.4. Logika Struktur Data__
 |Tanggal|date|Tanggal try out|
 |Hari|varchar|Hari try out|
 
-<b>Laporan Absensi</b>
+<b>Absensi</b>
 
 |Data Item| Type | Deskripsi |
 |--|--|--|
@@ -547,7 +547,7 @@ __2.4. Logika Struktur Data__
 |Id_Pengajar|integer|nomor auto increment pengajar|
 |Id_Kelas|integer|nomor auto increment kelas|
 
-<b>Laporan Nilai</b>
+<b>Nilai</b>
 
 |Data Item| Type | Deskripsi |
 |--|--|--|
