@@ -285,6 +285,7 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 
 
 3.3 Deskripsi  Rinci Modul 
+
 Setiap modul pada rancangan global, dirinci satu per satu  
 
 3.3.1 Login
@@ -334,6 +335,10 @@ prototype belum jadi
 |ID Query| Deskripsi| Ekspresi Query|
 |--------|----------|---------------|
 
+3.3.2.3 Spesifikasi Query
+
+|ID Query| Deskripsi| Ekspresi Query|
+|--------|----------|---------------|
 |QUE-05 | Memasukkan Data Siswa | insert into data_siswa values.. |
 |QUE-06 | Mengubah Data Siswa | update data_siswa set... |
 |QUE-07 | Menampilkan Data Orang tua | select * from data_orangtua|
