@@ -284,7 +284,36 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 |5|id_mapel |foreign key|
 
 
+3.3 Deskripsi  Rinci Modul 
+Setiap modul pada rancangan global, dirinci satu per satu  
+
+3.3.1 Login
+
 3.3.1.1 Fungsi Modul
+
+|No | Fungsi | Jenis | Tabel Terkait |
+|---|--------|-------|---------------|
+|1 | Login | From Entry Tabular | users |
+
+
+
+3.3.1.2 Spesifikasi Layar Utama
+
+prototype belum jadi
+
+3.3.1.3 Spesifikasi Query
+
+|ID Query| Deskripsi| Ekspresi Query|
+|--------|----------|---------------|
+|QUE-01 | Masuk sebagai Admin | Select * From users where level = 'admin' |
+|QUE-02 | Masuk sebagai Pelajar  | Select * From users where level = 'pelajar' |
+|QUE-03 | Masuk sebagai Pengajar | Select * From users where level = 'pengajar' |
+|QUE-04 | Masuk sebagai Orang Tua | Select * From users where level = 'ortu' |
+
+3.3.2 Dashboard Admin
+
+
+3.3.2.1 Fungsi Modul
 
 |No | Fungsi | Jenis | Tabel Terkait |
 |---|--------|-------|---------------|
@@ -296,18 +325,15 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 |6 | Melihat Data Laporan Absensi | Report Tabular | Data Absensi |
 |7 | Melihat Data Laporan Nilai  | Report Tabular | Data Nilai |
 
-3.3.1.2 Spesifikasi Layar Utama
+3.3.2.2 Spesifikasi Layar Utama
 
 prototype belum jadi
 
-3.3.1.3 Spesifikasi Query
+3.3.2.3 Spesifikasi Query
 
 |ID Query| Deskripsi| Ekspresi Query|
 |--------|----------|---------------|
-|QUE-01 | Menampilkan Data Tentor | Select * From data_pengajar |
-|QUE-02 | Memasukkan Data Tentor  | insert into data_pengajar values.. |
-|QUE-03 | Mengubah Data Tentor | Upadte data_pengajar set... |
-|QUE-04 | Menampilkan Data siswa | select * from data_siswa |
+
 |QUE-05 | Memasukkan Data Siswa | insert into data_siswa values.. |
 |QUE-06 | Mengubah Data Siswa | update data_siswa set... |
 |QUE-07 | Menampilkan Data Orang tua | select * from data_orangtua|
@@ -320,6 +346,15 @@ prototype belum jadi
 |QUE-14 | Memasukkan Jadwal | insert into jadwal_mapel values.. |
 |QUE-15 | Mengubah Jadwal | update jadwal_mapel set.. |
 |QUE-16 | Menampilkan Laporan Nilai | Select * from data_absensi where id_siswa = 'id_siswa' |
+|QUE-17 | Menampilkan Data Tentor | Select * From data_pengajar |
+|QUE-18 | Memasukkan Data Tentor  | insert into data_pengajar values.. |
+|QUE-19 | Mengubah Data Tentor | Upadte data_pengajar set... |
+|QUE-20 | Menampilkan Data siswa | select * from data_siswa |
+
+
+
+
+
 
 
 
