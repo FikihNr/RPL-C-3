@@ -32,14 +32,18 @@
 
 ## 1.	Pendahuluan
 
+<<<<<<< HEAD
 #### 1.1	Tujuan <br>
+=======
+<b>1.1	Tujuan </b><br>
+>>>>>>> d8301fe409b2b5b6de36259f13df97aab85a7138
 Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun ” Sistem Informasi Bimbingan Belajar”. Dokumen ini dibangun untuk memudahkan dalam melakukan proses pengolahan nilai, pengolahan absensi, lihat jadwal dan konsultasi bimbingan yang dilakukan oleh pengguna dan penyedia. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak ”SIMBEL” (Sistem Informasi Bimbingan Belajar).
 
-####1.2	Lingkup Masalah
+<b>1.2	Lingkup Masalah </b>
 
 SIMBEL merupakan aplikasi yang kami bangun untuk mempermudah pengguna dan penyedia dalam pengolahan nilai, pengolahan absens, lihat jadwal dan konsultasi bimbingan. Dengan bertujuan aplikasi yang kami buat ini supaya praktis dalam pengimputan data tanpa menggunakan kertas secara manual. Artinya dengan aplikasi ini kita tidak perlu repot - repot membuang kertas hanya untuk pengolahan absensi, pengolahan nilan dan sebagainya.
 
-####1.3	Definisi, akronim, singkatan
+<b>1.3	Definisi, akronim, singkatan</b>
 
 __Akronim dan Singkatan__ :
 
@@ -54,7 +58,7 @@ __Definisi :__ <br>
 
 * use case adalah situasi dimana sistem anda digunakan untuk memenuhi satu atau lebih kebutuhan pemakaian anda.
 
-####1.4	Referensi
+<b>1.4	Referensi</b>
 
 Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah:
 
@@ -66,7 +70,7 @@ Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah:
 
 * http://www.academia.edu/23589245/DOKUMEN_SRS_SOFTWARE_REQUIRMENT_SPESIFICATION_APLIKASI_RANDOM_GRUP_Oleh_Kelompok_2_Ade_Mustofa_1403001_Aep_Saeful_Hidayat.\
 
-####1.5	Overview
+<b>1.5	Overview</b>
 
 Dokumen SRS ini dibagi menjadi tiga bagian utama, yaitu :
 bagian pertama berisi penjelasan tentang dokumen SRS yang mencakup tujuan pembuatan dokumen ini, lingkup masalah yang diselesaikan oleh perangkat lunak yang dikembangkan, definisi, referensi dan deskripsi umum. Bagian kedua berisi penjelasan secara umum mengenai Sistem Informasi Bimbingan Belajar yang akan dibangun, meliputi fungsi dari perangkat lunak, karakteristik pengguna, batasan dan asumsi yang diambil dala pembuatan perangkat lunak. Bagian ketiga berisi uraian kebutuhan perangkat lunak secara lebih rinci.
