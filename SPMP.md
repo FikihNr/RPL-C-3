@@ -35,19 +35,19 @@ Proyek yang sedang kami buat adalah membangun sebuahSistem Rancangan Proyek Reka
 
 Teknologi yang semakin pesat memberikan dampak paksaan bagi semua pihakuntuk berlomba-lomba membangun sistem yang berbasis teknologi informasi, yang disandingkan dengan berbagai bidang, seperti pendidikan, pemasaran, travel, sosial media dan lain-lain. Kemudahan yang ditawarkan menciptakan individu yang haus akan teknologi. Tentu hal ini mendorong terbentuknya pasar tersendiri di dunia teknologi informasi, hal ini kami menfaatkan untuk memenuhi kebutuhan konsumen yang meliputi organisasi, lembaga pemerintahan, pasar, atau individu yang membutuhkan software penunjang kegiatan produksi. Dengan adannya software penunjang, konsumen akan dimudahkan penggunaan waktu ataupun tenaga, sehingga meningkatkan kegiatan produksi. Dengan adanya sistem inilah membuat pemesan/konsumen dapat mengelola waktu dan budget yang harus dikeluarkan untuk membangun sebuah perangkat lunak.
 
-###1.2.Dokumen – dokumen dalam proyek
+### 1.2.Dokumen – dokumen dalam proyek
 
 Saat mengerjakan projek ini, pencatatan kegiatan yang telah dilakukan ditulis didalam log book kelompok, anggota yang telah mengerjakan tugas sesuai projek kegiatannya dicatat dalam log book, selain log book dokumen yang berkaitan dengan projek ini meliputi requirtments, penjadwalan, pembagian tugas, dan referensi-referensi yang berkaitan dengan pembuatan projek kami.
 
-####1.3.Evolusi SPMP
+#### 1.3.Evolusi SPMP
 
 Dokumen ini bersifat freeware, jadi siapa saja boleh untuk memanfaatkan dokumen ini untuk hal yang positif. Tentu ada hal-hal yang tidak boleh dilakukan dalam pemanfaatan dokumen ini, seperti menjualbelikan dokumen ini secara ilegal, atapun mengubah dokumen tanpa dasar yang jelas.
 
-####1.4.Materi Acuan
+#### 1.4.Materi Acuan
 
 Materi yang menjadi acuan dalam pembuatan projek ini menggunakan standar IEEE, karena menyediakan kerangka kerja yang menggabungkan seluruh spektrum proses siklus hidup perangkat lunak. Dan juga standar IEEE untuk membentuk model yang diakui secara internasional dari kehidupan perangkat lunak umum, siklus proses yang dapat direferensikan oleh industri perangkat lunak diseluruh dunia, untuk mempromosikan pemahaman diantara pihak bisnis dengan aplikasi umum serta mengakui proses, kegiatan dan tugas. IEEE adalah sebuah organisasi profesi nirlaba yang terdiri dari banyak ahli dibidang teknik yang mempromosikan pengembangan standar-standar dan bertindak sebagai pihak yang mempercepat teknologi- teknologi baru dalam semua aspek dalam industry dan rekayasa (engineering), yang mencakup telekomunikasi, jaringan komputer, kelistrikan, antariksa, dan elektronika. Tujuan inti IEEE adalah mendorong inovasi teknologi dan kesempurnaan untuk kepentingan kemanusiaan.Visi IEEE adalah akan menjadi penting untuk masyarakat teknis global dan professional teknis dimana-mana dan dikenal secara universal untuk kontribusi teknologi dan teknis yang professional dalam meningkatkan kondisi perkembangan global. Standar dalam IEEE adalah mengatur fungsi, kemampuan dan interoperabilitas dari berbagai macam produk dan layanan yang mengubah cara orang hidup, bekerja dan berkomunikasi.
 
-####1.5.Definisi dan akronim (singkatan)
+#### 1.5.Definisi dan akronim (singkatan)
 
 Dalam penulisan dokumen pembuatan projek ini, ada beberapa kata yang mungkin akan sulit dipahami oleh orang awam berikut ini :
 
@@ -65,19 +65,19 @@ IEEE adalah standar yang mendefinisikan lapisan fisik dan sub lapisan media akse
 
 # BAB II #
 
-###Organisasi Proyek 
+### Organisasi Proyek 
 
-####2.1 Model Proses
+#### 2.1 Model Proses
 Proses yang digunakan untuk proyek ini adalah model Waterfall sehingga setiap tahap pengerjaan memungkinkan kita untuk memperbarui rencana proyek dan kiriman lainnya.
 Kami menggunakan Web untuk memperkenalkan aplikasi yang kita buat.
-####2.2 Struktur Organisasi
+#### 2.2 Struktur Organisasi
 * Fikih Nur Ramadhan (Project Manager)
 * Firda Faradila ( Database Engineer)
 * Lulu Mukhoyyaroh (Analyz Project)
 * M. Bimo Abditama (Programmer)
 * Widi Indriyani (Design UI/UX)
 
-####2.3 Batasan dan Antarmuka Organisasi
+#### 2.3 Batasan dan Antarmuka Organisasi
 * Project Manager <br> Project Manager dimana dia menjadi pengawas dari anggota-anggotanya apabila terdapat ada anggota yang lalai dari tugasnya maka project manager diharuskan menegurnya.
 
 * Programmer <br> Programmer dimana dia bertanggung jawab untuk membuat dan menyempurnakan program.
@@ -86,7 +86,7 @@ Kami menggunakan Web untuk memperkenalkan aplikasi yang kita buat.
 
 * Database Engineer <br> Database Engineer dimana dia bertanggung jawab atas alur data yang dipakai dalam aplikasi
 
-####2.4 Lingkup Tanggung jawab
+#### 2.4 Lingkup Tanggung jawab
 Lingkup dan tanggung jawab ini berisi tugas dari setiap elemen anggota dalam pembuatan proyek RPL ini.
 
 * Project Manager <br>
@@ -102,7 +102,7 @@ Lingkup dan tanggung jawab ini berisi tugas dari setiap elemen anggota dalam pem
   Database Engineer dituntut untuk bisa membuat rancangan database yang dibutuhkan oleh aplikasi dalam proyek. Tugas database engineer meliputi perancangan dan pembuatan database dari aplikasi dan bertanggung jawab atas jalannya data dari aplikasi tersebut agar tidak terjadinya redudansi ataupun kesalahan data.
 
 
-####Tugas kebutuhan proyek.
+#### Tugas kebutuhan proyek.
 
 * Rencana Proyek
 * Spesifikasi Kebutuhan
@@ -114,35 +114,35 @@ Lingkup dan tanggung jawab ini berisi tugas dari setiap elemen anggota dalam pem
 
 # BAB III
 
-###3.Proses Manajerial
+### 3.Proses Manajerial
 
-####3.1 Tujuan dan Prioritas Manajemen
+#### 3.1 Tujuan dan Prioritas Manajemen
 
-####3.1.1 Prioritas Jadwal
+#### 3.1.1 Prioritas Jadwal
 
 Prioritas jadwal yang dilakukan pada saat ini adalah membuat sebuah sistemyang akan dibuat seperti :dokumenprojek,jadwalkegiatan,strukturpembuatanprojekdan organisasi.
 
-####3.1.2 Budget
+#### 3.1.2 Budget
 
 Prioritas budget untuk projek saat ini lebih ditekankan pada kualitas software.
 
-####3.1.3 Kemampuan (Kualitas dan reusability)
+#### 3.1.3 Kemampuan (Kualitas dan reusability)
 
 Projek yang kita buat saat ini mempunyai kelebihan dalam memanajemen, pembuatan projek ini berbasis website yang membuat konsumen merasa lebih mudah dalam berinteraksi.
 
-####3.2 Asumsi – asumsi, ketergantungan / keterkaitan, dan Batasan – Batasan
+#### 3.2 Asumsi – asumsi, ketergantungan / keterkaitan, dan Batasan – Batasan
 
-####3.2.1 Asumsi
+#### 3.2.1 Asumsi
 
 Aplikasi yang sejenis aplikasi manajemen berbasis website, projek yang kami buat ini membutuhkankomputer sebagai media penghubungnya.
 
-####3.2.2 Ketergantungan / Keterkaitan dan Batasan – Batasan
+#### 3.2.2 Ketergantungan / Keterkaitan dan Batasan – Batasan
 
 Dalam projek yang kami buat ada beberapa software website yangmendukungnya, seperti xampp sebagai perantara mysqli database. Namun ada batasannya, yaitu tidak bisa digunakan secara online.
 
-####3.3 Manajemen resiko
+#### 3.3 Manajemen resiko
 
-####3.3.1 Dampak Negatif
+#### 3.3.1 Dampak Negatif
 
 Tabel Manajemen Resiko
 
@@ -157,17 +157,17 @@ Tabel Manajemen Resiko
 | | | Kesungguhan dalam kelompok |
 | 3 | Estimasi waktu yang tidak realistis | Menganalisa project yang akan dibuat |
  
-####3.4 Mekanisme monitoring dan kontroling
+#### 3.4 Mekanisme monitoring dan kontroling
 
-####3.4.1 Monitoring
+#### 3.4.1 Monitoring
 
 Proses monitoring di lakukan secara kelompok, adapun proses tersebut dilaksanakan setiap hari senin dan rabu.
 
-####3.4.2 Kontroling
+#### 3.4.2 Kontroling
 
 Sedangkan proses kontroling dilaksanakan setiap hari jum’at, hal ini dilakukan agar hasil kerja projek yang kita buat dapat di evaluasi.
 
-####3.5 Perencanaan staf
+#### 3.5 Perencanaan staf
 
 Tabel perencanaan staf
 
@@ -181,26 +181,26 @@ Tabel perencanaan staf
 
 # BAB IV #
 
-###Proses Teknis
+### Proses Teknis
 
-####4.1 Metoda, Tools, dan Teknik
+#### 4.1 Metoda, Tools, dan Teknik
 
 ![](http://i67.tinypic.com/10qhwkh.png)
 
 Metoda yang kami gunakan yaitu dengan Mengolah Data Nilai dan Absensi Siswa Siswi Ganesha Operations (GO) serta memberikan informasi kepada user seputar Jadwal Try Out dan Hasil Nilai.. Tools yang digunakan adalah Sublime Text, Xampp, database Mysql, PHP, HTML, Javascript, Bootstrap dan Codeigniter sebagai Framework untuk PHP. Teknik yang digunakan adalah pemrograman beroreintasi objek.
 
-####4.2 Dokumentasi Perangkat Lunak
+#### 4.2 Dokumentasi Perangkat Lunak
 
 Dokumentasi perangkat lunak yang digunakan berdasarkan standar internasional IEEE, karena telah menyediakan kerangka kerja yang menghubungkan seluruh spektrum siklus hidup perangkat lunak.
 
-####4.3 Fungsi-fungsi Pendukung Proyek
+#### 4.3 Fungsi-fungsi Pendukung Proyek
 
 Kami membutuhkan technical support di bagian desain project sebanyak 1 orang. Kami membutuhkan technical support di bagian coding program sebanyak 2 orang. Kami membutuhkan specialist di bagian database sebanyak 2 orang.
 
 #Bab V 
-###Paket Kerja, jadwal, Anggaran
+### Paket Kerja, jadwal, Anggaran
 
-####5.1 Paket pekerjaan
+#### 5.1 Paket pekerjaan
 
 | No | Nama | Jabatan | Modul | Rincian Pekerjaan |
 |----|------|-----------|-----|-------------------|
@@ -222,7 +222,7 @@ Melakukan perbaikan proyek yang sudah di cek.
 
 Presentasi Proyek
 
-####5.2 Ketergantungan/keterkaitan
+#### 5.2 Ketergantungan/keterkaitan
 
 Dalam proses pengerjaan proyek yang kami buat ini, keterkaitan dalam tugas masing-masing sangat membantu agar terbentuknya ketelitian saat mengerjakan dan mendapatkan hasil yang bagus.
 
@@ -234,11 +234,11 @@ Dalam proses pengerjaan proyek yang kami buat ini, keterkaitan dalam tugas masin
 | Design | Programmer | Bertugas mendesain tampilan aplikasi yang dapat menarik konsumen saat aplikasi dirilis. |
 | Programmer | Database Engineer | Bertugas membuat perancangan sistem database. |
 
-####5.3 Kebutuhan-kebutuhan sumber daya
+#### 5.3 Kebutuhan-kebutuhan sumber daya
 
 Untuk pembuatan aplikasi ini akan dikerjakan oleh 5 (lima) orang.
 
-#####5.3.1 Kebutuhan Sumber Daya Manusia
+##### 5.3.1 Kebutuhan Sumber Daya Manusia
 
 | No | Nama | Jabatan |
 |----|------|-----------|
@@ -248,7 +248,7 @@ Untuk pembuatan aplikasi ini akan dikerjakan oleh 5 (lima) orang.
 | 4  | Muhammad Bimo Abditama | Programmer |
 | 5  | Widi Indriyani | Desain UI/UX |
 
-#####5.3.2 Kebutuhan Sumber Daya Software
+##### 5.3.2 Kebutuhan Sumber Daya Software
 
 | No | Software | Penjelasan |
 |----|----------|------------|
@@ -261,7 +261,7 @@ Untuk pembuatan aplikasi ini akan dikerjakan oleh 5 (lima) orang.
 | 7  | Mysql | - |
 | 8  | Codeigniter | - |
 
-#####5.3.3 Kebutuhan Sumber Daya Hardware
+##### 5.3.3 Kebutuhan Sumber Daya Hardware
 
 | No | Hardware | Penjelasan |
 |----|----------|------------|
@@ -269,7 +269,7 @@ Untuk pembuatan aplikasi ini akan dikerjakan oleh 5 (lima) orang.
 | 2  | Flashdisk/Hardisk | - |
 | 3  | Mouse | - |
 
-####5.4 Alokasi budget dan sumber daya
+#### 5.4 Alokasi budget dan sumber daya
 
 Berikut adalah rincian biaya yang diperlukan dalam pengerjaan proyek kami  sebesar Rp. 29.660.000 (Dua Puluh Sembilan Juta Enam Ratus Enam Puluh Ribu Rupiah) dengan rincian anggaran sebagai berikut :
 
@@ -280,7 +280,7 @@ Berikut adalah rincian biaya yang diperlukan dalam pengerjaan proyek kami  sebes
 |2|Hosting dan Domain|Pertahun| 180.000/bulan|2.160.000|
 |3|Konsumsi Tim|5|500.000/bulan|12.500.000|
 
-####5.5 Jadwal
+#### 5.5 Jadwal
 
 Untuk menyelesaikan proyek ini diperlukan waktu kurang lebih 4 bulan. Dimana rincian kerja pembuatan web ini sebagai berikut
 
