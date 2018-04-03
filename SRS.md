@@ -31,12 +31,7 @@
 ----------
 
 ## 1.	Pendahuluan
-
-<<<<<<< HEAD
-#### 1.1	Tujuan <br>
-=======
 <b>1.1	Tujuan </b><br>
->>>>>>> d8301fe409b2b5b6de36259f13df97aab85a7138
 Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun ” Sistem Informasi Bimbingan Belajar”. Dokumen ini dibangun untuk memudahkan dalam melakukan proses pengolahan nilai, pengolahan absensi, lihat jadwal dan konsultasi bimbingan yang dilakukan oleh pengguna dan penyedia. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak ”SIMBEL” (Sistem Informasi Bimbingan Belajar).
 
 <b>1.2	Lingkup Masalah </b>
@@ -77,7 +72,7 @@ bagian pertama berisi penjelasan tentang dokumen SRS yang mencakup tujuan pembua
 
 
 
-##2.	Gambaran Umum
+## 2.	Gambaran Umum
 
 Aplikasi sistem informasi bimbingan belajar pada umumnya berhubungan dengan menampilkan laporan hasil kegiatan dia selama bimbingan belajar seperti nilai try out, absensi kehadiran siswa, jadwal try out, fitur chat konsultasi bimbingan belajar dan juga orang tua siswa dapat mengetahui grafik kehadiran anaknya yang telah terdaftar pada lembaga bimbingan belajar.
 Belum semua lembaga bimbingan belajar menggunakan aplikasi sistem informasi bimbingan belajar berbasis website. Pada aplikasi sistem informasi ini dapat di akses kapan pun dan di manapun tanpa harus datang langsung ke tempat bimbingan belajar. 
@@ -266,10 +261,9 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 
 **2.1.8 Kebutuhan-kebutuhan dalam tahap adaptasi**
 
+##### 2.2. Spesifikasi kebutuhan fungsional
 
-
-#####2.2. Spesifikasi kebutuhan fungsional
-![](http://i66.tinypic.com/t0oi8n.jpg)
+![](http://i66.tinypic.com/ke672o.jpg)
 
 **2.2.1 Login**
 
@@ -609,12 +603,12 @@ __2.8. Kebutuhan – kebutuhan penyeimbang__
 Website akan dijalankan di server dengan kecepatan akses internet yang tinggi. Kecepatan koneksi akan tergantung pada hardware dan karakteristik dari sistem.Website akan compatible dengan beberapa browser yang umum digunakan oleh customer,seperti Internet Explorer, Mozilla Firefox, Opera, Chrome, Safari dan Netscape. SIstem iniakan menggunakan internet security yang sama dengan yang digunakan di BPS.
 
 
-##3.	Kebutuhan lain yang spesifik
+## 3.	Kebutuhan lain yang spesifik
 Kebutuhan Fungsional adalah kebutuhan yang harus dipenuhi agar suatu sistem dapat berjalan atau dapat dikatakan kebutuhan tambahan yang memiliki input, proses, dan output. Kebutuhan fungsional yang harus ada dalam sistem yang akan dikembangkan ini adalah sebagai berikut:
 
--	Sistem harus dapat mempermudah pengguna / user dalam menggunkan aplikasi ini.
+* Sistem harus dapat mempermudah pengguna / user dalam menggunkan aplikasi ini.
 
-##4.	Informasi pendukung
+## 4.	Informasi pendukung
 
 
 

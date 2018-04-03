@@ -8,10 +8,9 @@
 <img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
 </p>
 
-<br><p align="center"><b> Sistem Informasi Akademik Bimbingan Belajar</b><br>
-<p align="center"><b>Aplikasi Menggunakan CodeIgniter
-</b>
-<p align="center">Kelompok 3 <br>
+<br><p align="center"><b> Sistem Informasi Akademik Bimbingan Belajar<br>
+
+<p align="center">Kelompok 3 <br></b>
  Fkih Nur Ramadan				(1603068)<br>
  Firda Faradila		(1603069)<br>
  Lulu Mukhoyyaroh			(1603075)<br>
@@ -30,7 +29,7 @@
 ### 1. PENDAHULUAN ###
 
 
-1.1 TUJUAN
+#### 1.1 TUJUAN
 
 Tujuan pembuatan SDD (Software Design Description) ini adalah untuk menjelaskan
 langkah langkah desain dan proses-proses dalam pembuatan sistem aplikasi yang akan
@@ -48,131 +47,127 @@ Secara ringkas fungsi dari aplikasi ini diantaranya :
 
 
 
-1.2 LINGKUP
+##### 1.2 LINGKUP
 
-     Fleksibel
-     Hadirnya aplikasi sebagai sarana untuk memudahkan user untuk memberikan nilai dan absensi, SIMBEL haruslah mempertimbangkan 
-     aspek fleksibilitas dalam penggunaan nya, salah satu yang harus tertanam adalah kemudahan 
-     untuk melakukan bimbingan dengan fitur live chat 
+Fleksibel<br>
+Hadirnya aplikasi sebagai sarana untuk memudahkan user untuk memberikan nilai dan absensi, SIMBEL haruslah mempertimbangkan 
+aspek fleksibilitas dalam penggunaan nya, salah satu yang harus tertanam adalah kemudahan untuk melakukan bimbingan dengan fitur live chat.
     
-     Informasi Detil
-     Aplikasi SIAKAD yang baik adalah yang mampu memberikan infomasi secara komprehensif kepada user, 
-     melalui media aplikasi tersebut administrator haruslah me-manage sistem tersebut dengan baik
+Informasi Detil<br>
+Aplikasi SIAKAD yang baik adalah yang mampu memberikan infomasi secara komprehensif kepada user, melalui media aplikasi tersebut administrator haruslah me-manage sistem tersebut dengan baik.
 
-     Komunikatif
-     Tak hanya sebagai sarana penilaian dan absensi, aplikasi SIMBEL haruslah mampu menghadirkan komunikasi dua arah 
-     antara pelajar dan pengajar, kehadirran fitur ini semata mata untuk memberikan kenyamanan pelajar
-     Adanya fitur komunisi dua arah membuat pengajar mudah dalam
-    memberikan bimbingan kepada pelajar. 
+Komunikatif<br>
+Tak hanya sebagai sarana penilaian dan absensi, aplikasi SIMBEL haruslah mampu menghadirkan komunikasi dua arah antara pelajar dan pengajar, kehadirran fitur ini semata mata untuk memberikan kenyamanan pelajar Adanya fitur komunisi dua arah membuat pengajar mudah dalam memberikan bimbingan kepada pelajar. 
 
-     pengawasan orangtua
-     Melalui aplikasi, orangtua tentu dengan mudah memantau Nilai dan Absensi anak anak nya, tak ada salahnya memberikan informasi detil 
-     lewat aplikasi kepada orang tua.
+Pengawasan orangtua<br>
+Melalui aplikasi, orangtua tentu dengan mudah memantau Nilai dan Absensi anak anak nya, tak ada salahnya memberikan informasi detil lewat aplikasi kepada orang tua.
 
-1.3 Definisi, akronim, singkatan
+##### 1.3 Definisi, akronim, singkatan
 
-     SKPL      : Spesifikasi Kebutuhan Perangkat Lunak
-     SKPL      : Spesifikasi Perangkat Lunak
-     Administrator : pengelola sistem aplikasi.
-	 User      : Pengguna Aplikasi
-	 SIMBEL	   : Sistem informasi Akademik Bimbingan Belajar
-	 Siakad    : Sistem informasi akademik
+| No | Singkatan | Arti Kata |
+|----|-----------|-----------|
+| 1  | SKPL | Spesifikasi Kebutuhan Perangkat Lunak | 
+| 2  | SKPL | Spesifikasi Perangkat Lunak |
+| 3  | Administrator | Pengelola sistem aplikasi |
+| 4  | User | Pengguna Aplikasi |
+| 5  | SIMBEL | Sistem informasi Akademik Bimbingan Belajar |
+| 6  | Siakad | Sistem informasi akademik |
 
-###2. Referensi
+#### 2. Referensi
 
-IEEE, IEEE Draft Standard for Software Design Descriptions. IEEE P1 01 6/D5.0; 1 2 December 2005
+* IEEE, IEEE Draft Standard for Software Design Descriptions. IEEE P1 01 6/D5.0; 1 2 December 2005
 
-Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
+* Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 
-###3. Penjelasan Dekomposisi
+#### 3. Penjelasan Dekomposisi
 
 
-3.1.1 Diagram Konteks
+##### 3.1.1 Diagram Konteks
 
 Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem. Diagram konteks merupakan level tertinggi dari DFD yang menggambarkan seluruh input ke dalam sistem atau output dari sistem yang memberi gambaran tentang keseluruhan sistem. Sistem dibatasi oleh boundary (Digambarkan dengan garis putus - putus). Dalam diagram konteks hanya ada satu proses, tidak boleh ada store dalam diagram konteks. Berikut ini adalah gambar diagram konteks dari Sistem Informasi Akademik Bimbingan Belajar.
 
 ![](http://i66.tinypic.com/2q9cuaq.jpg)
  
 
-3.1.2 DFD Level 0
+##### 3.1.2 DFD Level 0
 
 Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur. Berikut DFD Level 0 Sistem Informasi Akademik Bimbingan Belajar. 
 
 ![](http://i63.tinypic.com/dnkldc.jpg)
 
-###3.2 Dekommposisi Proses Konkuren
+#### 3.2 Dekommposisi Proses Konkuren
 
-3.2.1 DFD Level 1 : Proses 1
+##### 3.2.1 DFD Level 1 : Proses 1
 
 
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Siswa.
 
 ![](http://i64.tinypic.com/29p96d4.jpg)
 
-3.2.2 DFD Level 1 : Proses 2
+##### 3.2.2 DFD Level 1 : Proses 2
 
 
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Pengajar.
 
 ![](http://i65.tinypic.com/289a3hl.jpg)
 
-3.2.3 DFD Level 1 : Proses 3
+##### 3.2.3 DFD Level 1 : Proses 3
 
 
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Orang Tua.
 
 ![](http://i67.tinypic.com/2j0e0jl.jpg)
 
-3.2.4 DFD Level 1 : Proses 4
+##### 3.2.4 DFD Level 1 : Proses 4
 
 
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Kelas.
 
 ![](http://i68.tinypic.com/rrqomh.jpg)
 
-3.2.5 DFD Level 1 : Proses 5
+##### 3.2.5 DFD Level 1 : Proses 5
 
 
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Mata Pelajaran.
 
 ![](http://i64.tinypic.com/230c3k.jpg)
 
-3.2.6 DFD Level 1 : Proses 6
+##### 3.2.6 DFD Level 1 : Proses 6
 
 
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Jadwal Mata Pelajaran.
 
 ![](http://i64.tinypic.com/2ekomtj.jpg)
 
-3.2.7 DFD Level 1 : Proses 7
+##### 3.2.7 DFD Level 1 : Proses 7
 
 
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Jadwal Tryout.
 
 ![](http://i67.tinypic.com/25z564m.jpg)
 
-3.2.8 DFD Level 1 : Proses 8
+##### 3.2.8 DFD Level 1 : Proses 8
 
 
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Pengajar yang Mengelolah data Bimbingan.
 
 ![](http://i65.tinypic.com/243euly.jpg)
 
-3.2.9 DFD Level 1 : Proses 9
+##### 3.2.9 DFD Level 1 : Proses 9
 
 
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Pengajar yang Mengelolah data Nilai.
 
 ![](http://i64.tinypic.com/eqw1eo.jpg)
 
-3.2.10 DFD Level 1 : Proses 10
+##### 3.2.10 DFD Level 1 : Proses 10
 
 
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Pengajar yang Mengelolah data Absensi.
 
 ![](http://i63.tinypic.com/50f6rn.jpg)
 
-3.2.11 DFD Level 1 : Proses 11
+##### 3.2.11 DFD Level 1 : Proses 11
 
 
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Orang Tua yang melihat laporan Nilai dan Absensi.
@@ -180,7 +175,7 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 ![](http://i64.tinypic.com/vwwj78.jpg)
 
 
-###3.3 Dekomposisi Data
+#### 3.3 Dekomposisi Data
 
 * Data User Siswa, Pengajar dan Orang Tua
 
@@ -284,13 +279,13 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 |5|id_mapel |foreign key|
 
 
-3.3 Deskripsi  Rinci Modul 
+#### 3.3 Deskripsi  Rinci Modul 
 
 Setiap modul pada rancangan global, dirinci satu per satu  
 
-3.3.1 Login
+#### 3.3.1 Login
 
-3.3.1.1 Fungsi Modul
+##### 3.3.1.1 Fungsi Modul
 
 |No | Fungsi | Jenis | Tabel Terkait |
 |---|--------|-------|---------------|
@@ -298,11 +293,11 @@ Setiap modul pada rancangan global, dirinci satu per satu
 
 
 
-3.3.1.2 Spesifikasi Layar Utama
+##### 3.3.1.2 Spesifikasi Layar Utama
 
 prototype belum jadi
 
-3.3.1.3 Spesifikasi Query
+##### 3.3.1.3 Spesifikasi Query
 
 |ID Query| Deskripsi| Ekspresi Query|
 |--------|----------|---------------|
@@ -311,10 +306,9 @@ prototype belum jadi
 |QUE-03 | Masuk sebagai Pengajar | Select * From users where level = 'pengajar' |
 |QUE-04 | Masuk sebagai Orang Tua | Select * From users where level = 'ortu' |
 
-3.3.2 Dashboard Admin
+#### 3.3.2 Dashboard Admin
 
-
-3.3.2.1 Fungsi Modul
+##### 3.3.2.1 Fungsi Modul
 
 |No | Fungsi | Jenis | Tabel Terkait |
 |---|--------|-------|---------------|
@@ -326,16 +320,16 @@ prototype belum jadi
 |6 | Melihat Data Laporan Absensi | Report Tabular | Data Absensi |
 |7 | Melihat Data Laporan Nilai  | Report Tabular | Data Nilai |
 
-3.3.2.2 Spesifikasi Layar Utama
+##### 3.3.2.2 Spesifikasi Layar Utama
 
 prototype belum jadi
 
-3.3.2.3 Spesifikasi Query
+##### 3.3.2.3 Spesifikasi Query
 
 |ID Query| Deskripsi| Ekspresi Query|
 |--------|----------|---------------|
 
-3.3.2.3 Spesifikasi Query
+##### 3.3.2.3 Spesifikasi Query
 
 |ID Query| Deskripsi| Ekspresi Query|
 |--------|----------|---------------|

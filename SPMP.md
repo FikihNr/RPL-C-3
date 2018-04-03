@@ -29,6 +29,7 @@
 --------
 
 # BAB I #
+
 #### 1.1.Gambaran Proyek
 
 Proyek yang sedang kami buat adalah membangun sebuahSistem Rancangan Proyek Rekaya Perangkat Lunak. Dalam planing pembangunan software, tentu banyak hal yang harus diperhatikan oleh konsumen maupun produsen(programmer) terutama dalam hal pengelolaan waktu dan nilai yang harus dikeluarkan. Adanya kesalahan tentu akan memberikan kerugian pada kedua belah pihak, hal-hal seperti ini yang harus kita minimalisir. Untuk itu sistem ini dibangun dengan fungsi utama melakukan planing terhadap proyek yang akan dibuat atau dipesan oleh konsumen. Dengan adanya fungsi tersebut, sistem ini dapat merencanakan pembuatan sebuah software dengan baik dan benar tentunya. Dalam membangun sistem ini kami butuh sebuah tim yang solid dan kompak agar dalam proses pembuatannya tidak mengalami banyak kendala, tim kami terdiri dari Manager Projek, Db Engineer,Analisis teknologi,Programmer,Desain UI/UX. Dengan struktur tim tersebut, kami bermaksud membagi beberapa tugas sesuai kriteria kemampuan masing-masing, yang nantinya satu sama lain diharapkan dapat bekerja sama dan melengkapi satu sama lain, sehingga dapat membangun sistem yang baik sesuai yang konsumen/pasar butuhkan.
@@ -71,11 +72,14 @@ IEEE adalah standar yang mendefinisikan lapisan fisik dan sub lapisan media akse
 Proses yang digunakan untuk proyek ini adalah model Waterfall sehingga setiap tahap pengerjaan memungkinkan kita untuk memperbarui rencana proyek dan kiriman lainnya.
 Kami menggunakan Web untuk memperkenalkan aplikasi yang kita buat.
 #### 2.2 Struktur Organisasi
-* Fikih Nur Ramadhan (Project Manager)
-* Firda Faradila ( Database Engineer)
-* Lulu Mukhoyyaroh (Analyz Project)
-* M. Bimo Abditama (Programmer)
-* Widi Indriyani (Design UI/UX)
+
+| No | Nama | Jabatan |
+|----|-----------|-----------|
+| 1  | Fikih Nur Ramadan | Project Manager | 
+| 2  | Firda Faradila | Database Engineer |
+| 3  | Lulu Mukhoyyyaroh | Analysis |
+| 4  | Muhamammad Bimo Abditama | Programmer |
+| 5  | Widi Indriyani | Design UI/UX |
 
 #### 2.3 Batasan dan Antarmuka Organisasi
 * Project Manager <br> Project Manager dimana dia menjadi pengawas dari anggota-anggotanya apabila terdapat ada anggota yang lalai dari tugasnya maka project manager diharuskan menegurnya.
@@ -250,24 +254,24 @@ Untuk pembuatan aplikasi ini akan dikerjakan oleh 5 (lima) orang.
 
 ##### 5.3.2 Kebutuhan Sumber Daya Software
 
-| No | Software | Penjelasan |
-|----|----------|------------|
-| 1  | Sublime | - |
-| 2  | Xampp | - |
-| 3  | PHP | - |
-| 4  | html | - |
-| 5  | Boostrap | - |
-| 6  | Javascript | - |
-| 7  | Mysql | - |
-| 8  | Codeigniter | - |
+| No | Software |
+|----|----------|
+| 1  | Sublime |
+| 2  | Xampp |
+| 3  | PHP |
+| 4  | html |
+| 5  | Boostrap |
+| 6  | Javascript |
+| 7  | Mysql |
+| 8  | Codeigniter |
 
 ##### 5.3.3 Kebutuhan Sumber Daya Hardware
 
-| No | Hardware | Penjelasan |
-|----|----------|------------|
-| 1  | Laptop/PC | - |
-| 2  | Flashdisk/Hardisk | - |
-| 3  | Mouse | - |
+| No | Hardware |
+|----|----------|
+| 1  | Laptop/PC |
+| 2  | Flashdisk/Hardisk | 
+| 3  | Mouse |
 
 #### 5.4 Alokasi budget dan sumber daya
 
