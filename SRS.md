@@ -32,7 +32,7 @@
 
 ## 1.	Pendahuluan
 
-####1.1	Tujuan <br>
+#### 1.1	Tujuan <br>
 Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun ” Sistem Informasi Bimbingan Belajar”. Dokumen ini dibangun untuk memudahkan dalam melakukan proses pengolahan nilai, pengolahan absensi, lihat jadwal dan konsultasi bimbingan yang dilakukan oleh pengguna dan penyedia. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak ”SIMBEL” (Sistem Informasi Bimbingan Belajar).
 
 ####1.2	Lingkup Masalah

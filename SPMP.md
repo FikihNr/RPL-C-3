@@ -29,7 +29,7 @@
 --------
 
 # BAB I #
-####1.1.Gambaran Proyek
+#### 1.1.Gambaran Proyek
 
 Proyek yang sedang kami buat adalah membangun sebuahSistem Rancangan Proyek Rekaya Perangkat Lunak. Dalam planing pembangunan software, tentu banyak hal yang harus diperhatikan oleh konsumen maupun produsen(programmer) terutama dalam hal pengelolaan waktu dan nilai yang harus dikeluarkan. Adanya kesalahan tentu akan memberikan kerugian pada kedua belah pihak, hal-hal seperti ini yang harus kita minimalisir. Untuk itu sistem ini dibangun dengan fungsi utama melakukan planing terhadap proyek yang akan dibuat atau dipesan oleh konsumen. Dengan adanya fungsi tersebut, sistem ini dapat merencanakan pembuatan sebuah software dengan baik dan benar tentunya. Dalam membangun sistem ini kami butuh sebuah tim yang solid dan kompak agar dalam proses pembuatannya tidak mengalami banyak kendala, tim kami terdiri dari Manager Projek, Db Engineer,Analisis teknologi,Programmer,Desain UI/UX. Dengan struktur tim tersebut, kami bermaksud membagi beberapa tugas sesuai kriteria kemampuan masing-masing, yang nantinya satu sama lain diharapkan dapat bekerja sama dan melengkapi satu sama lain, sehingga dapat membangun sistem yang baik sesuai yang konsumen/pasar butuhkan.
 
