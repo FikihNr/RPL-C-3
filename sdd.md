@@ -363,4 +363,4 @@ prototype belum jadi
 
 ##### 3.3.2.6 Spesifikasi Proses/Algoritma
 
-#### Matriks Keturunan
+#### 3.4 Matriks Keturunan
