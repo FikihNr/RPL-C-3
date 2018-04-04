@@ -86,94 +86,107 @@ Melalui aplikasi, orangtua tentu dengan mudah memantau Nilai dan Absensi anak an
 
 Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem. Diagram konteks merupakan level tertinggi dari DFD yang menggambarkan seluruh input ke dalam sistem atau output dari sistem yang memberi gambaran tentang keseluruhan sistem. Sistem dibatasi oleh boundary (Digambarkan dengan garis putus - putus). Dalam diagram konteks hanya ada satu proses, tidak boleh ada store dalam diagram konteks. Berikut ini adalah gambar diagram konteks dari Sistem Informasi Akademik Bimbingan Belajar.
 
-![](http://i66.tinypic.com/2q9cuaq.jpg)
+![](http://i66.tinypic.com/20koaoh.jpg)
  
 
 ##### 3.1.2 DFD Level 0
 
 Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur. Berikut DFD Level 0 Sistem Informasi Akademik Bimbingan Belajar. 
 
-![](http://i63.tinypic.com/dnkldc.jpg)
+![](http://i68.tinypic.com/5lc2me.jpg)
 
 #### 3.2 Dekommposisi Proses Konkuren
 
 ##### 3.2.1 DFD Level 1 : Proses 1
 
 
-DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Siswa.
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin dan Pengajar yang Mengelolah Data Nilai Dan Data Absensi.
 
-![](http://i64.tinypic.com/29p96d4.jpg)
+![](http://i66.tinypic.com/90viv9.jpg)
 
 ##### 3.2.2 DFD Level 1 : Proses 2
 
 
-DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Pengajar.
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin, Pengajar dan Siswa yang Mengelolah Data Ortu, Data Pengajar, Data Siswa, Data Kelas, Data Mapel, Data Jadwal .
 
-![](http://i65.tinypic.com/289a3hl.jpg)
+![](http://i67.tinypic.com/2lvyek3.jpg)
 
 ##### 3.2.3 DFD Level 1 : Proses 3
 
 
-DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Orang Tua.
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin, Pengajar dan Siswa yang Mengelolah Data Bimbingan.
 
-![](http://i67.tinypic.com/2j0e0jl.jpg)
+![](http://i63.tinypic.com/sfvw4g.jpg)
 
 ##### 3.2.4 DFD Level 1 : Proses 4
 
 
-DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Kelas.
+DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin, Pengajar, Siswa dan Ortu yang Mengelolah Laporan Nilai Dan Laporan Absensi.
 
-![](http://i68.tinypic.com/rrqomh.jpg)
+![](http://i66.tinypic.com/ehywqe.jpg)
 
-##### 3.2.5 DFD Level 1 : Proses 5
-
-
-DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Mata Pelajaran.
-
-![](http://i64.tinypic.com/230c3k.jpg)
-
-##### 3.2.6 DFD Level 1 : Proses 6
+##### 3.2.5 DFD Level 2 : Proses 1
 
 
-DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Jadwal Mata Pelajaran.
+DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Data Nilai dan  Pengajar dan Siswa yang melihat Data Nilai.
 
-![](http://i64.tinypic.com/2ekomtj.jpg)
+![](http://i68.tinypic.com/24pw4g3.jpg)
 
-##### 3.2.7 DFD Level 1 : Proses 7
-
-
-DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin yang Mengelolah data Jadwal Tryout.
-
-![](http://i67.tinypic.com/25z564m.jpg)
-
-##### 3.2.8 DFD Level 1 : Proses 8
+##### 3.2.6 DFD Level 2 : Proses 2
 
 
-DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Pengajar yang Mengelolah data Bimbingan.
+DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Data Absensi dan  Pengajar dan Siswa yang melihat Data Absensi.
 
-![](http://i65.tinypic.com/243euly.jpg)
+![](http://i65.tinypic.com/b4yd90.jpg)
 
-##### 3.2.9 DFD Level 1 : Proses 9
-
-
-DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Pengajar yang Mengelolah data Nilai.
-
-![](http://i64.tinypic.com/eqw1eo.jpg)
-
-##### 3.2.10 DFD Level 1 : Proses 10
+##### 3.2.7 DFD Level 2 : Proses 3
 
 
-DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Pengajar yang Mengelolah data Absensi.
+DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Data Siswa dan  Pengajar dan Siswa yang melihat Data Siswa.
 
-![](http://i63.tinypic.com/50f6rn.jpg)
+![](http://i66.tinypic.com/4h3vhe.jpg)
 
-##### 3.2.11 DFD Level 1 : Proses 11
+##### 3.2.8 DFD Level 2 : Proses 4
 
 
-DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Orang Tua yang melihat laporan Nilai dan Absensi.
+DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Data Kelas dan  Pengajar dan Siswa yang melihat Data Kelas.
 
-![](http://i64.tinypic.com/vwwj78.jpg)
+![](http://i67.tinypic.com/mmvcsk.jpg)
 
+##### 3.2.9 DFD Level 2 : Proses 5
+
+
+DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Data Mapel dan  Pengajar dan Siswa yang melihat Data Mapel.
+
+![](http://i66.tinypic.com/1448ftu.jpg)
+
+##### 3.2.10 DFD Level 2 : Proses 6
+
+
+DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Data Jadwal dan  Pengajar dan Siswa yang melihat Data Jadwal.
+
+![](http://i65.tinypic.com/2zz0nxv.jpg)
+
+##### 3.2.11 DFD Level 2 : Proses 7
+
+
+DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin, Pengajar dan Siswa yang mengelola Data Bimbingan.
+
+![](http://i68.tinypic.com/1z48ty1.jpg)
+
+
+##### 3.2.11 DFD Level 2 : Proses 8
+
+
+DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Laporan Nilai dan  Pengajar, Siswa dan Ortu yang melihat Laporan Nilai.
+
+![](http://i66.tinypic.com/3ylg2.jpg)
+
+##### 3.2.11 DFD Level 2 : Proses 9
+
+DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Laporan Absensi dan  Pengajar, Siswa dan Ortu yang melihat Laporan Absensi.
+
+![](http://i66.tinypic.com/2428ro1.jpg)
 
 #### 3.3 Dekomposisi Data
 
