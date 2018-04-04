@@ -288,5 +288,4 @@ Berikut adalah rincian biaya yang diperlukan dalam pengerjaan proyek kami  sebes
 
 Untuk menyelesaikan proyek ini diperlukan waktu kurang lebih 4 bulan. Dimana rincian kerja pembuatan web ini sebagai berikut
 
-![](http://i68.tinypic.com/2lthxg6.png)
-
+![](http://i64.tinypic.com/11h9gkz.png)
