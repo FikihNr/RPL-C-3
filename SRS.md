@@ -461,7 +461,7 @@ Halaman Utama|	Halaman utama harus menampilkan logo dari perusahaan yang bersang
 
 __2.4. Logika Struktur Data__
 
-!
+![](http://i67.tinypic.com/vijw9x.png)
 
 <b>Pengajar</b>
 
