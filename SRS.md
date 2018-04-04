@@ -84,7 +84,7 @@ Siswa mendapatkan informasi laporan nilai dan absensi, konsultasi mengenai bimbi
 
 __2.1.1	Antarmuka sistem__
 
-Dalam penggunaan, pengguna berinteraksi dengan sebuah aplikasi melalui browser pada HP, PC/Laptop
+Dalam penggunaan, pengguna berinteraksi dengan sebuah aplikasi melalui browser pada HP, PC/Laptop. Aplikasi ini memiliki fungsi yang berbeda dari tiap-tiap usernya. Hal ini dimana user siswa dapat mengelola data pribadi, melihat hasil laporan absensi dan nilai, melakukan live chat dengan pengajar. User pengajar dapat mengelola data pribadi, memberikan hasil laporan absensi dan nilai siswanya, melakukan live chat dengan siswa. User Orang Tua dapat mengelola data pribadi, melihat hasil laporan absensi dan nilai anaknya selama mengikuti bimbingan belajar. Admin sendiri dapat melakukan pengolahan Data user dan pengolahan informasi.
 
 __2.1.2	Antarmuka pengguna__
 
@@ -285,7 +285,7 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 
 **2.2.1 Login**
 
-|  |  |
+
 |--|--|
 | Nama fungsi  |Login  |
 |Ref|Bag 2.2, Login | 
@@ -298,10 +298,9 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 
 **2.2.2 Melihat Laporan Nilai dan Absensi**
 
-|  |  |
 |--|--|
-| Nama fungsi  |Melihat Laporan Nilai dan Absensi  |
-|Ref|Bag 2.2, Melihat Laporan Nilai dan Absensi | 
+| Nama fungsi  |Melihat Laporan Nilai dan Absensi |
+|Ref|Bag 2.2, Melihat Laporan Nilai dan Absensi| 
 |Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
 |Precondition|Menampilkan Data Laporan dan Nilai|
 |Basic Path|1. Orang Tua Login ke dalam Sistem <br>2. Orang tua Melihat Laporan Nilai dan Absensi <br>3.Sistem menampilkan Laporan Nilai dan Absensi|
@@ -311,7 +310,6 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 
 **2.2.3 Melihat Data Mata Pelajaran**
 
-|  |  |
 |--|--|
 | Nama fungsi  |Melihat Data Mata Pelajaran  |
 |Ref|Bag 2.2, Melihat Data Mata Pelajaran | 
@@ -324,7 +322,6 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 
 **2.2.4 CRUD Nilai dan Absensi**
 
-|  |  |
 |--|--|
 | Nama fungsi  |CRUD Nilai dan Absensi  |
 |Ref|Bag 2.2, CRUD Nilai dan Absensi | 
@@ -337,7 +334,6 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 
 **2.2.5 Melihat Data Kelas**
 
-|  |  |
 |--|--|
 | Nama fungsi  |Melihat Data Kelas  |
 |Ref|Bag 2.2, Melihat Data Kelas | 
@@ -350,7 +346,6 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 
 **2.2.6 Melihat Jadwal Try Out**
 
-|  |  |
 |--|--|
 | Nama fungsi  |Melihat Jadwal Try Out  |
 |Ref|Bag 2.2, Melihat Jadwal Try Out | 
@@ -363,7 +358,6 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 
 **2.2.7 Melihat Data Jadwal Mata Pelajaran**
 
-|  |  |
 |--|--|
 | Nama fungsi  |Melihat Data Jadwal Mata Pelajaran  |
 |Ref|Bag 2.2, Melihat Data Jadwal Mata Pelajaran | 
@@ -376,7 +370,6 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 
 **2.2.8 Melakukan Bimbingan**
 
-|  |  |
 |--|--|
 | Nama fungsi  |Melakukan Bimbingan  |
 |Ref|Bag 2.2, Melakukan Bimbingan | 
@@ -389,7 +382,6 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 
 **2.2.9 CRUD Data Pelajaran**
 
-|  |  |
 |--|--|
 | Nama fungsi  |CRUD Data Pengajar  |
 |Ref|Bag 2.2, CRUD Data Pengajar | 
@@ -402,7 +394,6 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 
 **2.2.10 CRUD Data Pelajar**
 
-|  |  |
 |--|--|
 | Nama fungsi  |CRUD Data Pelajar  |
 |Ref|Bag 2.2, CRUD Data Pelajar | 
@@ -415,9 +406,8 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 
 **2.2.11 CRUD Data Jadwal Try Out**
 
-|  |  |
 |--|--|
-| Nama fungsi  |CRUD Data Jadwal Try Out  |
+| Nama fungsi  |CRUD Data Jadwal Try Out |
 |Ref|Bag 2.2, CRUD Data Jadwal Try Out | 
 |Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
 |Precondition|Menampilkan CRUD Data Jadwal Try Out|
@@ -428,7 +418,6 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 
 **2.2.12 Melihat Data Aspek Penilaian**
 
-|  |  |
 |--|--|
 | Nama fungsi  |Melihat Data Aspek Penilaian  |
 |Ref|Bag 2.2, Melihat Data Aspek Penilaian | 
@@ -441,7 +430,6 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 
 **2.2.13 Melihat Laporan Nilai Dan Absensi**
 
-|  |  |
 |--|--|
 | Nama fungsi  |Melihat Laporan Nilai Dan Absensi |
 |Ref|Bag 2.2,Melihat Laporan Nilai Dan Absensi | 
@@ -473,37 +461,38 @@ Halaman Utama|	Halaman utama harus menampilkan logo dari perusahaan yang bersang
 
 __2.4. Logika Struktur Data__
 
-![](http://i68.tinypic.com/23kvjbn.jpg)
+!
 
 <b>Pengajar</b>
 
-
 |Data Item| Type | Deskripsi|
 |--|--|--|
+|Id_pengajar|Integer|1. Primary Key <br> 2. Nomor auto increment pengajar |
 |Nama |Text  |Nama pengajar|
-|Id_pengajar|Integer|Nomor auto increment pengajar |
 |NIP|Integer|Nomor Induk Pegawai |
 |Alamat|Integer|Alamat Pengajar|
-|Jenis Kelamain|Varchar|Jenis kelamin pengajar|
+|Jenis Kelamin|Varchar|Jenis kelamin pengajar|
 |Nomor Hp|Interger|No HP pengajar|
-|Password|Varchar|Password pengajar|
-|Email|Varchar|Email Pengajar|
+|Password|Varchar|Password login pengajar|
+|Status|Varchar|Status aktif/tidak|
+|Id_mapel|Integer|1. Foreign Key<br> 2. Nomor auto increment mata pelajaran|
 
-<b>Jadwal Pelajaran</b>
-
-|Data Item| Type | Deskripsi |
-|--|--|--|
-|Id_Jadwal Mapel|integer|nomor auto increment Jadwal Mapel|
-|Nama Mapel|varchar|Nama mata pelajaran|
-
-<b>Detail Jadwal Pelajaran</b>
+<b>Mata Pelajaran</b>
 
 |Data Item| Type | Deskripsi |
 |--|--|--|
-|Id_Detail_Jadwal Mapel|integer|nomor auto increment Detail Jadwal Mapel|
+|Id_Mapel|integer|1. Primary Key <br> 2. Nomor auto increment Mata Pelajaran|
 |Nama Mapel|varchar|Nama mata pelajaran|
-|Id_Matpel|integer|nomor auto increment mata pelajaran|
-|Id_Pengajar|integer|nomor auto increment pengajar|
+
+<b>Detail Mata Pelajaran</b>
+
+|Data Item| Type | Deskripsi |
+|--|--|--|
+|Id_Detail_Mapel|integer|1. Primary Key <br> 2. Nomor auto increment detail mata pelajaran|
+|Id_Matpel|integer |1. Foreign Key <br> 2. Nomor auto increment mata pelajaran|
+|Id_Kelas|integer|1. Foreign Key <br> 2. Nomor auto increment kelas|
+|Id_Pengajar|integer|1. Foreign Key <br> 2. Nomor auto increment pengajar|
+|Nama Mapel|varchar|Nama mata pelajaran|
 |Tanggal|Date|Tanggal jadwal pelajaran|
 |Hari|varchar|Hari jadwal pelajaran|
 
@@ -511,48 +500,50 @@ __2.4. Logika Struktur Data__
 
 |Data Item| Type | Deskripsi |
 |--|--|--|
-|Id_siswa|integer|nomor auto increment siwa|
-|NIS|integer|Nomor Induk Siswa|
-|Email|varchar|Email siswa|
-|Jenis kelamin|varchar|Jenis kelamin siswa|
-|Alamat|varchar|Alamat siswa|
-|Password|varchar|Password siswa|
+|Id_siswa|integer|1. Primary key <br> 2. Nomor auto increment siwa|
 |Nama|varchar|Nama siswa|
+|Alamat|varchar|Alamat siswa|
+|NIS|integer|Nomor Induk Siswa|
+|Nomor_Handphone|integer|Nomor handphone siswa|
+|Jenis kelamin|varchar|Jenis kelamin siswa|
+|Status|varchar|Status aktif/tidak|
+|Password|varchar|Password login siswa|
+|Id_Kelas|integer|1. Foreign Key <br> 2. Nomor auto increment kelas|
+
 
 <b>Orang Tua</b>
 
 |Data Item| Type | Deskripsi |
 |--|--|--|
-|Id_siswa|integer|nomor auto increment siswa|
-|Id_orang tua|integer|nomor auto increment orang tua|
+|Id_orang tua|integer|1. Primary key <br> 2. Nomor auto increment orang tua|
+|Nama Orang tua|varchar|Nama orang tua|
 |NIK|integer|Nomor induk kependudukan|
 |Alamat|varchar|alamat orang tua|
-|Jabatan|varchar|jabatan orang tua|
-|Email|varchar|Email orang tua|
-|Password|varchar|Password orang tua|
-|Nama Orang tua|varchar|Nama orang tua|
+|Password|varchar|Password login orang tua|
+|Id_siswa|integer|1. Foreign key <br> 2. Nomor auto increment siswa|
 
 <b>Kelas</b>
 
 |Data Item| Type | Deskripsi |
 |--|--|--|
-|Id_kelas|integer|nomor auto increment kelas|
+|Id_kelas|integer|1. Primary key <br> 2. Nomor auto increment kelas|
+|Id_mapel|integer|1. Foreign key <br> 2. Nomor auto increment mata pelajaran|
 |Nama kelas|varchar|Nama kelas|
 
 <b>Jadwal Try Out</b>
 
 |Data Item| Type | Deskripsi |
 |--|--|--|
-|Id_jadwal_TO|integer|nomor auto increment jadwal_to|
+|Id_jadwal_TO|integer|1. Primary Key <br> 2. Nomor auto increment jadwal_to|
 |Tahun_Ajaran|integer|Tahun ajaran try out|
 
 <b>Detail Jadwal Try Out</b>
 
 |Data Item| Type | Deskripsi |
 |--|--|--|
-|Id_Detail_jadwal_TO|integer|nomor auto increment detail_jadwal_to|
-|Id_jadwal_TO|integer|nomor auto increment jadwal_to|
-|Id_Matpel|integer|nomor auto increment matpel
+|Id_Detail_jadwal_TO|integer|1. Primary Key <br> 2. Nomor auto increment detail_jadwal_to|
+|Id_jadwal_TO|integer|1. Foreign Key <br> 2. Nomor auto increment jadwal_to|
+|Id_Matpel|integer|1. Foreign Key <br> 2. Nomor auto increment matpel
 |Tanggal|date|Tanggal try out|
 |Hari|varchar|Hari try out|
 
@@ -560,21 +551,44 @@ __2.4. Logika Struktur Data__
 
 |Data Item| Type | Deskripsi |
 |--|--|--|
-|Id_Absensi|integer|nomor auto increment absensi|
-|Id_Matpel|integer|nomor auto increment mata pelajaran|
-|Id_Siswa|integer|nomor auto increment siswa|
-|Id_Pengajar|integer|nomor auto increment pengajar|
-|Id_Kelas|integer|nomor auto increment kelas|
+|Id_Absensi|integer|1. Primary Key <br> 2. Nomor auto increment absensi|
+|Id_Matpel|integer|1. Foreign Key <br> 2. Nomor auto increment mata pelajaran|
+|Id_Siswa|integer|1. Foreign Key <br> 2. Nomor auto increment siswa|
+|Id_Pengajar|integer|1. Foreign Key <br> 2. Nomor auto increment pengajar|
+|Id_Kelas|integer|1. Foreign Key <br> 2. Nomor auto increment kelas|
 
 <b>Nilai</b>
 
 |Data Item| Type | Deskripsi |
 |--|--|--|
-|Id_Nilai|integer|nomor auto increment nilai|
-|Id_Matpel|integer|nomor auto increment mata pelajaran|
-|Id_Siswa|integer|nomor auto increment siswa|
-|Id_Pengajar|integer|nomor auto increment pengajar|
-|Id_Kelas|integer|nomor auto increment kelas|
+|Id_Nilai|integer|1. Primary Key <br> 2.Nomor auto increment nilai|
+|Id_Matpel|integer|1. Foreign Key <br> 2. Nomor auto increment mata pelajaran|
+|Id_Siswa|integer|1. Foreign Key <br> 2. Nomor auto increment siswa|
+|Id_Pengajar|integer|1. Foreign Key <br> 2. Nomor auto increment pengajar|
+|Id_Kelas|integer|1. Foreign Key <br> 2. Nomor auto increment kelas|
+
+<b>Bimbingan</b>
+
+|Data Item| Type | Deskripsi |
+|--|--|--|
+|Id_Bimbingan|integer|1. Primary Key <br> 2. Nomor auto increment bimbingan|
+|Id_Pengajar|integer|1. Foreign Key <br> 2. Nomor auto increment pengajar|
+|Id_Siswa|integer|1. Foreign Key <br> 2. Nomor auto increment siswa|
+|Tanggal|date|Tanggal bimbingan|
+|Chat|text| Chat bimbingan|
+
+<b>Users</b>
+
+|Data Item| Type | Deskripsi |
+|--|--|--|
+|Id_users|integer|1. Primary Key <br> 2. Nomor auto increment users|
+|Username|varchar|Username yang akan digunakan pada saat login akun|
+|Password|varchar|Password yang akan digunakan pada saat login akun|
+|Level|enum|Level ini digunakan untuk mengetahui level tertinggi user akun|
+|Id_siswa|integer|1. Foreign Key <br> 2. Nomor auto increment siswa|
+|Id_pengajar|integer|1. Foreign Key <br> 2. Nomor auto increment pengajar|
+|Id_Orang_Tua|integer|1. Foreign Key <br> 2. Nomor auto increment orang tua|
+
 
 __2.5. Karakteristik pengguna__
 
