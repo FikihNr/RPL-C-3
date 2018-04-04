@@ -201,7 +201,7 @@ Dokumentasi perangkat lunak yang digunakan berdasarkan standar internasional IEE
 
 Kami membutuhkan technical support di bagian desain project sebanyak 1 orang. Kami membutuhkan technical support di bagian coding program sebanyak 2 orang. Kami membutuhkan specialist di bagian database sebanyak 2 orang.
 
-#Bab V 
+# Bab V #
 ### Paket Kerja, jadwal, Anggaran
 
 #### 5.1 Paket pekerjaan

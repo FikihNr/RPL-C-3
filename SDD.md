@@ -322,13 +322,6 @@ prototype belum jadi
 
 ##### 3.3.2.2 Spesifikasi Layar Utama
 
-prototype belum jadi
-
-##### 3.3.2.3 Spesifikasi Query
-
-|ID Query| Deskripsi| Ekspresi Query|
-|--------|----------|---------------|
-
 ##### 3.3.2.3 Spesifikasi Query
 
 |ID Query| Deskripsi| Ekspresi Query|
@@ -350,12 +343,11 @@ prototype belum jadi
 |QUE-19 | Mengubah Data Tentor | Upadte data_pengajar set... |
 |QUE-20 | Menampilkan Data siswa | select * from data_siswa |
 
+##### 3.3.2.4 Spesifikasi Field Data Layar
 
 
+##### 3.3.2.5 Spesifikasi Objek - Objek Pada Layar
 
+##### 3.3.2.6 Spesifikasi Proses/Algoritma
 
-
-
-
-
-
+#### Matriks Keturunan

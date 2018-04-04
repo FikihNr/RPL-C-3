@@ -240,7 +240,7 @@ __2.1.4	Antarmuka perangkat lunak__
 
 1. Sistem Operasi (Windows 7 or Higher)
 2. Bahasa Pemograman (HTML, PHP, JavaScript)
-3. Software Pengolah (--)
+3. Software Pengolah
 4. Database Enginee (MySQL/SQL)
 5. Software Pendukung (Framework CodeIgniter)
 
@@ -258,6 +258,24 @@ Web Sistem Informasi Bimbingan Belajar bisa jalankan di Windows (XP,vista,7,8,se
 |----|---------|--------|
 | 1  | Login | Digunakan untuk masuk akses aplikasi | 
 | 2  | Mulai | Digunakan untuk memulai operasi |
+| 3  | Tutup | Digunakan untuk menghapus aktivitas |
+| 4  | Hapus | Digunakan untuk menghapus data yang ingin dihapus |
+| 5  | Edit | Digunakan untuk mengedit data yang ingin di edit |
+| 6  | Simpan | Digunakan untuk menyimpan data yang ingin disimpan |
+| 7  | Tambah Pelajar | Digunakan untuk menambah pelajar |
+| 8  | Tambah Tentor | Digunakan untuk menambah tentor |
+| 9  | Tambah Orangtua | Digunakan untuk menambah orangtua |
+| 10 | Tambah Mata Pelajaran | Digunakan untuk menambah mata pelajaran |
+| 11 | Tambah Jadwal Try Out | Digunakan untuk menambah jadwal try out |
+| 12 | Tambah Kelas | Digunakan untuk menambah data kelas |
+| 13 | Daftar Pelajar | Digunakan untuk mendaftar bagi pelajar |
+| 14 | Daftar Tentor | Digunakan untuk mendaftar bagi tentor |
+| 15 | Daftar Orangtua | Digunakan untuk mendaftar bagi orangtua | 
+| 16 | Detail | Digunakan untuk memberikan informasi detail tentang data |
+| 17 | Lihat jadwal Mata Pelajaran | Digunakan untuk melihat jadwal mata pelajaran |
+| 18 | Lihat jadwal Try Out | Digunakan untuk melihat jadwal try out | 
+| 19 | Lihat Nilai | Digunakan untuk melihat data nilai |
+| 20 | Lihat Absensi | Digunakan untuk melihat data absensi |  
 
 **2.1.8 Kebutuhan-kebutuhan dalam tahap adaptasi**
 
@@ -609,10 +627,3 @@ Kebutuhan Fungsional adalah kebutuhan yang harus dipenuhi agar suatu sistem dapa
 * Sistem harus dapat mempermudah pengguna / user dalam menggunkan aplikasi ini.
 
 ## 4.	Informasi pendukung
-
-
-
-
- 
-
-
