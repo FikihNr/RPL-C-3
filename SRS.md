@@ -86,6 +86,8 @@ __2.1.1	Antarmuka sistem__
 
 Dalam penggunaan, pengguna berinteraksi dengan sebuah aplikasi melalui browser pada HP, PC/Laptop. Aplikasi ini memiliki fungsi yang berbeda dari tiap-tiap usernya. Hal ini dimana user siswa dapat mengelola data pribadi, melihat hasil laporan absensi dan nilai, melakukan live chat dengan pengajar. User pengajar dapat mengelola data pribadi, memberikan hasil laporan absensi dan nilai siswanya, melakukan live chat dengan siswa. User Orang Tua dapat mengelola data pribadi, melihat hasil laporan absensi dan nilai anaknya selama mengikuti bimbingan belajar. Admin sendiri dapat melakukan pengolahan Data user dan pengolahan informasi.
 
+![](http://i68.tinypic.com/f0dd6s.jpg)
+
 __2.1.2	Antarmuka pengguna__
 
 __Add Jadwal Mapel__
@@ -459,7 +461,227 @@ Bahasa	|Menggunakan bahasa Indonesia, kecuali ada penambahan
 Komunikasi|	Fasilitas untuk menggunakan bahasa lain selain bahasa Indonesia
 Halaman Utama|	Halaman utama harus menampilkan logo dari perusahaan yang bersangkutan
 
-__2.4. Logika Struktur Data__
+
+__2.4. Karakteristik pengguna__
+
+Dalam website SIMBEL ini. Terdapat empat user berdasarkan (privilege) dalam system, antara lain :
+
+__1. Administrator__
+
+* Memiliki hak penuh terhadap system, mampu merubah isi system.
+* Memiliki hak akses secara langsung pada database system.
+* User ini ada untuk melakukan maintenance terhadap system (jika diperlukan dan keadaan darurat).
+
+__2.Pengajar (Tentor)__
+
+* Memberikan pengajaran terhadap pelajar (siswa) setelah melakukan keikut sertaan dalam kerja sama.
+* Memberikan laporan data penilaian dan absensi yang dapat diinformasikan kepada user melalui SIMBEL.
+* Menjawab konsultasi bimbingan yang diberikan oleh pelajar (tenor).
+* Tidak memiliki hak penuh terhadap system dan database secara langsung.
+
+__3.Pelajar (Siswa)__
+
+* Haknya sangat terbatas, user ini hanya diizinkan untuk melihat nilai, mata pelajaran, jadwal try out, sarana dan prasarana dan data absensi yang di berikan oleh pengajar (tenor) melalui SIMBEL.
+* Memberikan konsultasi bimbingan kepada pengajar (tenor).
+* Tidak memiliki hak akses apapun.
+
+__4.Orang Tua__
+ 
+* Haknya sangat terbatas, eser ini hanya diizinkan melihat nilai, mata pelajaran, jadwal try out, sarana dan prasarana dan data absensi yang di berikan oleh pengajar (tenor) melalui SIMBEL.
+* Tidak memiliki hak akses apapun.
+
+__2.5.  Batasan – Batasan__
+
+1. Perangkat lunak hanya bisa di akses ketika terhubung dengan internet.
+
+2. Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan.
+
+3. Pengembangan perangkat lunak tidak akan merubah file - file ataupun database yang ada.
+
+__2.6. Asumsi - asumsi dan ketergantungan/keterkaitan__
+
+Orang yang sudah login ketika webrowsernya di keluar maka anda di minta untuk login kembali.
+
+__2.7. Kebutuhan – kebutuhan penyeimbang__
+
+Website akan dijalankan di server dengan kecepatan akses internet yang tinggi. Kecepatan koneksi akan tergantung pada hardware dan karakteristik dari sistem.Website akan compatible dengan beberapa browser yang umum digunakan oleh customer,seperti Internet Explorer, Mozilla Firefox, Opera, Chrome, Safari dan Netscape. SIstem iniakan menggunakan internet security yang sama dengan yang digunakan di BPS.
+
+
+## 3.	Kebutuhan lain yang spesifik
+Kebutuhan Fungsional adalah kebutuhan yang harus dipenuhi agar suatu sistem dapat berjalan atau dapat dikatakan kebutuhan tambahan yang memiliki input, proses, dan output. Kebutuhan fungsional yang harus ada dalam sistem yang akan dikembangkan ini adalah sebagai berikut:
+
+* Sistem harus dapat mempermudah pengguna / user dalam menggunkan aplikasi ini.
+
+__3.1. Persyaratan Antar Muka Eksternal__
+
+Salah satu syarat untuk dapat mengakses website ini adalah dengan menjadi siswa - siswi bimbel, pendaftaran melalui admin bimbel tersebut. Login menggunakan username dan password masing - masing user. Kemudian Sistem akan mencocokkan username dan password dengan NISN atan NIK dari user untuk sinkronisasi data pada database. Setelah berhasil login masing-masing user dapat melakukan presensi.
+
+__3.2. Fungsional Requirement__
+
+Logika Struktur terdapat pada bagian 3.3.1
+
+**3.2.1 Login**
+
+
+|--|--|
+| Nama fungsi  |Login  |
+|Ref|Bag 2.2, Login | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
+|Precondition|Login untuk Pelajar, Pengajar, Orang tua dan Admin|
+|Basic Path|1. User sudah terdaftar dan jika sudah terdaftar maka bisa langsung menggunakan aplikasi yang menampilkan Dashboard sebagai halaman utamanya <br>2. Sistem menampilkan halaman login user yang terdiri dari kolom username, kolom password dan kolom captcha. <br>3. User memasukkan username, password, dan captcha. <br>4. Sistem menampilkan halaman utama. |
+|Alternative|Tidak Ada|
+|Post Condition|User dapat melihat Halaman utama web dan dapat mengakses fungsi lainnya |
+|Exception Push	|1. Tidak ada Koneksi <br> 2. user belum mendaftar|
+
+**3.2.2 Melihat Laporan Nilai dan Absensi**
+
+|--|--|
+| Nama fungsi  |Melihat Laporan Nilai dan Absensi |
+|Ref|Bag 2.2, Melihat Laporan Nilai dan Absensi| 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
+|Precondition|Menampilkan Data Laporan dan Nilai|
+|Basic Path|1. Orang Tua Login ke dalam Sistem <br>2. Orang tua Melihat Laporan Nilai dan Absensi <br>3.Sistem menampilkan Laporan Nilai dan Absensi|
+|Alternative|Tidak Ada|
+|Post Condition|Orang Tua dapat Melihat Laporan Nilai dan Absensi |
+|Exception Push	|1. Tidak ada Koneksi |
+
+**3.2.3 Melihat Data Mata Pelajaran**
+
+|--|--|
+| Nama fungsi  |Melihat Data Mata Pelajaran  |
+|Ref|Bag 2.2, Melihat Data Mata Pelajaran | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
+|Precondition|Menampilkan Data Mata Pelajaran |
+|Basic Path|1. User Login ke dalam Sistem <br>2. User Melihat Data Mata Pelajaran <br>3.Sistem menampilkan Data Mata Pelajaran|
+|Alternative|Tidak Ada|
+|Post Condition|User dapat Melihat Laporan Nilai dan Absensi |
+|Exception Push	|1. Tidak ada Koneksi |
+
+**3.2.4 CRUD Nilai dan Absensi**
+
+|--|--|
+| Nama fungsi  |CRUD Nilai dan Absensi  |
+|Ref|Bag 2.2, CRUD Nilai dan Absensi | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
+|Precondition|Menampilkan CRUD Nilai dan Absensi |
+|Basic Path|1. User Login ke dalam Sistem <br>2. Admin CRUD Nilai dan Absensi <br>3.Sistem menampilkan nilai dan absensi|
+|Alternative|Tidak Ada|
+|Post Condition|User dapat Melihat Laporan Nilai dan Absensi |
+|Exception Push	|1. Tidak ada Koneksi |
+
+**3.2.5 Melihat Data Kelas**
+
+|--|--|
+| Nama fungsi  |Melihat Data Kelas  |
+|Ref|Bag 2.2, Melihat Data Kelas | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
+|Precondition|Menampilkan Data Kelas |
+|Basic Path|1. User Login ke dalam Sistem <br>2. User Melihat Data Kelas <br>3.Sistem menampilkan Data Kelas|
+|Alternative|Tidak Ada|
+|Post Condition|User dapat Melihat Laporan Data Kelas |
+|Exception Push	|1. Tidak ada Koneksi |
+
+**3.2.6 Melihat Jadwal Try Out**
+
+|--|--|
+| Nama fungsi  |Melihat Jadwal Try Out  |
+|Ref|Bag 2.2, Melihat Jadwal Try Out | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
+|Precondition|Menampilkan Jadwal Try Out |
+|Basic Path|1. User Login ke dalam Sistem <br>2. User Melihat Jadwal Try Out <br>3.Sistem menampilkan Jadwal Try Out|
+|Alternative|Tidak Ada|
+|Post Condition|User dapat Melihat Jadwal Try Out |
+|Exception Push	|1. Tidak ada Koneksi |
+
+**3.2.7 Melihat Data Jadwal Mata Pelajaran**
+
+|--|--|
+| Nama fungsi  |Melihat Data Jadwal Mata Pelajaran  |
+|Ref|Bag 2.2, Melihat Data Jadwal Mata Pelajaran | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
+|Precondition|Menampilkan Data Jadwal Mata Pelajaran |
+|Basic Path|1. User Login ke dalam Sistem <br>2. User Melihat Data Jadwal Mata Pelajaran <br>3.Sistem menampilkan Data Jadwal Mata Pelajaran|
+|Alternative|Tidak Ada|
+|Post Condition|User dapat Melihat Data Jadwal Mata Pelajaran |
+|Exception Push	|1. Tidak ada Koneksi |
+
+**3.2.8 Melakukan Bimbingan**
+
+|--|--|
+| Nama fungsi  |Melakukan Bimbingan  |
+|Ref|Bag 2.2, Melakukan Bimbingan | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
+|Precondition|Menampilkan Data Bimbingan|
+|Basic Path|1. User Login ke dalam Sistem <br>2. User Melakukan Bimbingan <br>3.Sistem menampilkan Data Bimbingan|
+|Alternative|Tidak Ada|
+|Post Condition|User dapat Melakukan Bimbingan Dan Melihat Data Bimbingan|
+|Exception Push	|1. Tidak ada Koneksi |
+
+**3.2.9 CRUD Data Pelajaran**
+
+|--|--|
+| Nama fungsi  |CRUD Data Pengajar  |
+|Ref|Bag 2.2, CRUD Data Pengajar | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
+|Precondition|Menampilkan CRUD Data Pengajar|
+|Basic Path|1. User Login ke dalam Sistem <br>2. Admin Melakukan CRUD Data Pengajar <br>3.Sistem menampilkan CRUD Data Pengajar|
+|Alternative|Tidak Ada|
+|Post Condition|Admin dapat Melakukan CRUD Data Pengajar|
+|Exception Push	|1. Tidak ada Koneksi |
+
+**3.2.10 CRUD Data Pelajar**
+
+|--|--|
+| Nama fungsi  |CRUD Data Pelajar  |
+|Ref|Bag 2.2, CRUD Data Pelajar | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
+|Precondition|Menampilkan CRUD Data Pelajar|
+|Basic Path|1. User Login ke dalam Sistem <br>2. Admin Melakukan CRUD Data Pelajar <br>3.Sistem menampilkan CRUD Data Pelajar|
+|Alternative|Tidak Ada|
+|Post Condition|Admin dapat Melakukan CRUD Data Pelajar|
+|Exception Push	|1. Tidak ada Koneksi |
+
+**3.2.11 CRUD Data Jadwal Try Out**
+
+|--|--|
+| Nama fungsi  |CRUD Data Jadwal Try Out |
+|Ref|Bag 2.2, CRUD Data Jadwal Try Out | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
+|Precondition|Menampilkan CRUD Data Jadwal Try Out|
+|Basic Path|1. User Login ke dalam Sistem <br>2. Admin Melakukan CRUD Data Jadwal Try Out <br>3.Sistem menampilkan CRUD Data Jadwal Try Out|
+|Alternative|Tidak Ada|
+|Post Condition|Admin dapat Melakukan CRUD Data Jadwal Try Out|
+|Exception Push	|1. Tidak ada Koneksi |
+
+**3.2.12 Melihat Data Aspek Penilaian**
+
+|--|--|
+| Nama fungsi  |Melihat Data Aspek Penilaian  |
+|Ref|Bag 2.2, Melihat Data Aspek Penilaian | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
+|Precondition|Menampilkan Data Aspek Penilaian|
+|Basic Path|1. User Login ke dalam Sistem <br>2.Admin Melakukan Data Aspek Penilaian<br>3.Sistem menampilkan Data Aspek Penilaian|
+|Alternative|Tidak Ada|
+|Post Condition|Admin dapat Melakukan Data Aspek Penilaian|
+|Exception Push	|1. Tidak ada Koneksi |
+
+**3.2.13 Melihat Laporan Nilai Dan Absensi**
+
+|--|--|
+| Nama fungsi  |Melihat Laporan Nilai Dan Absensi |
+|Ref|Bag 2.2,Melihat Laporan Nilai Dan Absensi | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar|
+|Precondition|Menampilkan Laporan Nilai Dan Absensi|
+|Basic Path|1. User Login ke dalam Sistem <br>2.Admin Melakukan Data Laporan Nilai Dan Absensi<br>3.Sistem menampilkan Data Laporan Nilai Dan Absensi|
+|Alternative|Tidak Ada|
+|Post Condition|Admin dapat Melakukan Data Laporan Nilai Dan Absensi|
+|Exception Push	|1. Tidak ada Koneksi |
+
+##3.3 Struktur Detail Kebutuhan Non - Fungsional
+
+__3.3.1. Logika Struktur Data__
+
+Struktur data logika pada sistem akademik bimbingan belajar menggunakan website terdapat struktur Database yang dijelaskan menggunakan ERD.
 
 ![](http://i67.tinypic.com/vijw9x.png)
 
@@ -589,55 +811,3 @@ __2.4. Logika Struktur Data__
 |Id_pengajar|integer|1. Foreign Key <br> 2. Nomor auto increment pengajar|
 |Id_Orang_Tua|integer|1. Foreign Key <br> 2. Nomor auto increment orang tua|
 
-
-__2.5. Karakteristik pengguna__
-
-Dalam website SIMBEL ini. Terdapat empat user berdasarkan (privilege) dalam system, antara lain :
-
-__1. Administrator__
-
-* Memiliki hak penuh terhadap system, mampu merubah isi system.
-* Memiliki hak akses secara langsung pada database system.
-* User ini ada untuk melakukan maintenance terhadap system (jika diperlukan dan keadaan darurat).
-
-__2.Pengajar (Tentor)__
-
-* Memberikan pengajaran terhadap pelajar (siswa) setelah melakukan keikut sertaan dalam kerja sama.
-* Memberikan laporan data penilaian dan absensi yang dapat diinformasikan kepada user melalui SIMBEL.
-* Menjawab konsultasi bimbingan yang diberikan oleh pelajar (tenor).
-* Tidak memiliki hak penuh terhadap system dan database secara langsung.
-
-__3.Pelajar (Siswa)__
-
-* Haknya sangat terbatas, user ini hanya diizinkan untuk melihat nilai, mata pelajaran, jadwal try out, sarana dan prasarana dan data absensi yang di berikan oleh pengajar (tenor) melalui SIMBEL.
-* Memberikan konsultasi bimbingan kepada pengajar (tenor).
-* Tidak memiliki hak akses apapun.
-
-__4.Orang Tua__
- 
-* Haknya sangat terbatas, eser ini hanya diizinkan melihat nilai, mata pelajaran, jadwal try out, sarana dan prasarana dan data absensi yang di berikan oleh pengajar (tenor) melalui SIMBEL.
-* Tidak memiliki hak akses apapun.
-
-__2.6.  Batasan – Batasan__
-
-1. Perangkat lunak hanya bisa di akses ketika terhubung dengan internet.
-
-2. Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan.
-
-3. Pengembangan perangkat lunak tidak akan merubah file - file ataupun database yang ada.
-
-__2.7. Asumsi - asumsi dan ketergantungan/keterkaitan__
-
-Orang yang sudah login ketika webrowsernya di keluar maka anda di minta untuk login kembali.
-
-__2.8. Kebutuhan – kebutuhan penyeimbang__
-
-Website akan dijalankan di server dengan kecepatan akses internet yang tinggi. Kecepatan koneksi akan tergantung pada hardware dan karakteristik dari sistem.Website akan compatible dengan beberapa browser yang umum digunakan oleh customer,seperti Internet Explorer, Mozilla Firefox, Opera, Chrome, Safari dan Netscape. SIstem iniakan menggunakan internet security yang sama dengan yang digunakan di BPS.
-
-
-## 3.	Kebutuhan lain yang spesifik
-Kebutuhan Fungsional adalah kebutuhan yang harus dipenuhi agar suatu sistem dapat berjalan atau dapat dikatakan kebutuhan tambahan yang memiliki input, proses, dan output. Kebutuhan fungsional yang harus ada dalam sistem yang akan dikembangkan ini adalah sebagai berikut:
-
-* Sistem harus dapat mempermudah pengguna / user dalam menggunkan aplikasi ini.
-
-## 4.	Informasi pendukung
