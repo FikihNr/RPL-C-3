@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 	 <html>
+=======
+ <html>
+>>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
 <body>
 <div align="center"><h1>Software Design Document</h1></div>
 
@@ -308,8 +312,12 @@ Setiap modul pada rancangan global, dirinci satu per satu
 
 ##### 3.3.1.2 Spesifikasi Layar Utama
 
+<<<<<<< HEAD
 
 ![](http://i64.tinypic.com/314yqh3.png)
+=======
+prototype belum jadi
+>>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
 
 ##### 3.3.1.3 Spesifikasi Query
 
@@ -320,6 +328,7 @@ Setiap modul pada rancangan global, dirinci satu per satu
 |QUE-03 | Masuk sebagai Pengajar | Select * From users where level = 'pengajar' |
 |QUE-04 | Masuk sebagai Orang Tua | Select * From users where level = 'ortu' |
 
+<<<<<<< HEAD
 ##### 3.3.1.4 Spesifikasi Field Pada Data Layar <br>
 
 |Label | Field | Tabel/Query | Validasi| Keterangan|
@@ -359,20 +368,36 @@ Event : Login
 
 
 #### 3.3.2 Input Data Pelajar
+=======
+#### 3.3.2 Dashboard Admin
+>>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
 
 ##### 3.3.2.1 Fungsi Modul
 
 |No | Fungsi | Jenis | Tabel Terkait |
 |---|--------|-------|---------------|
+<<<<<<< HEAD
 |1 | Input Data Pelajar | From Entry Tabular | siswa |
 
 ##### 3.3.2.2 Spesifikasi Layar Utama
 ![](http://i67.tinypic.com/11t98wm.png)
+=======
+|1 | CRUD Data Siswa | From Entry Tabular | Data Siswa |
+|2 | CRUD Data Tentor | Form Entry Tabular | Data pengajar |
+|3 | CRUD Jadwal Pelajaran | From Entry Tabular | Jadwal Mapel |
+|4 | CRUD Data Kelas | Form Entry Tabular | Data Kelas |
+|5 | Melihat Data Aspek Penilaian | Report Tabular | Data Nilai |
+|6 | Melihat Data Laporan Absensi | Report Tabular | Data Absensi |
+|7 | Melihat Data Laporan Nilai  | Report Tabular | Data Nilai |
+
+##### 3.3.2.2 Spesifikasi Layar Utama
+>>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
 
 ##### 3.3.2.3 Spesifikasi Query
 
 |ID Query| Deskripsi| Ekspresi Query|
 |--------|----------|---------------|
+<<<<<<< HEAD
 |QUE-05 | Input data Pelajar | insert into siswa values (id_siswa, NIS, 'nama','username','password','jenis_kelamin','alamat') |
 
 
@@ -420,5 +445,30 @@ Event : Input Data Pelajar
 
 
 
+=======
+|QUE-05 | Memasukkan Data Siswa | insert into data_siswa values.. |
+|QUE-06 | Mengubah Data Siswa | update data_siswa set... |
+|QUE-07 | Menampilkan Data Orang tua | select * from data_orangtua|
+|QUE-08 | Memasukkan Data Orang Tua | insert into data_orangtua values.. |
+|QUE-09 | Mengubah Data Orang Tua | Update data_orangtua set.. |
+|QUE-10 | Menampilkan Data Kelas | select * from data_kelas |
+|QUE-11 | Memasukkan Data Kelas | insert into data_kelas values.. |
+|QUE-12 | Mengubah Data Kelas | update data_kelas set.. |
+|QUE-13 | Menampilkan Jadwal | select * from jadwal_mapel |
+|QUE-14 | Memasukkan Jadwal | insert into jadwal_mapel values.. |
+|QUE-15 | Mengubah Jadwal | update jadwal_mapel set.. |
+|QUE-16 | Menampilkan Laporan Nilai | Select * from data_absensi where id_siswa = 'id_siswa' |
+|QUE-17 | Menampilkan Data Tentor | Select * From data_pengajar |
+|QUE-18 | Memasukkan Data Tentor  | insert into data_pengajar values.. |
+|QUE-19 | Mengubah Data Tentor | Upadte data_pengajar set... |
+|QUE-20 | Menampilkan Data siswa | select * from data_siswa |
+
+##### 3.3.2.4 Spesifikasi Field Data Layar
+
+
+##### 3.3.2.5 Spesifikasi Objek - Objek Pada Layar
+
+##### 3.3.2.6 Spesifikasi Proses/Algoritma
+>>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
 
 #### 3.4 Matriks Keturunan
