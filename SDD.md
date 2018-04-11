@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+	 <html>
+=======
+ <html>
+>>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
+>>>>>>> 6bc4f77ceef68c2672152f17f99442175b98ed9e
+>>>>>>> 03418aad4d98f75adcdec2fa5b162ddde1e1708a
 <body>
 <div align="center"><h1>Software Design Document</h1></div>
 
