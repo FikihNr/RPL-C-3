@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-	 <html>
-=======
- <html>
->>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
->>>>>>> 6bc4f77ceef68c2672152f17f99442175b98ed9e
 <body>
 <div align="center"><h1>Software Design Document</h1></div>
 
@@ -199,34 +191,34 @@ DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2
 
 * Data User Siswa, Pengajar dan Orang Tua
 
-| No. |  Data	| Keterangan	  |
+| No. | Data | Keterangan |
 |-----|-----|-----|
-| 1	| NIS	| Digunakan untuk login siswa |
-| 2	| NIP |Digunakan untuk login pelajar	
-| 3	| NIK|Digunakan untuk login orang tua |
+|  1  | NIS	| Digunakan untuk login siswa |
+|  2  | NIP | Digunakan untuk login pelajar |	
+|  3  | NIK | Digunakan untuk login orang tua |
 
 * Data Siswa
 
-| No. |  Data	| Keterangan	  |
-|-----|-----|-----|
-| 1	| id_siswa| primary key 
-| 2	| Nama |Nama siswa	
-| 3	| NIS| Nomor Induk siswa|
-|4| id_kelas|	kelas |
-|5| Alamat| Alamat rumah siswa	|
-|6|No_hp| Nomor handpone siswa	|
-|7|Status | Status siswa (Aktif/Tidak)
+| No. | Data | Keterangan |
+|-----|------|-----|
+|  1  | id_siswa | primary key |
+|  2  | Nama | Nama siswa |
+|  3  | NIS | Nomor Induk siswa |
+|  4  | id_kelas |	kelas |
+|  5  | Alamat | Alamat rumah siswa	|
+|  6  | No_hp | Nomor handpone siswa	|
+|  7  | Status | Status siswa (Aktif/Tidak) |
 
 * Data Pengajar
 
-| No. |  Data	| Keterangan	  |
-|-----|-----|-----|
-| 1	| id_pengajar| primary key 
-| 2	| Nama |Nama pengajar	
-| 3	| NIP| Nomor Induk Pegawai|
-|4| Alamat| Alamat rumah pengajar	|
-|5|No_hp| Nomor handpone pengajar 
-|6|Status | Status pengajar (Aktif/Tidak)
+| No | Data | Keterangan |
+|----|-----|-----|
+| 1	 | id_pengajar | primary key |
+| 2	 | Nama |Nama pengajar |	
+| 3	 | NIP| Nomor Induk Pegawai |
+| 4  | Alamat| Alamat rumah pengajar |
+| 5  |No_hp| Nomor handpone pengajar | 
+| 6  |Status | Status pengajar (Aktif/Tidak) |
 
 * Data Orang Tua
 
@@ -315,12 +307,9 @@ Setiap modul pada rancangan global, dirinci satu per satu
 
 ##### 3.3.1.2 Spesifikasi Layar Utama
 
-<<<<<<< HEAD
-
 ![](http://i64.tinypic.com/314yqh3.png)
-=======
+
 prototype belum jadi
->>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
 
 ##### 3.3.1.3 Spesifikasi Query
 
@@ -331,7 +320,6 @@ prototype belum jadi
 |QUE-03 | Masuk sebagai Pengajar | Select * From users where level = 'pengajar' |
 |QUE-04 | Masuk sebagai Orang Tua | Select * From users where level = 'ortu' |
 
-<<<<<<< HEAD
 ##### 3.3.1.4 Spesifikasi Field Pada Data Layar <br>
 
 |Label | Field | Tabel/Query | Validasi| Keterangan|
@@ -371,20 +359,18 @@ Event : Login
 
 
 #### 3.3.2 Input Data Pelajar
-=======
+
 #### 3.3.2 Dashboard Admin
->>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
 
 ##### 3.3.2.1 Fungsi Modul
 
 |No | Fungsi | Jenis | Tabel Terkait |
 |---|--------|-------|---------------|
-<<<<<<< HEAD
 |1 | Input Data Pelajar | From Entry Tabular | siswa |
 
 ##### 3.3.2.2 Spesifikasi Layar Utama
 ![](http://i67.tinypic.com/11t98wm.png)
-=======
+|--|-----------------|--------------------|------------|
 |1 | CRUD Data Siswa | From Entry Tabular | Data Siswa |
 |2 | CRUD Data Tentor | Form Entry Tabular | Data pengajar |
 |3 | CRUD Jadwal Pelajaran | From Entry Tabular | Jadwal Mapel |
@@ -394,7 +380,6 @@ Event : Login
 |7 | Melihat Data Laporan Nilai  | Report Tabular | Data Nilai |
 
 ##### 3.3.2.2 Spesifikasi Layar Utama
->>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
 
 ##### 3.3.2.3 Spesifikasi Query
 
@@ -472,6 +457,5 @@ Event : Input Data Pelajar
 ##### 3.3.2.5 Spesifikasi Objek - Objek Pada Layar
 
 ##### 3.3.2.6 Spesifikasi Proses/Algoritma
->>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
 
 #### 3.4 Matriks Keturunan

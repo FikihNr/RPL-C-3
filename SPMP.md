@@ -122,6 +122,8 @@ Lingkup dan tanggung jawab ini berisi tugas dari setiap elemen anggota dalam pem
 
 #### 3.1 Tujuan dan Prioritas Manajemen
 
+Tujuan dari proyek ini adalah membangun sebuah Aplikasi Sistem Informasi Bimbingan Belajar berbasis website dengan menggunakan CodeIgniter Agar bisa dijalankan dan diimplementasikan dengan baik oleh mitra. Proyek ini sangat diprioritaskan karena bermanfaat untuk pengguna maupun Penyedia dalam pengelolahan nilai, absensi, lihat jadwal, konsultasi bimbingan dan meminimalisir penggunaan kertas maupun benda lainnya secara manual sehingga biaya yang dikeluarkan oleh mitra dapat dikurangi.
+
 #### 3.1.1 Prioritas Jadwal
 
 Prioritas jadwal yang dilakukan pada saat ini adalah membuat sebuah sistemyang akan dibuat seperti :dokumenprojek,jadwalkegiatan,strukturpembuatanprojekdan organisasi.
@@ -240,7 +242,7 @@ Dalam proses pengerjaan proyek yang kami buat ini, keterkaitan dalam tugas masin
 
 #### 5.3 Kebutuhan-kebutuhan sumber daya
 
-Untuk pembuatan aplikasi ini akan dikerjakan oleh 5 (lima) orang.
+Sumber daya yang di perlukan untuk pembuatan aplikasi ini terdiri dari 5 orang dengan divisi yang sudah di tentukan di atas. dan adanya kebutuhan-kebutuhan yang diperlukan sebagai berikut :
 
 ##### 5.3.1 Kebutuhan Sumber Daya Manusia
 
@@ -272,6 +274,7 @@ Untuk pembuatan aplikasi ini akan dikerjakan oleh 5 (lima) orang.
 | 1  | Laptop/PC |
 | 2  | Flashdisk/Hardisk | 
 | 3  | Mouse |
+| 4  | Keyboard |
 
 #### 5.4 Alokasi budget dan sumber daya
 
