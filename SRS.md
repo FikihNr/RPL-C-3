@@ -86,7 +86,7 @@ __2.1.1	Antarmuka sistem__
 
 Dalam penggunaan, pengguna berinteraksi dengan sebuah aplikasi melalui browser pada HP, PC/Laptop. Aplikasi ini memiliki fungsi yang berbeda dari tiap-tiap usernya. Hal ini dimana user siswa dapat mengelola data pribadi, melihat hasil laporan absensi dan nilai, melakukan live chat dengan pengajar. User pengajar dapat mengelola data pribadi, memberikan hasil laporan absensi dan nilai siswanya, melakukan live chat dengan siswa. User Orang Tua dapat mengelola data pribadi, melihat hasil laporan absensi dan nilai anaknya selama mengikuti bimbingan belajar. Admin sendiri dapat melakukan pengolahan Data user dan pengolahan informasi.
 
-![](http://i67.tinypic.com/2ebvfw4.jpg)
+![](http://i68.tinypic.com/10x83v7.jpg)
 
 __2.1.2 Antarmuka Pengguna__
 
@@ -97,7 +97,7 @@ __Deskripsi Modul User__
 <td><b>Halaman utama</b><br></td>
 </tr>
 <tr valign="top" align="center">
-<td><img src="https://3.bp.blogspot.com/-7vdnUNCMM8M/Ws1UfXfFalI/AAAAAAAAD_E/vdPf_xzVgzUWgN1FniiBlSDwkeXn7MJZQCLcBGAs/s1600/home1.jpg" height="350" width="500"><br><p align="justify">Halaman Utama adalah halaman yang pertama kali dilihat oleh user ketika membuka wesite tersebut. di situ terdapat menu bar yang berisi Home, About, Data, dan Login.
+<td><img src="https://3.bp.blogspot.com/-7vdnUNCMM8M/Ws1UfXfFalI/AAAAAAAAD_E/vdPf_xzVgzUWgN1FniiBlSDwkeXn7MJZQCLcBGAs/s1600/home1.jpg" height="350" width="500" /><br><p align="justify">Halaman Utama adalah halaman yang pertama kali dilihat oleh user ketika membuka wesite tersebut. di situ terdapat menu bar yang berisi Home, About, Data, dan Login.
 Kemudian dibawah menu bar terdapat slide image yang berisi dokumentasi kegiatan dari Ganesha Operation tersebut.
 Di bawah slide image terdapat ikon kalender, fasilitas, dan syarat untuk membuat akun. dan Sistem Informasi mengenai Ganesha Operation terletan dibawah icon.</p></td></tr></table>
 
@@ -107,48 +107,85 @@ Di bawah slide image terdapat ikon kalender, fasilitas, dan syarat untuk membuat
 <tr valign="top" align="center">
 <td><img src="https://4.bp.blogspot.com/-JJRlXuSCf8Y/WszsRfdCZBI/AAAAAAAAD-0/JLQ6CkSLdvElI5Ok2eDSOpAnqk2RrUxcACLcBGAs/s1600/44.jpg" width="500px" height="350px" /><br><p align="justify">
 Halaman About adalah halaman tentang Ganesha Operation tersebut yang berisi Visi, Misi, Tujuan, Denah Lokasi dan kontak Ganesha Operation.</p></td></tr></table>
-<td><img src="">
-jika user memilih data pada menu bar, maka terdapat pilihan jadwal Bimbel untuk melihat jadwal bimbel seluruh kelas, jadwal Try Out untuk melihat jadwal Try Out seluruh kelas, Data Pelajar untuk melihat pelajar yg mengikuti les di Ganesha Operation tersebut, Data Kelas untuk melihat data kelas pada Ganesha Operation dan Data Tentor untuk melihat siapa sajayang mengajar di ganesha Operation tersebut.</td>
 
-<b>Login</b><br/>
-jika user ingin mengakses ke dashbor maka harus Login terlebih dahulu. pada menu bar, maka terdapat pilihan Login sebagai pelajar, Orangtua/Wali dan Tentor. Di form login terdapat Forgot Password, coba captcha lain dan Register Id.
+<table border="1">
+<tr align="center">
+<td><b>Data</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-WnGkIMoxbAg/Ws2Gawj1sXI/AAAAAAAAECI/AYwaf5l0gmI3ASdmTGQRi--1iiiaxo_FACLcBGAs/s1600/MENUdata.jpg" height="350" width="500" /><br><p align="justify">
+jika user memilih data pada menu bar, maka terdapat pilihan jadwal Bimbel untuk melihat jadwal bimbel seluruh kelas, jadwal Try Out untuk melihat jadwal Try Out seluruh kelas, Data Pelajar untuk melihat pelajar yg mengikuti les di Ganesha Operation tersebut, Data Kelas untuk melihat data kelas pada Ganesha Operation dan Data Tentor untuk melihat siapa sajayang mengajar di ganesha Operation tersebut.</p></td></tr></table>
 
-![](http://i68.tinypic.com/2nbsim9.jpg)
+<table border="1">
+<tr align="center">
+<td><b>Login</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://4.bp.blogspot.com/-YLvsBVR15FE/Ws2HYBpLLGI/AAAAAAAAECU/NT6qT9hi0c4En8YSJ7YBab5XVHFCo8HswCLcBGAs/s1600/MENUlogin.jpg" height="350" width="500" /><br><p align="justify">
+jika user ingin mengakses ke dashbor maka harus Login terlebih dahulu. pada menu bar, maka terdapat pilihan Login sebagai pelajar, Orangtua/Wali dan Tentor. Di form login terdapat Forgot Password, coba captcha lain dan Register Id. </p></td></tr></table>
+
 
 __Deskripsi Modul Sistem__
 
-<b>Login Admin</b><br/>
-jika Admin ingin mengakses ke dashbor admin maka harus Login terlebih dahulu.Di form login terdapat Forgot Password, dan coba captcha lain.
+<table border="1">
+<tr align="center">
+<td><b>Login Admin</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://2.bp.blogspot.com/-cGyaVZPiE4k/Ws2IM4KILOI/AAAAAAAAECg/OJRVMbdmp7s7UywcBQXHZWjAm7uwrw6QwCLcBGAs/s1600/form%2Blogin%2BAdmin%2Bcopy.jpg" height="350" width="500" /><br><p align="justify">
+jika Admin ingin mengakses ke dashbor admin maka harus Login terlebih dahulu.Di form login terdapat Forgot Password, dan coba captcha lain. </p></td></tr></table>
 
-![](http://i68.tinypic.com/2rc4wvr.jpg)
+<table border="1">
+<tr align="center">
+<td><b>Login User</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-Bva-KWdAguU/Ws2I_5j2J8I/AAAAAAAAECs/dHcZHX-i6D41Vw175LTmDDEs8V_sScD3gCLcBGAs/s1600/menu+add+user.jpg" height="350" width="500" /><br><br><p align="justify">
+admin dapat memilih add user di menu navigation yang ada di samping. </p></td></tr><br><br>
 
-<b>Add User</b><br/>
-admin dapat memilih add user di menu navigation yang ada di samping. 
+<tr align="center">
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://2.bp.blogspot.com/-2wPvbiAMG-8/Ws2KLYR8ZSI/AAAAAAAAEC4/4KZxRzE3oy0lRHmM_NbXdQJieZ4ongd9ACLcBGAs/s1600/form+add+tentor.jpg" height="350" width="500" /><br><br><p align="justify">
+Add User Jika admin akan menambah akun maka sistem akan mengarahkan ke form pendaftaran yang harus mengisi identitas user dan yang paling penting mengisi alamat email. Di situ Admin bisa menambahkan user Pelajar, Tentor dan Orangtua/Wali. </p></td></tr></table>
 
-![](http://i68.tinypic.com/s3dptx.jpg)
 
-Add User Jika admin akan menambah akun maka sistem akan mengarahkan ke form pendaftaran yang harus mengisi identitas user dan yang paling penting mengisi alamat email. Di situ Admin bisa menambahkan user Pelajar, Tentor dan Orangtua/Wali.
 
-![](http://i64.tinypic.com/mw5lir.jpg)
+<table border="1">
+<tr align="center">
+<td><b>Edit User</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://2.bp.blogspot.com/-VHsgSECyySA/Ws2LG7ZthYI/AAAAAAAAEDE/UMm3boix4sszbCmJoWRsjtRP7Qcyl1s1QCLcBGAs/s1600/menu+edit+user.jpg" height="350" width="500" /><br><p align="justify">
+admin dapat memilih edit user di menu navigation yang ada di samping. </p></td></tr><br>
 
-<b>Edit User</b><br/>
-admin dapat memilih edit user di menu navigation yang ada di samping.
+<tr align="center">
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://3.bp.blogspot.com/-8Ag1EtG6lLY/Ws2MCWFNSwI/AAAAAAAAEDQ/nYlnEdG1QSUHtdjkhaUpucTM2N9GXVpSQCLcBGAs/s1600/Edit+user+pelajar.jpg" height="350" width="500" /><br><p align="justify">
+Edit User Jika admin akan merubah atau mengedit akun maka sistem akan mengarahkan ke tabel user yang terdapat button edit, hapus, dan simpan. Di situ Admin bisa mengedit user Pelajar, Tentor dan Orangtua/Wali. </p></td></tr></table>
 
-![](http://i67.tinypic.com/sywbqq.jpg)<br/>
 
-Edit User Jika admin akan merubah atau mengedit akun maka sistem akan mengarahkan ke tabel user yang terdapat button edit, hapus, dan simpan. Di situ Admin bisa mengedit user Pelajar, Tentor dan Orangtua/Wali. 
 
-![](http://i63.tinypic.com/212afz9.jpg)<br/>
+<table border="1">
+<tr align="center">
+<td><b>Edit dan Tambah Data</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://3.bp.blogspot.com/-NZERHtwflX0/Ws2NMymJEDI/AAAAAAAAEDc/0SzCyEffEGMRAQHc3N8cSgY8YVz6PMCnACLcBGAs/s1600/menu%2Bedit%2Bdan%2Btambah%2Bdata.jpg" height="350" width="500" /><br><p align="justify">
+Edit dan Tambah Data Jika admin akan menambahkan atau mengedit data maka sistem akan mengarahkan ke fungsi masing-masing. Di situ Admin bisa mengedit atau menambah jadwal Bimbel, jadwal Try Out, Data Pelajar, Data Kelas, dan Data Tentor. halaman ini akan terhubung ke website user bagian data yg berada di menu bar. </p></td></tr></table>
 
-<b>Edit dan Tambah Data</b><br/>
-Edit dan Tambah Data Jika admin akan menambahkan atau mengedit data maka sistem akan mengarahkan ke fungsi masing-masing. Di situ Admin bisa mengedit atau menambah jadwal Bimbel, jadwal Try Out, Data Pelajar, Data Kelas, dan Data Tentor. halaman ini akan terhubung ke website user bagian data yg berada di menu bar.
 
-![](http://i64.tinypic.com/wrnon4.jpg)
 
-<b>Edit Informasi</b><br/>
-Edit Informasi Jika admin akan menambahkan atau mengedit informasi yang berisi berita tentang Ganesha Operation tersebut. maka sistem akan mengarahkan ke halaman yang berisi berbagai macam berita, button edit, form untuk memasukan link, dan simpan. Di situ Admin bisa menambahkan informasi atau berita dengan memasukan link yang ada di form tersebut. secara otomatis berita tersebut akan ditampilkan di website user.
+<table border="1">
+<tr align="center">
+<td><b>Edit Informasi</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-bI0TBiJucbA/Ws2N73Qf9kI/AAAAAAAAEDo/1-Uokln6Zlc2aRahc-VxwGdptv5hdyA_gCLcBGAs/s1600/Edit+informasi.jpg" height="350" width="500" /><br><p align="justify">
+Edit Informasi Jika admin akan menambahkan atau mengedit informasi yang berisi berita tentang Ganesha Operation tersebut. maka sistem akan mengarahkan ke halaman yang berisi berbagai macam berita, button edit, form untuk memasukan link, dan simpan. Di situ Admin bisa menambahkan informasi atau berita dengan memasukan link yang ada di form tersebut. secara otomatis berita tersebut akan ditampilkan di website user. </p></td></tr></table>
 
-![](http://i63.tinypic.com/33tnfox.jpg)
+
 
 __Antarmuka Proses__
 
@@ -156,245 +193,404 @@ Proses Antarmuka Pengguna merupakan penjelasan proses dari tampilan grafis dan f
 
 __Proses Modul User__
 
-<b>Halaman utama</b><br>
+<table border="1">
+<tr align="center">
+<td><b>Halaman Utama</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://4.bp.blogspot.com/-7J38qDqgjZo/Ws2QqJWDG7I/AAAAAAAAED0/z7FFoKIWSUw7OYJSbaNywQB4fnXxACyUgCLcBGAs/s1600/home1.jpg" height="350" width="500" /><br><p align="justify">
 Halaman Utama adalah halaman yang pertama kali dilihat oleh user ketika membuka wesite tersebut. di situ terdapat menu bar yang berisi Home, About, Data, dan Login. Kemudian dibawah menu bar terdapat slide image yang berisi dokumentasi kegiatan dari Ganesha Operation tersebut.
-Di bawah slide image terdapat ikon kalender, fasilitas, dan syarat untuk membuat akun. dan Sistem Informasi mengenai Ganesha Operation terletan dibawah icon. 
+Di bawah slide image terdapat ikon kalender, fasilitas, dan syarat untuk membuat akun. dan Sistem Informasi mengenai Ganesha Operation terletan dibawah icon. </p></td></tr></table>
 
-![](http://i63.tinypic.com/15iap13.jpg)
 
-<ul>
-	<li>Kalender<br/>User dapat melihat kalender akademik melalui website tersebut </li>
-</ul>
+<table border="1">
+<tr align="center">
+<td><b>Kalender</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://2.bp.blogspot.com/-jCmHdK0gmzQ/Ws2RkRrsWlI/AAAAAAAAED8/yXoT_6Z367sfi6Qqei98k0xDG62X44hhwCLcBGAs/s1600/kalender.jpg" height="350" width="500" /><br><p align="justify">
+User dapat melihat kalender akademik melalui website tersebut </p></td></tr></table>
 
-![](http://i65.tinypic.com/s67g1u.jpg)
 
-<ul>
-	<li>Fasilitas<br/>User dapat melihat fasilitas yang ada di Ganesha Operation tersebut</li>
-</ul>
+<table border="1">
+<tr align="center">
+<td><b>Fasilitas</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://3.bp.blogspot.com/-wsKvbzqrzOc/Ws2SGdo6lLI/AAAAAAAAEEI/ObM0HHQ-2gIjLQeoahu8_9mmspDZzBWRgCLcBGAs/s1600/fasilitas.jpg" height="350" width="500" /><br><p align="justify">
+User dapat melihat fasilitas yang ada di Ganesha Operation tersebut</p></td></tr></table>
 
-![](http://i65.tinypic.com/bj3et.jpg)
+<table border="1">
+<tr align="center">
+<td><b>Syarat Membuat Akun</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-nK9FWiR-Ev8/Ws2S38uwOXI/AAAAAAAAEEU/5xm6BoZCEj0PQUrv0XK0zNJWBSRvSLYAwCLcBGAs/s1600/Persyaratan+Add+User.jpg" height="350" width="500" /><br><p align="justify">
+User Dapat melihat persyaratan untuk membuat akun </p></td></tr></table>
 
-<ul>
-	<li>Syarat membuat akun<br/>User Dapat melihat persyaratan untuk membuat akun</li>
-</ul> 
 
-![](http://i64.tinypic.com/neevti.jpg)
+<table border="1">
+<tr align="center">
+<td><b>About</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://3.bp.blogspot.com/-l9DvXHPe7HE/Ws2TY43qXvI/AAAAAAAAEEc/8oCfVqZQbCw4N6fdDNnLb_OXJdv9xfOPQCLcBGAs/s1600/About.jpg" height="350" width="500" /><br><p align="justify">
+Halaman About adalah halaman tentang Ganesha Operation tersebut yang berisi Visi, Misi, Tujuan, Denah Lokasi dan kontak Ganesha Operation. </p></td></tr></table>
 
-<b>About</b><br/>
-Halaman About adalah halaman tentang Ganesha Operation tersebut yang berisi Visi, Misi, Tujuan, Denah Lokasi dan kontak Ganesha Operation.
+<table border="1">
+<tr align="center">
+<td><b>Data</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-9NhcZV0s1y4/Ws2T5vl-owI/AAAAAAAAEEg/d_J5SK9yid0JymlAB8o72grv5SofXOKPwCLcBGAs/s1600/MENUdata.jpg" height="350" width="500" /><br><p align="justify">
+jika user memilih data pada menu bar, maka terdapat pilihan jadwal Bimbel untuk melihat jadwal bimbel seluruh kelas, jadwal Try Out untuk melihat jadwal Try Out seluruh kelas, Data Pelajar untuk melihat pelajar yg mengikuti les di Ganesha Operation tersebut, Data Kelas untuk melihat data kelas pada Ganesha Operation dan Data Tentor untuk melihat siapa sajayang mengajar di ganesha Operation tersebut. </p></td></tr></table>
 
-![](http://i66.tinypic.com/mcpw68.jpg)
 
-<b>Data</b><br/>
-jika user memilih data pada menu bar, maka terdapat pilihan jadwal Bimbel untuk melihat jadwal bimbel seluruh kelas, jadwal Try Out untuk melihat jadwal Try Out seluruh kelas, Data Pelajar untuk melihat pelajar yg mengikuti les di Ganesha Operation tersebut, Data Kelas untuk melihat data kelas pada Ganesha Operation dan Data Tentor untuk melihat siapa sajayang mengajar di ganesha Operation tersebut. 
+<table border="1">
+<tr align="center">
+<td><b>Jadwal Bimbel</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://3.bp.blogspot.com/-donQoekQpQU/Ws2UbMYuqsI/AAAAAAAAEEs/2KB3wmDk7Og1yaXD-smxbFQ7R6zx4d8IQCLcBGAs/s1600/Jadwal+Bimbel.jpg" height="350" width="500" /><br><p align="justify">
+User dapat melihat jadwal bimbel yang berisi jadwal seluruh kelas, jadwal bimbel diinput dari admin tepatnya di edit dan tambah data->Jadwal Bimbel. </p></td></tr></table>
 
-![](http://i68.tinypic.com/fdrgoj.jpg)
+<table border="1">
+<tr align="center">
+<td><b>Jadwal Try Out</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://3.bp.blogspot.com/-DTUhJiGGswg/Ws2a5OwddLI/AAAAAAAAEE8/q_BsTqbuJ8Qq_w4NkYrXjEEvrONiFNRfgCLcBGAs/s1600/Jadwal+TO.jpg" height="350" width="500" /><br><p align="justify">
+User dapat melihat jadwal Try Out yang berisi jadwal Try Out seluruh kelas, jadwal Try Out diinput dari admin tepatnya di edit dan tambah data->Jadwal Try Out.</p></td></tr></table>
 
-<ul>
-	<li>Jadwal Bimbel<br/>User dapat melihat jadwal bimbel yang berisi jadwal seluruh kelas, jadwal bimbel diinput dari admin tepatnya di edit dan tambah data->Jadwal Bimbel</li>
-</ul> 
+<table border="1">
+<tr align="center">
+<td><b>Data Pelajar</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://2.bp.blogspot.com/-MH9isxbJ6Sg/Ws2cDgFA4EI/AAAAAAAAEFM/y1m2OfkwNhY9b1pkKH7gCY3EZrC7-EojACLcBGAs/s1600/Data+Pelajar.jpg" height="350" width="500" /><br><p align="justify">
+User dapat melihat Data Pelajar yang berisi pelajar yang mengikuti les di Ganesha Operation tersebut yang didalamnya berisi nama, kelas dan umur. Data Pelajar diinput dari admin tepatnya di edit dan tambah data->Data Pelajar.</p></td></tr></table>
 
-![](http://i67.tinypic.com/309qc87.jpg)
 
-<ul>
-	<li>Jadwal Try Out<br/>User dapat melihat jadwal Try Out yang berisi jadwal Try Out seluruh kelas, jadwal Try Out diinput dari admin tepatnya di edit dan tambah data->Jadwal Try Out</li>
-</ul>
+<table border="1">
+<tr align="center">
+<td><b>Data Kelas</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://4.bp.blogspot.com/-i_UO9YWh-ZU/Ws2dRdB0UTI/AAAAAAAAEFs/cSzADLnSssEqduIgb_bZkeS7a7DBR8YXACLcBGAs/s1600/Data+Kelas.jpg" height="350" width="500" /><br><p align="justify">
+User dapat melihat Data Kelas yang berisi nama kelas dan jumlah pelajar yang mengikuti les di Ganesha Operation. Data Kelas diinput dari admin tepatnya di edit dan tambah data->Data Kelas.</p></td></tr></table>
 
-![](http://i63.tinypic.com/16avc02.jpg)
+<table border="1">
+<tr align="center">
+<td><b>Data Tentor</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://2.bp.blogspot.com/-tFIdp7U4_gE/Ws2eEkpudoI/AAAAAAAAEF4/VLrlLnT_vQop0xNY-tDi250r7waxzSM9gCLcBGAs/s1600/Data+Tentor.jpg" height="350" width="500" /><br><p align="justify">
+User dapat melihat Data Tentor yang berisi nama tentor dan job title di Ganesha Operation. Data Tentor diinput dari admin tepatnya di edit dan tambah data->Data Tentor.</p></td></tr></table>
 
-<ul>
-	<li>Data Pelajar<br/>User dapat melihat Data Pelajar yang berisi pelajar yang mengikuti les di Ganesha Operation tersebut yang didalamnya berisi nama, kelas dan umur. Data Pelajar diinput dari admin tepatnya di edit dan tambah data->Data Pelajar</li>
-</ul>
+<table border="1">
+<tr align="center">
+<td><b>Login</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://4.bp.blogspot.com/-YLvsBVR15FE/Ws2HYBpLLGI/AAAAAAAAECU/NT6qT9hi0c4En8YSJ7YBab5XVHFCo8HswCLcBGAs/s1600/MENUlogin.jpg" height="350" width="500" /><br><p align="justify">
+jika user ingin mengakses ke dashbor maka harus Login terlebih dahulu. pada menu bar, maka terdapat pilihan Login sebagai pelajar, Orangtua/Wali dan Tentor. Di form login terdapat Forgot Password, coba captcha lain dan Register Id. </p></td></tr></table>
 
-![](http://i68.tinypic.com/whmflh.jpg)
+<table border="1">
+<tr align="center">
+<td><b>Forgot Password</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://4.bp.blogspot.com/-m0R50aWr4e0/Ws2fM2KGvEI/AAAAAAAAEGE/GYwnUD8PRts3-j_vA7IzP9KPR5NrIyeFACEwYBhgL/s1600/forgot+password+part+1.jpg" height="350" width="500" /><br><br><img src="https://1.bp.blogspot.com/-UYY0QxLjOTI/Ws2gvuqMKeI/AAAAAAAAEGQ/6KPzmzVkXZE29ITnYl4KpzZkHNxeF-OtwCLcBGAs/s1600/after+forgot+password.jpg" height="350" width="500"/><br><br><img src="https://2.bp.blogspot.com/-0lDRxLgkOA4/Ws2hHaeh-1I/AAAAAAAAEGU/e2uC1vbQszM0TGBcuKQQ2LXqdLVNXE_MACLcBGAs/s1600/forgot+password+part+2.jpg"height="350" width="500"/><br><p align="justify">
+jika user lupa password lalu memilih link Forgot Password maka sistem akan mengarahkan ke masukan email, kemudian si user mengecek kode verifikasi yang ada di kotak masuk email tersebut. user kembali ke halaman lalu masukan kode verifikasi ke dalam input text dan user dapat mengetikan kata sandi baru lalu simpan. kemudian sistem akan mengarahkan user ke halaman login.</p></td></tr>
+<tr align="center">
+<td><b>Coba Captcha Lain</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td>
+<p>jika user mengeklik link Coba Captcha lain maka kode Captcha yang ada di dalam kotak tersebut akan berbeda atau berubah.<br></p></td></tr>
+<tr align="center">
+<td><b>Login</b><br></td>
+</tr>
+<tr valign="top" align="center"><td><p>
+Button Login untuk mengakses ke halaman Dashbor User.<br></p></td></tr></table>
 
-<ul>
-	<li>Data Kelas<br/>User dapat melihat Data Kelas yang berisi nama kelas dan jumlah pelajar yang mengikuti les di Ganesha Operation. Data Kelas diinput dari admin tepatnya di edit dan tambah data->Data Kelas</li>
-</ul>
+<table border="1">
+<tr align="center">
+<td><b>Forgot Password</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-IlV1Fv6p5Us/Ws3sEMzLwiI/AAAAAAAAEGs/JIr3YXIodjMUAxfzCEJ8PuwaVMVyt6uOgCLcBGAs/s1600/Persyaratan+Add+User.jpg"height="350" width="500"/><br><p align="justify">
+jika user mengeklik Button Register ID maka sistem akan mengarahkan user ke halaman persyaratan membuat akun, halaman ini juga terdapat pada home lalu ada icon add user. Di situ Persyaratan untuk membuat akun, bahwa user yang akan membuat akun harus menghubungi maintenance atau admin dan memberikan alamat emailnya untuk di daftarkan melalui admin. setelah admin selesai mendaftarkan akun, maka otomatis kata sandi Dashbor user akan dikirim ke email user masing-masing.</p></td></tr></table>
+<table border="1">
+<tr align="center">
+<td><b>Dashbor Pelajar</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-IlV1Fv6p5Us/Ws3sEMzLwiI/AAAAAAAAEGs/JIr3YXIodjMUAxfzCEJ8PuwaVMVyt6uOgCLcBGAs/s1600/Persyaratan+Add+User.jpg"height="350" width="500"/><br><p align="justify">
+Di Dashbor ini Pelajar dapat melihat jadwal bimbel yang ada di kelasnya, jadwal Try Out, Melihat hasil nilai Try Out, Melihat Kehadiran, dan melakukan bimbingan terhadap tentor<br></p></td></tr>
 
-![](http://i64.tinypic.com/29ymng9.jpg)
 
-<ul>
-	<li>Data Tentor<br/>User dapat melihat Data Tentor yang berisi nama tentor dan job title di Ganesha Operation. Data Tentor diinput dari admin tepatnya di edit dan tambah data->Data Tentor</li>
-</ul>
+<tr align="center">
+<td><b><li>Jadwal Bimbel dan Try Out</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://4.bp.blogspot.com/-RLaawgbgi8g/Ws3u87gsqlI/AAAAAAAAEG4/IkRJtK0wfe4xxqKvXDSeq-M0E2fqAcMEACLcBGAs/s1600/Dashbor+Pelajar.jpg" height="350" width="500"/><br><p align="justify">
+Pelajar dapat melihat jadwal Bimbel dan Try Out yang ada di kelasnya. Jadwal Bimbel dan Try Out Diinput langsung oleh admin</li>
+</p></td></tr>
 
-![](http://i67.tinypic.com/2eo8guw.jpg)
+<tr align="center">
+<td><b><li>Hasil Nilai</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-eih2haIFulA/Ws3y1W5wBTI/AAAAAAAAEHE/uR3f5j4Xf4s2P-y-cYgiC3G3QA7VxBlhwCLcBGAs/s1600/hasil+nilai.jpg" height="350" width="500"/><br><p align="justify">
+Pelajar dapat melihat nilai hasil Try Out dimana saja dan kapan saja tanpa harus pergi ke tempat les atau bimbingan belajar tersebut. Hasil Nilai Di inputkan langsung oleh setiap tentor yang mengajar mata pelajaran tersebut.</li>
+</p></td></tr>
 
-<b>Login</b><br/>
-jika user ingin mengakses ke dashbor maka harus Login terlebih dahulu. pada menu bar, maka terdapat pilihan Login sebagai pelajar, Orangtua/Wali dan Tentor. Di form login terdapat Forgot Password, coba captcha lain dan Register Id. 
+<tr align="center">
+<td><b><li>Kehadiran</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-VVyUhqFJcqU/Ws30zQx4ChI/AAAAAAAAEHQ/HbrPgkleik0ubZuW6Um_XgBBKZOvOonOgCLcBGAs/s1600/kehadiran.jpg" height="350" width="500"/><br><p align="justify">
+Pelajar dapat melihat kehadiran mereka sendiri, Kehadiran Di input langsung oleh tentor yang mengajar mata pelajaran tersebut ketika sebelum memulai kegiatan belajar.</li>
+</p></td></tr>
 
-![](http://i68.tinypic.com/2nbsim9.jpg)
 
-<ul>
-	<li>Forgot Password<br/>jika user lupa password lalu memilih link Forgot Password maka sistem akan mengarahkan ke masukan email, kemudian si user mengecek kode verifikasi yang ada di kotak masuk email tersebut. user kembali ke halaman lalu masukan kode verifikasi ke dalam input text dan user dapat mengetikan kata sandi baru lalu simpan. kemudian sistem akan mengarahkan user ke halaman login</li>
-</ul>
+<tr align="center">
+<td><b><li>Bimbingan</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://4.bp.blogspot.com/-EQMIO6808rE/Ws31fGSpNiI/AAAAAAAAEHY/68SufLlDOGUiOD7PIrZsVMahZJCIPO05QCLcBGAs/s1600/bimbingan.jpg" height="350" width="500"/><br><p align="justify">
+Pelajar dapat melakukan bimbingan lewat chat yang tersedia pada website tersebut dengan tentor</li>
+</p></td></tr></table>
 
-![](http://i65.tinypic.com/231hex.jpg) ![](http://i65.tinypic.com/29bg4fc.jpg) 
 
-![](http://i67.tinypic.com/2remiz8.jpg)
+<table border="1">
+<tr align="center">
+<td><b>Dashbor Tentor</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-IlV1Fv6p5Us/Ws3sEMzLwiI/AAAAAAAAEGs/JIr3YXIodjMUAxfzCEJ8PuwaVMVyt6uOgCLcBGAs/s1600/Persyaratan+Add+User.jpg"height="350" width="500"/><br><p align="justify">
+Di Dashbor ini Tentor dapat melihat jadwal mengajar, Rekap Nilai, Rekap kehadiran, dan membalas bimbingan terhadap Pelajar.<br>
 
-<ul>
-	<li>Coba Captcha Lain<br>jika user mengeklik link Coba Captcha lain maka kode Captcha yang ada di dalam kotak tersebut akan berbeda atau berubah.</li>
-	<li>Login<br/>Button Login untuk mengakses ke halaman Dashbor User</li>
-</ul>
-<ul>
-	<li>Register ID<br/>jika user mengeklik Button Register ID maka sistem akan mengarahkan user ke halaman persyaratan membuat akun, halaman ini juga terdapat pada home lalu ada icon add user. Di situ Persyaratan untuk membuat akun, bahwa user yang akan membuat akun harus menghubungi maintenance atau admin dan memberikan alamat emailnya untuk di daftarkan melalui admin. setelah admin selesai mendaftarkan akun, maka otomatis kata sandi Dashbor user akan dikirim ke email user masing-masing.</li>
-</ul> 
 
-![](http://i64.tinypic.com/neevti.jpg)
+<tr align="center">
+<td><b><li>Jadwal Mengajar</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://2.bp.blogspot.com/-3EzNNqJyZ1c/Ws33eXu6-iI/AAAAAAAAEHk/97QMThOavjMzIReKKVMKyQVlZGtrM2uqgCLcBGAs/s1600/jadwal+mengajar.jpg" height="350" width="500"/><br><p align="justify">
+Tentor dapat melihat jadwal mengajarnya setiap saat, Jadwal Mengajar di input langsung oleh admin</li>
+</p></td></tr>
 
-<b>Dashbor Pelajar</b><br/>Di Dashbor ini Pelajar dapat melihat jadwal bimbel yang ada di kelasnya, jadwal Try Out, Melihat hasil nilai Try Out, Melihat Kehadiran, dan melakukan bimbingan terhadap tentor
-<ul>
-	<li>Jadwal Bimbel dan Try Out<br/>Pelajar dapat melihat jadwal Bimbel dan Try Out yang ada di kelasnya. Jadwal Bimbel dan Try Out Diinput langsung oleh admin</li>
-</ul>
 
-![](http://i65.tinypic.com/24csh6w.jpg)
 
-<ul>
-	<li>Hasil Nilai<br/>Pelajar dapat melihat nilai hasil Try Out dimana saja dan kapan saja tanpa harus pergi ke tempat les atau bimbingan belajar tersebut. Hasil Nilai Di inputkan langsung oleh setiap tentor yang mengajar mata pelajaran tersebut.</li>
-</ul>
+<tr align="center">
+<td><b><li>Rekap Nilai</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://2.bp.blogspot.com/-H20KCm6bM9Y/Ws34C98sqcI/AAAAAAAAEHs/6gm3VbEWk60Vrfsgc6rS8Nw6F3yWs3kQACLcBGAs/s1600/Dashbor+Tentor+rekap+nilai.jpg" height="350" width="500"/><br><p align="justify">
+Tentor dapat menginput hasil Try Out atau nilai pada setiap pelajar yang nantinya akan muncul di Hasil Nilai Dashbor Pelajar masing-masing.</li>
+></p></td></tr>
 
-![](http://i64.tinypic.com/2s64g15.jpg)
 
-<ul>
-	<li>Kehadiran<br/>Pelajar dapat melihat kehadiran mereka sendiri, Kehadiran Di input langsung oleh tentor yang mengajar mata pelajaran tersebut ketika sebelum memulai kegiatan belajar.</li>
-</ul>
+<tr align="center">
+<td><b><li>Kehadiran</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-VVyUhqFJcqU/Ws30zQx4ChI/AAAAAAAAEHQ/HbrPgkleik0ubZuW6Um_XgBBKZOvOonOgCLcBGAs/s1600/kehadiran.jpg" height="350" width="500"/><br><p align="justify">
+Tentor dapat menginput kehadiran sebelum proses pembelajaran dimulai yang nantinya akan muncul di kehadiran Dashbor Pelajar masing-masing</li>
+</p></td></tr>
 
-![](http://i66.tinypic.com/30wl9ty.jpg)
 
-<ul>
-	<li>Bimbingan<br/>Pelajar dapat melakukan bimbingan lewat chat yang tersedia pada website tersebut dengan tentor</li>
-</ul>
 
-![](http://i64.tinypic.com/2eptuth.jpg)
 
-<b>Dashbor Tentor</b><br/>Di Dashbor ini Tentor dapat melihat jadwal mengajar, Rekap Nilai, Rekap kehadiran, dan membalas bimbingan terhadap Pelajar.
-<ul>
-	<li>Jadwal Mengajar<br/>Tentor dapat melihat jadwal mengajarnya setiap saat, Jadwal Mengajar di input langsung oleh admin</li>
-</ul>
+<tr align="center">
+<td><b><li>Bimbingan</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://4.bp.blogspot.com/-iIRY8Dni3NI/Ws35NlJqbtI/AAAAAAAAEH4/YmcDqFHrJV051FC0yL1QBlF4q_2MuzDyQCEwYBhgL/s1600/Dashbor+Tentor++bimbingan.jpg" height="350" width="500"/><br><p align="justify">
+Tentor dapat melakukan bimbingan dengan pelajar lewat chat yang tersedia di website tersebut. di dalam </li></p></td></tr>
 
-![](http://i64.tinypic.com/167qjiq.jpg)
+<table border="1">
+<tr align="center">
+<td><b>Dashbor Orang Tua</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><br><p align="justify">
+Di Dashbor ini Orangtua atau wali dapat memonitoring anaknya dengan melihat hasil nilai dan kehadiran anaknya pada saat les atau bimbingan belajar di Ganesha Operation.
+</p></td></tr><br>
 
-<ul>
-	<li>Rekap Nilai<br/>Tentor dapat menginput hasil Try Out atau nilai pada setiap pelajar yang nantinya akan muncul di Hasil Nilai Dashbor Pelajar masing-masing.</li>
-</ul>
 
-![](http://i68.tinypic.com/1498bo0.jpg)
+<tr align="center">
+<td<b><li>Hasil Nilai</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-eih2haIFulA/Ws3y1W5wBTI/AAAAAAAAEHE/uR3f5j4Xf4s2P-y-cYgiC3G3QA7VxBlhwCLcBGAs/s1600/hasil%2Bnilai.jpg" height="350" width="500"/><br><p align="justify">
+Orangtua atau wali dapat melihat keseluruhan nilai pelajar tersebut yang sudah di inputkan oleh masing-masin tentor setiap mata pelajarannya</li>
+</p></td></tr><br>
 
-<ul>
-	<li>Kehadiran<br/>Tentor dapat menginput kehadiran sebelum proses pembelajaran dimulai yang nantinya akan muncul di kehadiran Dashbor Pelajar masing-masing</li>
-</ul>
 
-![](http://i66.tinypic.com/30wl9ty.jpg)
 
-<ul>
-	<li>Bimbingan<br/>Tentor dapat melakukan bimbingan dengan pelajar lewat chat yang tersedia di website tersebut. di dalam </li>
-</ul>
-
-![](http://i67.tinypic.com/2i78tqv.jpg)
-
-<b>Dashbor Orangtua/Wali</b><br/>Di Dashbor ini Orangtua atau wali dapat memonitoring anaknya dengan melihat hasil nilai dan kehadiran anaknya pada saat les atau bimbingan belajar di Ganesha Operation.
-<ul>
-	<li>Hasil Nilai<br/>Orangtua atau wali dapat melihat keseluruhan nilai pelajar tersebut yang sudah di inputkan oleh masing-masin tentor setiap mata pelajarannya</li>
-</ul>
-
-![](http://i63.tinypic.com/14iivx3.jpg)
-
-<ul>
-	<li>Kehadiran<br>Orangtua atau wali dapat melihat kehadiran anaknya dalam bentuk grafik dan keterangan yang sudah di inputkan oleh masing-masing tentor setiap mata pelajarannya</li>
-</ul>
-
-![](http://i63.tinypic.com/2nvz2b6.jpg)
+<tr align="center">
+<td><b><li>Kehadiran</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-VVyUhqFJcqU/Ws30zQx4ChI/AAAAAAAAEHQ/HbrPgkleik0ubZuW6Um_XgBBKZOvOonOgCLcBGAs/s1600/kehadiran.jpg" height="350" width="500"/><br><p align="justify">
+Orangtua atau wali dapat melihat kehadiran anaknya dalam bentuk grafik dan keterangan yang sudah di inputkan oleh masing-masing tentor setiap mata pelajarannya</li>
+</p></td></tr><br></table>
 
 __Proses Modul Sistem__
 
-<b>Add User</b><br/>
-admin dapat memilih add user di menu navigation yang ada di samping. 
+<table border="1">
+<tr align="center">
+<td><b>Add User</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-Bva-KWdAguU/Ws2I_5j2J8I/AAAAAAAAECs/dHcZHX-i6D41Vw175LTmDDEs8V_sScD3gCLcBGAs/s320/menu+add+user.jpg"height="350" width="500"/><br><p align="justify">
+admin dapat memilih add user di menu navigation yang ada di samping.</p></td></tr><br>
+<tr>
+<p align="justify">
+Add User Jika admin akan menambah akun maka sistem akan mengarahkan ke form pendaftaran yang harus mengisi identitas user dan yang paling penting mengisi alamat email. Di situ Admin bisa menambahkan user Pelajar, Tentor dan Orangtua/Wali.</p></tr>
 
-![](http://i68.tinypic.com/s3dptx.jpg)
 
-Add User Jika admin akan menambah akun maka sistem akan mengarahkan ke form pendaftaran yang harus mengisi identitas user dan yang paling penting mengisi alamat email. Di situ Admin bisa menambahkan user Pelajar, Tentor dan Orangtua/Wali.
-<ul>
-	<li>Add Pelajar<br/>Admin dapat membuat akun pelajar dengan mengisi form yang ada pada halaman berikut. pelajar wajib mengirimkan atau memberi tau alamat email ke admin untuk mengetahui password dashbor yang sudah Admin buat untuk pelajar tersebut.</li>
-</ul>
 
-![](http://i64.tinypic.com/mw5lir.jpg)
+<tr align="center">
+<td><b><li>Add Pelajar</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://3.bp.blogspot.com/-keu8em7JTww/Ws38Zz2PirI/AAAAAAAAEIE/SgtqXqRFmKodPDTpz0-r7sKrD7IrR8L4QCLcBGAs/s1600/add+pelajar.jpg" height="350" width="500"/><br><p align="justify">
+Admin dapat membuat akun pelajar dengan mengisi form yang ada pada halaman berikut. pelajar wajib mengirimkan atau memberi tau alamat email ke admin untuk mengetahui password dashbor yang sudah Admin buat untuk pelajar tersebut.</li>
+</p></td></tr>
 
-<ul>
-	<li>Add Tentor<br/>Admin dapat membuat akun Tentor dengan mengisi form yang ada pada halaman berikut. Tentor wajib memberitau alamat email kepada Admin untuk mengetahui password dashbor yang sudah Admin buat untuk Tentor tersebut</li>
-</ul>
 
-![](http://i66.tinypic.com/1604q3p.jpg) 
 
-<ul>
-	<li>Add Orangtua/Wali<br/>Admin dapat membuat akun Oranngtua/Wali dengan mengisi form yang ada pada halaman berikut. Orangtua/Wali wajib memberitau alamat email kepada admin untuk mengetahui password dashbor yang sudah Admin buat untuk Orangtua/Wali tersebut</li>
-</ul> 
+<tr align="center">
+<b>
+<td><b><li>Add Tentor</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://2.bp.blogspot.com/-A-7h3Xd4-BQ/Ws39JDzCfoI/AAAAAAAAEIQ/sw1g0rXx-echnb7G6HLz3ggcu6L2HuZfgCLcBGAs/s1600/add+tentor.jpg" height="350" width="500"/><br><p align="justify">
+Admin dapat membuat akun Tentor dengan mengisi form yang ada pada halaman berikut. Tentor wajib memberitau alamat email kepada Admin untuk mengetahui password dashbor yang sudah Admin buat untuk Tentor tersebut</li>
+</p></td></tr>
 
-![](http://i66.tinypic.com/1js049.jpg)
 
-<b>Edit User</b><br/>
-admin dapat memilih edit user di menu navigation yang ada di samping.
 
-![](http://i67.tinypic.com/sywbqq.jpg)<br/>
+<tr align="center">
+<td><b><li>Add Orangtua/Wali</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://2.bp.blogspot.com/-imycasfU7Tg/Ws39qKv1RhI/AAAAAAAAEIY/A9l66dXs2-c5sC61BoNdG8D-qV8HCp43wCLcBGAs/s1600/add+ortu.jpg" height="350" width="500"/><br><p align="justify">
+Admin dapat membuat akun Oranngtua/Wali dengan mengisi form yang ada pada halaman berikut. Orangtua/Wali wajib memberitau alamat email kepada admin untuk mengetahui password dashbor yang sudah Admin buat untuk Orangtua/Wali tersebut</li></p></td></tr></table>
 
-Edit User Jika admin akan merubah atau mengedit akun maka sistem akan mengarahkan ke tabel user yang terdapat button edit, hapus, dan simpan. Di situ Admin bisa mengedit user Pelajar, Tentor dan Orangtua/Wali. 
-<ul>
-	<li>Edit Pelajar<br/>Admin dapat merubah atau mengedit informasi yang berisi Kelas, Nama, umur dan tandai untuk menandai user. ada juga button edit, hapus dan simpan</li>
-</ul>
 
-![](http://i63.tinypic.com/212afz9.jpg)
+<table border="1">
+<tr align="center">
+<td><b>Edit User</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://2.bp.blogspot.com/-UpRX6-SpA0M/Ws3-jjFEtaI/AAAAAAAAEIk/Pyj03JKdj3oMbURGqxSTrz6BtoH7jpjlACLcBGAs/s1600/edit+user.jpg"height="350" width="500"/><br><p align="justify">
+admin dapat memilih edit user di menu navigation yang ada di samping.<br>
+Edit User Jika admin akan merubah atau mengedit akun maka sistem akan mengarahkan ke tabel user yang terdapat button edit, hapus, dan simpan. Di situ Admin bisa mengedit user Pelajar, Tentor dan Orangtua/Wali. </p></td></tr>
 
-<ul>
-	<li>Edit Tentor<br/>Admin dapat merubah atau mengedit informasi yang berisi Nama, Nik, Umur dan tandai untuk menandai user. ada juga button edit, hapus, dan simpan</li>
-</ul>
 
-![](http://i65.tinypic.com/muzcrc.jpg)
 
-<ul>
-	<li>Edit Orangtua/Wali<br/>Admin dapat merubah atau mengedit informasi yang berisi Nama, Umur dan Tandai untuk menandai user. ada juga button edit, hapus, dan simpan</li>
-</ul>
+<tr align="center">
+<td><b><li>Edit Pelajar</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-YKDT7s_7frA/Ws3_UjdqUqI/AAAAAAAAEIw/Hn_Z6dtAjYoDazmDeHVHQp-0QU1n1ZXjACLcBGAs/s1600/edit+pelajar.jpg" height="350" width="500"/><br><p align="justify">
+Admin dapat merubah atau mengedit informasi yang berisi Kelas, Nama, umur dan tandai untuk menandai user. ada juga button edit, hapus dan simpan</li>
+</p></td></tr>
 
-![](http://i65.tinypic.com/n51vsg.jpg)
 
-<b>Edit dan Tambah Data</b><br/>
-Edit dan Tambah Data Jika admin akan menambahkan atau mengedit data maka sistem akan mengarahkan ke fungsi masing-masing. Di situ Admin bisa mengedit atau menambah jadwal Bimbel, jadwal Try Out, Data Pelajar, Data Kelas, dan Data Tentor. halaman ini akan terhubung ke website user bagian data yg berada di menu bar.
 
-![](http://i64.tinypic.com/wrnon4.jpg)
 
-<ul>
-	<li>Jadwal Bimbel<br/>Admin dapat mengedit dan menambah jadwal bimbel seluruh kelas yang nantinya akan ditampilkan ke website user data. terdapat button tambah, edit dan simpan</li>
-</ul>
+<tr align="center">
+<td><b><li>Edit Tentor</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://4.bp.blogspot.com/-jKWIvfakCpY/Ws3_0mCfyBI/AAAAAAAAEI0/M2GQFT0DO5QGOw0NscBBIhfQ0dl6hJ24ACLcBGAs/s1600/edit+tentor.jpg" height="350" width="500"/><br><p align="justify">
+Admin dapat merubah atau mengedit informasi yang berisi Nama, Nik, Umur dan tandai untuk menandai user. ada juga button edit, hapus, dan simpan</li>
+</p></td></tr>
 
-![](http://i66.tinypic.com/2qdcr3c.jpg)
 
-<ul>
-	<li>Jadwal Try Out<br/>Admin dapat mengedit dan menambah jadwal Try Out seluruh kelas yang nantinya akan ditampilkan ke website user data. terdapat button tambah, edit dan simpan</li>
-</ul>
+<tr align="center">
+<td><b><li>Edit Orang Tua/wali</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://3.bp.blogspot.com/--rarM2JNCRM/Ws4AfJ_ppDI/AAAAAAAAEJA/8cduye5pUpcFs0vlH-kl_ZiAkx1bjPhRACLcBGAs/s1600/edit+ortu+atau+wali.jpg" height="350" width="500"/><br><p align="justify">
+Admin dapat merubah atau mengedit informasi yang berisi Nama, Umur dan Tandai untuk menandai user. ada juga button edit, hapus, dan simpan</li>
+</p></td></tr></table>
 
-![](http://i65.tinypic.com/350qc01.jpg)
 
-<ul>
-	<li>Data Pelajar<br/>Admin dapat menginput dan mengedit Data Pelajar yang berisi kelas, nama, umur dan terdapat button tambah, edit dan simpan.  Data pelajar akan ditampilkan ke website user->Data->Data Pelajar</li>
-</ul>
 
-![](http://i66.tinypic.com/5k4qdy.jpg)
+<table border="1">
+<tr align="center">
+<td><b>Edit dan Tambah Data</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://4.bp.blogspot.com/-RYCdiKRSU5k/Ws4BI-pBgaI/AAAAAAAAEJI/gg6m7Er6qfgFfiKzwjXiP8kkQdFbAtuGACLcBGAs/s1600/edit%2Bdan%2Btambah%2Bdata.jpg"height="350" width="500"/><br><p align="justify">
+Edit dan Tambah Data Jika admin akan menambahkan atau mengedit data maka sistem akan mengarahkan ke fungsi masing-masing. Di situ Admin bisa mengedit atau menambah jadwal Bimbel, jadwal Try Out, Data Pelajar, Data Kelas, dan Data Tentor. halaman ini akan terhubung ke website user bagian data yg berada di menu bar.<br></p></td></tr>
 
-<ul>
-	<li>Data Kelas<br/>Admin dapat menginput dan mengedit Data Kelas yang berisi kelas dan jumlah pelajar. Data kelas akan ditampilkan ke website user->Data->Data Kelas.juga terdapat button tambah, edit dan simpan</li>
-</ul>
 
-![](http://i65.tinypic.com/2zstjxw.jpg)
 
-<ul>
-	<li>Data Tentor<br/>Admin dapat menginput dan mengedit Data Tentor yang berisi nama, jobtitle dan terdapat button tambah, edit dan simpan. Data Tentor akan ditampilkan ke website user->Data->Data Tentor</li>
-</ul>
+<tr align="center">
+<td><b><li>Jadwal Bimbel</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-NTEc9-ssaVQ/Ws4BrGxwk8I/AAAAAAAAEJQ/1Qi7i5aOACU8TE04nln62KKKdXE2ZdnkACLcBGAs/s1600/jadwal+bimbel.jpg" height="350" width="500"/><br><p align="justify">
+Admin dapat mengedit dan menambah jadwal bimbel seluruh kelas yang nantinya akan ditampilkan ke website user data. terdapat button tambah, edit dan simpan</li>
+<br></p></td></tr>
 
-![](http://i65.tinypic.com/2l8gks5.jpg)
 
-<b>Edit Informasi</b><br/>
-Edit Informasi Jika admin akan menambahkan atau mengedit informasi yang berisi berita tentang Ganesha Operation tersebut. maka sistem akan mengarahkan ke halaman yang berisi berbagai macam berita, button edit, form untuk memasukan link, dan simpan. Di situ Admin bisa menambahkan informasi atau berita dengan memasukan link yang ada di form tersebut. secara otomatis berita tersebut akan ditampilkan di website user.
 
-![](http://i63.tinypic.com/33tnfox.jpg)
+
+<tr align="center">
+<td><b><li>Jadwal Try Out</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://3.bp.blogspot.com/-AtVuq6gYDD4/Ws4CWnxfYJI/AAAAAAAAEJY/uWevYrf3NHE-Q_3FItiQcnwWP7GP9A41wCLcBGAs/s1600/jadwal+try+out.jpg" height="350" width="500"/><br><p align="justify">
+Admin dapat mengedit dan menambah jadwal Try Out seluruh kelas yang nantinya akan ditampilkan ke website user data. terdapat button tambah, edit dan simpan</li>
+<br></p></td></tr>
+
+
+
+<tr align="center">
+<td><b><li>Data Pelajar</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-Lm_iBpGg5Pg/Ws4DLUuOalI/AAAAAAAAEJk/9egQ1ZliZOEZN4XBl4sb55-IKUVXFWRPgCLcBGAs/s1600/data+pelajar.jpg" height="350" width="500"/><br><p align="justify">
+Admin dapat menginput dan mengedit Data Pelajar yang berisi kelas, nama, umur dan terdapat button tambah, edit dan simpan.  Data pelajar akan ditampilkan ke website user->Data->Data Pelajar</li>
+</ul><br></p></td></tr>
+
+
+
+<tr align="center">
+<td><b><li>Data Kelas</b></td><br>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-P0ogO-LtZXc/Ws4D1MyIBGI/AAAAAAAAEJs/7AWDmeQUSCM8B4gwpmmA6EuLyOT31UBBwCLcBGAs/s1600/data+kelas.jpg" height="350" width="500"/><br><p align="justify">
+Admin dapat menginput dan mengedit Data Kelas yang berisi kelas dan jumlah pelajar. Data kelas akan ditampilkan ke website user->Data->Data Kelas.juga terdapat button tambah, edit dan simpan</li>
+<br></p></td></tr>
+
+
+
+
+<tr align="center">
+<td><b><li>Data Tentor</td></b><br></tr>
+<tr valign="top" align="center">
+<td><img src="https://1.bp.blogspot.com/-qilsfOrLxis/Ws4ETHoXroI/AAAAAAAAEJw/437NTEMvHi8gswF6TUXT5mj0ATlBT_FjgCLcBGAs/s1600/data+tentor.jpg" height="350" width="500"/><br><p align="justify">
+Admin dapat menginput dan mengedit Data Tentor yang berisi nama, jobtitle dan terdapat button tambah, edit dan simpan. Data Tentor akan ditampilkan ke website user->Data->Data Tentor</li>
+<br></p></td></tr>
+</table>
+
+<table border="1">
+<tr align="center">
+<td><b>Edit Informasi</b><br></td>
+</tr>
+<tr valign="top" align="center">
+<td><img src="https://2.bp.blogspot.com/-mAbHllud24g/Ws4E-aD0JNI/AAAAAAAAEKA/MP3XKvIQ3_wyif5zeg3IJ6VMjcDIRMnJwCLcBGAs/s1600/edit+informasi.jpg"height="350" width="500"/><br><p align="justify">
+Edit Informasi Jika admin akan menambahkan atau mengedit informasi yang berisi berita tentang Ganesha Operation tersebut. maka sistem akan mengarahkan ke halaman yang berisi berbagai macam berita, button edit, form untuk memasukan link, dan simpan. Di situ Admin bisa menambahkan informasi atau berita dengan memasukan link yang ada di form tersebut. secara otomatis berita tersebut akan ditampilkan di website user.<br></p></td></tr></table>
+
 
 __2.1.3	Antarmuka perangkat keras__
 

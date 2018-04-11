@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+	 <html>
+=======
+ <html>
+>>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
+>>>>>>> 6bc4f77ceef68c2672152f17f99442175b98ed9e
+>>>>>>> 03418aad4d98f75adcdec2fa5b162ddde1e1708a
+>>>>>>> 728d8ddaf496a28f8d2d599d496e7febd0f434dc
 <body>
 <div align="center"><h1>Software Design Document</h1></div>
 
@@ -307,9 +321,14 @@ Setiap modul pada rancangan global, dirinci satu per satu
 
 ##### 3.3.1.2 Spesifikasi Layar Utama
 
+<<<<<<< HEAD
 ![](http://i64.tinypic.com/314yqh3.png)
 
 prototype belum jadi
+=======
+
+![](http://i64.tinypic.com/314yqh3.png)
+>>>>>>> 728d8ddaf496a28f8d2d599d496e7febd0f434dc
 
 ##### 3.3.1.3 Spesifikasi Query
 
@@ -359,8 +378,11 @@ Event : Login
 
 
 #### 3.3.2 Input Data Pelajar
+<<<<<<< HEAD
 
 #### 3.3.2 Dashboard Admin
+=======
+>>>>>>> 728d8ddaf496a28f8d2d599d496e7febd0f434dc
 
 ##### 3.3.2.1 Fungsi Modul
 
@@ -370,6 +392,7 @@ Event : Login
 
 ##### 3.3.2.2 Spesifikasi Layar Utama
 ![](http://i67.tinypic.com/11t98wm.png)
+<<<<<<< HEAD
 |--|-----------------|--------------------|------------|
 |1 | CRUD Data Siswa | From Entry Tabular | Data Siswa |
 |2 | CRUD Data Tentor | Form Entry Tabular | Data pengajar |
@@ -380,12 +403,13 @@ Event : Login
 |7 | Melihat Data Laporan Nilai  | Report Tabular | Data Nilai |
 
 ##### 3.3.2.2 Spesifikasi Layar Utama
+=======
+>>>>>>> 728d8ddaf496a28f8d2d599d496e7febd0f434dc
 
 ##### 3.3.2.3 Spesifikasi Query
 
 |ID Query| Deskripsi| Ekspresi Query|
 |--------|----------|---------------|
-<<<<<<< HEAD
 |QUE-05 | Input data Pelajar | insert into siswa values (id_siswa, NIS, 'nama','username','password','jenis_kelamin','alamat') |
 
 
@@ -433,6 +457,7 @@ Event : Input Data Pelajar
 
 
 
+<<<<<<< HEAD
 =======
 |QUE-05 | Memasukkan Data Siswa | insert into data_siswa values.. |
 |QUE-06 | Mengubah Data Siswa | update data_siswa set... |
@@ -457,5 +482,7 @@ Event : Input Data Pelajar
 ##### 3.3.2.5 Spesifikasi Objek - Objek Pada Layar
 
 ##### 3.3.2.6 Spesifikasi Proses/Algoritma
+=======
+>>>>>>> 728d8ddaf496a28f8d2d599d496e7febd0f434dc
 
 #### 3.4 Matriks Keturunan
