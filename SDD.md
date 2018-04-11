@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+	 <html>
+=======
+ <html>
+>>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
+>>>>>>> 6bc4f77ceef68c2672152f17f99442175b98ed9e
 <body>
 <div align="center"><h1>Software Design Document</h1></div>
 
@@ -307,7 +315,12 @@ Setiap modul pada rancangan global, dirinci satu per satu
 
 ##### 3.3.1.2 Spesifikasi Layar Utama
 
+<<<<<<< HEAD
+
+![](http://i64.tinypic.com/314yqh3.png)
+=======
 prototype belum jadi
+>>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
 
 ##### 3.3.1.3 Spesifikasi Query
 
@@ -318,12 +331,60 @@ prototype belum jadi
 |QUE-03 | Masuk sebagai Pengajar | Select * From users where level = 'pengajar' |
 |QUE-04 | Masuk sebagai Orang Tua | Select * From users where level = 'ortu' |
 
+<<<<<<< HEAD
+##### 3.3.1.4 Spesifikasi Field Pada Data Layar <br>
+
+|Label | Field | Tabel/Query | Validasi| Keterangan|
+|---|--------|-------|---------------|-------------|
+| username | username | select * from users |cek username|login|
+| password | password | select * from users | cek password |login|
+
+##### 3.3.1.5 Spesifikasi objek objek pada layar
+|id_objek | jenis | keteranagan |
+|---|--------|-------|
+| username| input type text | memasukan username sesuai dengan database |
+| password |input type password | memasukan password sesusai dengan database |
+| btnSubmit | Button | Jika Diklik maka akan Diasosiasikan ke QUE-01, QUE-02, QUE-03 dan QUE-04 pada sub-bab 3.3.1.3 |
+
+##### 3.3.1.6 Spesifikasi Proses/Algoritma
+<id_proses> : login
+Objek Terkait : username, password, btnSubmit
+Event : Login
+
+|Initial State (IS)|
+|---|
+| Form login masih kosong | 
+
+|Initial State (IS)|
+|---|
+| menentukan otoritas user | 
+
+|Spesifikasi Proses/Algoritma|
+|---|
+| 1. Buka Web Simbel |
+|2. Masukan Username & Password|
+|3. IF username & password sesuai, maka akan masuk kehalaman dashboard sesuai dengan level nya|
+|   ELSE username & password tidak sesuai, maka akan muncul pesan "gagal login" |
+
+
+
+
+
+#### 3.3.2 Input Data Pelajar
+=======
 #### 3.3.2 Dashboard Admin
+>>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
 
 ##### 3.3.2.1 Fungsi Modul
 
 |No | Fungsi | Jenis | Tabel Terkait |
 |---|--------|-------|---------------|
+<<<<<<< HEAD
+|1 | Input Data Pelajar | From Entry Tabular | siswa |
+
+##### 3.3.2.2 Spesifikasi Layar Utama
+![](http://i67.tinypic.com/11t98wm.png)
+=======
 |1 | CRUD Data Siswa | From Entry Tabular | Data Siswa |
 |2 | CRUD Data Tentor | Form Entry Tabular | Data pengajar |
 |3 | CRUD Jadwal Pelajaran | From Entry Tabular | Jadwal Mapel |
@@ -333,11 +394,61 @@ prototype belum jadi
 |7 | Melihat Data Laporan Nilai  | Report Tabular | Data Nilai |
 
 ##### 3.3.2.2 Spesifikasi Layar Utama
+>>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
 
 ##### 3.3.2.3 Spesifikasi Query
 
 |ID Query| Deskripsi| Ekspresi Query|
 |--------|----------|---------------|
+<<<<<<< HEAD
+|QUE-05 | Input data Pelajar | insert into siswa values (id_siswa, NIS, 'nama','username','password','jenis_kelamin','alamat') |
+
+
+##### 3.3.2.4 Spesifikasi Field Pada Data Layar <br>
+
+|Label | Field | Tabel/Query | Validasi| Keterangan|
+|---|--------|-------|---------------|-------------|
+| nama | nama | select nama from siswa |input data berhasil |input data pelajar|
+| nis | NIS | select NIS from siswa |input data berhasil |input data pelajar|
+| username | username | select username from siswa |input data berhasil |input data pelajar|
+| password | password | select password from siswa |input data berhasil |input data pelajar|
+| jenis_kelamin | jenis_kelamin | select jenis_kelamin from siswa |input data berhasil |input data pelajar|
+| alamat | alamat | select alamat from siswa |input data berhasil |input data pelajar|
+
+##### 3.3.2.5 Spesifikasi objek objek pada layar
+|id_objek | jenis | keteranagan |
+|---|--------|-------|
+| nama| input type text | memasukan nama ke database |
+| nis |input type text | memasukan NIS ke database |
+| username |input type text | memasukan username ke database |
+| password |input type password  | memasukan password ke database |
+| jenis_kelamin | select | memasukan jenis_kelamin ke database |
+| alamat |input type text | memasukan alamat ke database |
+| btnSubmit | Button | Jika Diklik maka akan Diasosiasikan ke QUE-05 pada sub-bab 3.3.2.3 |
+
+##### 3.3.2.6 Spesifikasi Proses/Algoritma
+<id_proses> : input_pelajar
+Objek Terkait : nama, NIS, username, password, jenis_kelamin, password, jenis_kelamin, alamat, btnSubmit
+Event : Input Data Pelajar
+
+|Initial State (IS)|
+|---|
+| Tabel sudah dibuat strukturnya tetapi mungkin masih kosong | 
+
+|Initial State (IS)|
+|---|
+| Menghasilkan tabel siswa yang telah ditambahkan satu rekord | 
+
+|Spesifikasi Proses/Algoritma|
+|---|
+| 1. Cek apakah data yang dimasukkan ada |
+|2.IF belum ada, tambahkan 1 record pada tabel siswa|
+|   ELSE Jika sudah ada, maka tambahkan data yang berbeda |
+
+
+
+
+=======
 |QUE-05 | Memasukkan Data Siswa | insert into data_siswa values.. |
 |QUE-06 | Mengubah Data Siswa | update data_siswa set... |
 |QUE-07 | Menampilkan Data Orang tua | select * from data_orangtua|
@@ -361,5 +472,6 @@ prototype belum jadi
 ##### 3.3.2.5 Spesifikasi Objek - Objek Pada Layar
 
 ##### 3.3.2.6 Spesifikasi Proses/Algoritma
+>>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
 
 #### 3.4 Matriks Keturunan
