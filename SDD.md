@@ -271,7 +271,7 @@ Setiap modul pada rancangan global, dirinci satu per satu
 
 ##### 3.3.1.2 Spesifikasi Layar Utama
 ![](http://i64.tinypic.com/314yqh3.png)
-prototype belum jadi
+
 
 ##### 3.3.1.3 Spesifikasi Query
 
@@ -297,10 +297,10 @@ prototype belum jadi
 | btnSubmit | Button | Jika Diklik maka akan Diasosiasikan ke QUE-01, QUE-02, QUE-03 dan QUE-04 pada sub-bab 3.3.1.3 |
 
 ##### 3.3.1.6 Spesifikasi Proses/Algoritma
-|---|
-|id_proses | login
-|Objek Terkait | username, password, btnSubmit
-|Event | Login
+
+id_proses : login <br>
+Objek Terkait : username, password, btnSubmit <br>
+Event : Login
 
 
 |Initial State (IS)|
@@ -358,10 +358,9 @@ prototype belum jadi
 | btnSubmit | Button | Jika Diklik maka akan Diasosiasikan ke QUE-05 pada sub-bab 3.3.2.3 |
 
 ##### 3.3.2.6 Spesifikasi Proses/Algoritma
-|---|
-|id_proses | input_pelajar
-|Objek Terkait|nama, NIS, username, password, jenis_kelamin, password, jenis_kelamin, alamat, btnSubmit
-|Event|Input Data Pelajar
+id_proses : input_pelajar<br>
+Objek Terkait : nama, NIS, username, password, jenis_kelamin, password, jenis_kelamin, alamat, btnSubmit <br>
+Event : Input Data Pelajar
 
 |Initial State (IS)|
 |---|
