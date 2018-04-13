@@ -1,22 +1,9 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-	 <html>
-=======
- <html>
->>>>>>> c1f26734e05b601e0312afe5a1c4fe80c53b84b2
->>>>>>> 6bc4f77ceef68c2672152f17f99442175b98ed9e
->>>>>>> 03418aad4d98f75adcdec2fa5b162ddde1e1708a
->>>>>>> 728d8ddaf496a28f8d2d599d496e7febd0f434dc
+<html>
 <body>
 <div align="center"><h1>Software Design Document</h1></div>
 
-<p align="center"><b>Version 1.2 </b><br>
-<p align="center">11 Maret 2018</b>
+<p align="center"><b>Version 1.3 </b><br>
+<p align="center">13 April 2018</b>
 <p align="center">
 <img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
 </p>
@@ -37,30 +24,22 @@
 </body>
 </html>
 
-
-
 ### 1. PENDAHULUAN ###
-
-
 #### 1.1 TUJUAN
 
 Tujuan pembuatan SDD (Software Design Description) ini adalah untuk menjelaskan
 langkah langkah desain dan proses-proses dalam pembuatan sistem aplikasi yang akan
 diterapkan pada Aplikasi Sistem Informasi Akademik Bimbingan Belajar, dan juga memberi definisi kebutuhan
 untuk sistem, spesifikasi kebutuhan fungsional.
-Fungsi utama dari aplikasi ini adalah mempermudah user dalam memantau Nilai dan Absensi nya, dan juga memberikan kemudahan untuk melakukan bimbingan melalui fitur chat
-
-Secara ringkas fungsi dari aplikasi ini diantaranya :
+Fungsi utama dari aplikasi ini adalah mempermudah user dalam memantau Nilai dan Absensi nya, dan juga memberikan kemudahan untuk melakukan bimbingan melalui fitur chat. Secara ringkas fungsi dari aplikasi ini diantaranya :
 
 
-- user Login ke aplikasi jika belum terdaftar maka harus menghubungi Administrator terlebih dahulu.
-- user dapat memantau Nilai dan Absensi nya
-- pengajar berkehendak untuk memberikan nilai dan absensi kepada pelajar
-- administrator memegang hak penuh dalam sistem
+- User Login ke aplikasi jika belum terdaftar maka harus menghubungi Administrator terlebih dahulu.
+- User dapat memantau Nilai dan Absensi nya
+- Pengajar berkehendak untuk memberikan nilai dan absensi kepada pelajar
+- Administrator memegang hak penuh dalam sistem
 
-
-
-##### 1.2 LINGKUP
+#### 1.2 LINGKUP
 
 Fleksibel<br>
 Hadirnya aplikasi sebagai sarana untuk memudahkan user untuk memberikan nilai dan absensi, SIMBEL haruslah mempertimbangkan 
@@ -75,50 +54,41 @@ Tak hanya sebagai sarana penilaian dan absensi, aplikasi SIMBEL haruslah mampu m
 Pengawasan orangtua<br>
 Melalui aplikasi, orangtua tentu dengan mudah memantau Nilai dan Absensi anak anak nya, tak ada salahnya memberikan informasi detil lewat aplikasi kepada orang tua.
 
-##### 1.3 Definisi, akronim, singkatan
+#### 1.3 Definisi, akronim, singkatan
 
 | No | Singkatan | Arti Kata |
 |----|-----------|-----------|
-| 1  | SKPL | Spesifikasi Kebutuhan Perangkat Lunak | 
+| 1  | SKPL | Spesifikasi Kebutuhan Perangkat Lunak| 
 | 2  | SKPL | Spesifikasi Perangkat Lunak |
 | 3  | Administrator | Pengelola sistem aplikasi |
 | 4  | User | Pengguna Aplikasi |
 | 5  | SIMBEL | Sistem informasi Akademik Bimbingan Belajar |
 | 6  | Siakad | Sistem informasi akademik |
 
-#### 2. Referensi
+### 2. Referensi
 
 * IEEE, IEEE Draft Standard for Software Design Descriptions. IEEE P1 01 6/D5.0; 1 2 December 2005
 
 * Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 
-#### 3. Penjelasan Dekomposisi
-
-
-##### 3.1.1 Diagram Konteks
-
+### 3. Penjelasan Dekomposisi
+#### 3.1.1 Diagram Konteks
 Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem. Diagram konteks merupakan level tertinggi dari DFD yang menggambarkan seluruh input ke dalam sistem atau output dari sistem yang memberi gambaran tentang keseluruhan sistem. Sistem dibatasi oleh boundary (Digambarkan dengan garis putus - putus). Dalam diagram konteks hanya ada satu proses, tidak boleh ada store dalam diagram konteks. Berikut ini adalah gambar diagram konteks dari Sistem Informasi Akademik Bimbingan Belajar.
 
 ![](http://i66.tinypic.com/20koaoh.jpg)
- 
 
-##### 3.1.2 DFD Level 0
-
-Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur. Berikut DFD Level 0 Sistem Informasi Akademik Bimbingan Belajar. 
+#### 3.1.2 DFD Level 0
 
 ![](http://i68.tinypic.com/5lc2me.jpg)
 
 #### 3.2 Dekommposisi Proses Konkuren
 
 ##### 3.2.1 DFD Level 1 : Proses 1
-
-
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin dan Pengajar yang Mengelolah Data Nilai Dan Data Absensi.
 
 ![](http://i66.tinypic.com/90viv9.jpg)
 
 ##### 3.2.2 DFD Level 1 : Proses 2
-
 
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin, Pengajar dan Siswa yang Mengelolah Data Ortu, Data Pengajar, Data Siswa, Data Kelas, Data Mapel, Data Jadwal .
 
@@ -126,13 +96,11 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 
 ##### 3.2.3 DFD Level 1 : Proses 3
 
-
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin, Pengajar dan Siswa yang Mengelolah Data Bimbingan.
 
 ![](http://i63.tinypic.com/sfvw4g.jpg)
 
 ##### 3.2.4 DFD Level 1 : Proses 4
-
 
 DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1 yg menjelaskan Admin, Pengajar, Siswa dan Ortu yang Mengelolah Laporan Nilai Dan Laporan Absensi.
 
@@ -140,13 +108,11 @@ DFD Level 1 ini penjelasan dari DFD level 0 yang sebelumnya, Berikut DFD level 1
 
 ##### 3.2.5 DFD Level 2 : Proses 1
 
-
 DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Data Nilai dan  Pengajar dan Siswa yang melihat Data Nilai.
 
 ![](http://i68.tinypic.com/24pw4g3.jpg)
 
 ##### 3.2.6 DFD Level 2 : Proses 2
-
 
 DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Data Absensi dan  Pengajar dan Siswa yang melihat Data Absensi.
 
@@ -154,42 +120,31 @@ DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2
 
 ##### 3.2.7 DFD Level 2 : Proses 3
 
-
 DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Data Siswa dan  Pengajar dan Siswa yang melihat Data Siswa.
 
 ![](http://i66.tinypic.com/4h3vhe.jpg)
-
 ##### 3.2.8 DFD Level 2 : Proses 4
-
 
 DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Data Kelas dan  Pengajar dan Siswa yang melihat Data Kelas.
 
 ![](http://i67.tinypic.com/mmvcsk.jpg)
-
 ##### 3.2.9 DFD Level 2 : Proses 5
-
 
 DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Data Mapel dan  Pengajar dan Siswa yang melihat Data Mapel.
 
 ![](http://i66.tinypic.com/1448ftu.jpg)
-
 ##### 3.2.10 DFD Level 2 : Proses 6
-
 
 DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Data Jadwal dan  Pengajar dan Siswa yang melihat Data Jadwal.
 
 ![](http://i65.tinypic.com/2zz0nxv.jpg)
-
 ##### 3.2.11 DFD Level 2 : Proses 7
-
 
 DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin, Pengajar dan Siswa yang mengelola Data Bimbingan.
 
 ![](http://i68.tinypic.com/1z48ty1.jpg)
 
-
 ##### 3.2.11 DFD Level 2 : Proses 8
-
 
 DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2 yg menjelaskan Admin yang Mengelolah Laporan Nilai dan  Pengajar, Siswa dan Ortu yang melihat Laporan Nilai.
 
@@ -202,7 +157,6 @@ DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2
 ![](http://i66.tinypic.com/2428ro1.jpg)
 
 #### 3.3 Dekomposisi Data
-
 * Data User Siswa, Pengajar dan Orang Tua
 
 | No. | Data | Keterangan |
@@ -304,11 +258,9 @@ DFD Level 2 ini penjelasan dari DFD level 1 yang sebelumnya, Berikut DFD level 2
 |4|id_kelas|foreign key|
 |5|id_mapel |foreign key|
 
-
 #### 3.3 Deskripsi  Rinci Modul 
 
 Setiap modul pada rancangan global, dirinci satu per satu  
-
 #### 3.3.1 Login
 
 ##### 3.3.1.1 Fungsi Modul
@@ -317,19 +269,12 @@ Setiap modul pada rancangan global, dirinci satu per satu
 |---|--------|-------|---------------|
 |1 | Login | From Entry Tabular | users |
 
-
-
 ##### 3.3.1.2 Spesifikasi Layar Utama
-
-<<<<<<< HEAD
 ![](http://i64.tinypic.com/314yqh3.png)
-
 prototype belum jadi
 =======
 
 ![](http://i64.tinypic.com/314yqh3.png)
->>>>>>> 728d8ddaf496a28f8d2d599d496e7febd0f434dc
-
 ##### 3.3.1.3 Spesifikasi Query
 
 |ID Query| Deskripsi| Ekspresi Query|
@@ -360,11 +305,11 @@ Event : Login
 
 |Initial State (IS)|
 |---|
-| Form login masih kosong | 
+| Form login masih kosong 
 
 |Initial State (IS)|
 |---|
-| menentukan otoritas user | 
+| menentukan otoritas user
 
 |Spesifikasi Proses/Algoritma|
 |---|
@@ -374,15 +319,7 @@ Event : Login
 |   ELSE username & password tidak sesuai, maka akan muncul pesan "gagal login" |
 
 
-
-
-
 #### 3.3.2 Input Data Pelajar
-<<<<<<< HEAD
-
-#### 3.3.2 Dashboard Admin
-=======
->>>>>>> 728d8ddaf496a28f8d2d599d496e7febd0f434dc
 
 ##### 3.3.2.1 Fungsi Modul
 
@@ -392,26 +329,11 @@ Event : Login
 
 ##### 3.3.2.2 Spesifikasi Layar Utama
 ![](http://i67.tinypic.com/11t98wm.png)
-<<<<<<< HEAD
-|--|-----------------|--------------------|------------|
-|1 | CRUD Data Siswa | From Entry Tabular | Data Siswa |
-|2 | CRUD Data Tentor | Form Entry Tabular | Data pengajar |
-|3 | CRUD Jadwal Pelajaran | From Entry Tabular | Jadwal Mapel |
-|4 | CRUD Data Kelas | Form Entry Tabular | Data Kelas |
-|5 | Melihat Data Aspek Penilaian | Report Tabular | Data Nilai |
-|6 | Melihat Data Laporan Absensi | Report Tabular | Data Absensi |
-|7 | Melihat Data Laporan Nilai  | Report Tabular | Data Nilai |
-
-##### 3.3.2.2 Spesifikasi Layar Utama
-=======
->>>>>>> 728d8ddaf496a28f8d2d599d496e7febd0f434dc
 
 ##### 3.3.2.3 Spesifikasi Query
-
 |ID Query| Deskripsi| Ekspresi Query|
 |--------|----------|---------------|
 |QUE-05 | Input data Pelajar | insert into siswa values (id_siswa, NIS, 'nama','username','password','jenis_kelamin','alamat') |
-
 
 ##### 3.3.2.4 Spesifikasi Field Pada Data Layar <br>
 
@@ -436,17 +358,18 @@ Event : Login
 | btnSubmit | Button | Jika Diklik maka akan Diasosiasikan ke QUE-05 pada sub-bab 3.3.2.3 |
 
 ##### 3.3.2.6 Spesifikasi Proses/Algoritma
-<id_proses> : input_pelajar
-Objek Terkait : nama, NIS, username, password, jenis_kelamin, password, jenis_kelamin, alamat, btnSubmit
-Event : Input Data Pelajar
+|---|--------|
+|id_proses | input_pelajar
+|Objek Terkait|nama, NIS, username, password, jenis_kelamin, password, jenis_kelamin, alamat, btnSubmit
+|Event|Input Data Pelajar
 
 |Initial State (IS)|
 |---|
-| Tabel sudah dibuat strukturnya tetapi mungkin masih kosong | 
+| Tabel sudah dibuat strukturnya tetapi mungkin masih kosong |
 
 |Initial State (IS)|
 |---|
-| Menghasilkan tabel siswa yang telah ditambahkan satu rekord | 
+| Menghasilkan tabel siswa yang telah ditambahkan satu rekord |
 
 |Spesifikasi Proses/Algoritma|
 |---|
@@ -455,34 +378,11 @@ Event : Input Data Pelajar
 |   ELSE Jika sudah ada, maka tambahkan data yang berbeda |
 
 
-
-
-<<<<<<< HEAD
-=======
-|QUE-05 | Memasukkan Data Siswa | insert into data_siswa values.. |
-|QUE-06 | Mengubah Data Siswa | update data_siswa set... |
-|QUE-07 | Menampilkan Data Orang tua | select * from data_orangtua|
-|QUE-08 | Memasukkan Data Orang Tua | insert into data_orangtua values.. |
-|QUE-09 | Mengubah Data Orang Tua | Update data_orangtua set.. |
-|QUE-10 | Menampilkan Data Kelas | select * from data_kelas |
-|QUE-11 | Memasukkan Data Kelas | insert into data_kelas values.. |
-|QUE-12 | Mengubah Data Kelas | update data_kelas set.. |
-|QUE-13 | Menampilkan Jadwal | select * from jadwal_mapel |
-|QUE-14 | Memasukkan Jadwal | insert into jadwal_mapel values.. |
-|QUE-15 | Mengubah Jadwal | update jadwal_mapel set.. |
-|QUE-16 | Menampilkan Laporan Nilai | Select * from data_absensi where id_siswa = 'id_siswa' |
-|QUE-17 | Menampilkan Data Tentor | Select * From data_pengajar |
-|QUE-18 | Memasukkan Data Tentor  | insert into data_pengajar values.. |
-|QUE-19 | Mengubah Data Tentor | Upadte data_pengajar set... |
-|QUE-20 | Menampilkan Data siswa | select * from data_siswa |
-
 ##### 3.3.2.4 Spesifikasi Field Data Layar
 
 
 ##### 3.3.2.5 Spesifikasi Objek - Objek Pada Layar
 
 ##### 3.3.2.6 Spesifikasi Proses/Algoritma
-=======
->>>>>>> 728d8ddaf496a28f8d2d599d496e7febd0f434dc
 
 #### 3.4 Matriks Keturunan
