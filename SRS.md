@@ -728,77 +728,175 @@ Logika Struktur terdapat pada bagian 3.3.1
 
 **3.2.1 Login**
 
-|--|--| | Nama fungsi |Login | |Ref|Bag 2.2, Login | |Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| |Precondition|Login untuk Pelajar, Pengajar, Orang tua dan Admin| |Basic Path|1. Users sudah terdaftar dan jika sudah terdaftar maka bisa langsung menggunakan aplikasi yang menampilkan Dashboard sebagai halaman utamanya 
-2. Sistem menampilkan halaman login user yang terdiri dari kolom username, kolom password dan kolom captcha. 
-3. Users memasukkan username, password, dan captcha. 
-4. Sistem menampilkan halaman utama. | |Alternative|Tidak Ada| |Post Condition|User dapat melihat Halaman utama web dan dapat mengakses fungsi lainnya | |Exception Push	|1. Tidak ada Koneksi 
-2. user belum mendaftar|
+Nama Fungsi | Login
+----------| ----------------
+|Ref|Bag 2.2, Login | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| 
+|Precondition|Login untuk Pelajar, Pengajar, Orang tua dan Admin| 
+|Basic Path | 1. Users sudah terdaftar dan jika sudah terdaftar maka bisa langsung menggunakan aplikasi yang menampilkan Dashboard sebagai halaman utamanya 
+|           | 2. Sistem menampilkan halaman login user yang terdiri dari kolom username, kolom password dan kolom captcha. 
+||3. Users memasukkan username, password, dan captcha. 
+||4. Sistem menampilkan halaman utama. | 
+|Alternative|Tidak Ada| 
+|Post Condition|User dapat melihat Halaman utama web dan dapat mengakses fungsi lainnya | 
+|Exception Push	|1. Tidak ada Koneksi 
+||2. user belum mendaftar|
 
 **3.2.2 Laporan Nilai dan Absensi**
 
-|--|--| | Nama fungsi |Laporan Nilai dan Absensi | |Ref|Bag 2.2, Laporan Nilai dan Absensi| |Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| |Precondition|Menampilkan Data Laporan dan Nilai| |Basic Path|1. Users Login ke dalam Sistem 
-2. Users Melihat Laporan Nilai dan Absensi 
-3.Sistem menampilkan Laporan Nilai dan Absensi| |Alternative|Tidak Ada| |Post Condition|Users dapat Melihat Laporan Nilai dan Absensi | |Exception Push	|1. Tidak ada Koneksi |
+Nama Fungsi | Laporan Nilai dan Absensi
+----------| ----------------
+|Ref|Bag 2.2, Laporan Nilai dan Absensi| 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| 
+|Precondition|Menampilkan Data Laporan dan Nilai| 
+|Basic Path|1. Users Login ke dalam Sistem 
+||2. Users Melihat Laporan Nilai dan Absensi 
+||3.Sistem menampilkan Laporan Nilai dan Absensi| 
+|Alternative|Tidak Ada| 
+|Post Condition|Users dapat Melihat Laporan Nilai dan Absensi | 
+|Exception Push	|1. Tidak ada Koneksi |
 
 **3.2.3 Data Mata Pelajaran**
 
-|--|--| | Nama fungsi |Data Mata Pelajaran | |Ref|Bag 2.2, Data Mata Pelajaran | |Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| |Precondition|Menampilkan Data Mata Pelajaran | |Basic Path|1. Users Login ke dalam Sistem 
-2. User Melihat Data Mata Pelajaran 
-3.Sistem menampilkan Data Mata Pelajaran| |Alternative|Tidak Ada| |Post Condition|Users dapat Melihat Data Mata Pelajaran | |Exception Push	|1. Tidak ada Koneksi |
+Nama Fungsi | Data Mata Pelajaran 
+----------| ----------------
+|Ref|Bag 2.2, Data Mata Pelajaran | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| 
+|Precondition|Menampilkan Data Mata Pelajaran | 
+|Basic Path|1. Users Login ke dalam Sistem 
+||2. User Melihat Data Mata Pelajaran 
+||3.Sistem menampilkan Data Mata Pelajaran| 
+|Alternative|Tidak Ada| 
+|Post Condition|Users dapat Melihat Data Mata Pelajaran | 
+|Exception Push	|1. Tidak ada Koneksi |
 
 **3.2.4 CRUD Nilai dan Absensi**
 
-|--|--| | Nama fungsi |CRUD Nilai dan Absensi | |Ref|Bag 2.2, CRUD Nilai dan Absensi | |Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| |Precondition|Menampilkan CRUD Nilai dan Absensi | |Basic Path|1. Admin Login ke dalam Sistem 
-2. Admin CRUD Nilai dan Absensi 
-3.Sistem menampilkan nilai dan absensi| |Alternative|Tidak Ada| |Post Condition|User dapat Melihat Laporan Nilai dan Absensi dan Admin dapat mengCRUD Data Nilai dan Absensi| |Exception Push |1. Tidak ada Koneksi |
+Nama Fungsi | CRUD Nilai dan Absensi
+----------| ----------------
+|Ref|Bag 2.2, CRUD Nilai dan Absensi | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| 
+|Precondition|Menampilkan CRUD Nilai dan Absensi | 
+|Basic Path|1. Admin Login ke dalam Sistem 
+||2. Admin CRUD Nilai dan Absensi 
+||3.Sistem menampilkan nilai dan absensi| 
+|Alternative|Tidak Ada| 
+|Post Condition|User dapat Melihat Laporan Nilai dan Absensi dan Admin dapat meng - CRUD Data Nilai dan Absensi| 
+|Exception Push |1. Tidak ada Koneksi |
 
 **3.2.5 Data Kelas**
 
-|--|--| | Nama fungsi |Data Kelas | |Ref|Bag 2.2, Data Kelas | |Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| |Precondition|Menampilkan Data Kelas | |Basic Path|1. Users Login ke dalam Sistem 
-2. Users Melihat Data Kelas 
-3.Sistem menampilkan Data Kelas| |Alternative|Tidak Ada| |Post Condition|Users dapat Melihat Laporan Data Kelas | |Exception Push	|1. Tidak ada Koneksi |
+Nama Fungsi | Data Kelas
+----------| ----------------
+|Ref|Bag 2.2, Data Kelas | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| 
+|Precondition|Menampilkan Data Kelas | 
+|Basic Path|1. Users Login ke dalam Sistem 
+||2. Users Melihat Data Kelas 
+||3.Sistem menampilkan Data Kelas| 
+|Alternative|Tidak Ada| 
+|Post Condition|Users dapat Melihat Laporan Data Kelas | 
+|Exception Push	|1. Tidak ada Koneksi |
 
 **3.2.6 Jadwal Try Out**
 
-|--|--| | Nama fungsi |Jadwal Try Out | |Ref|Bag 2.2, Jadwal Try Out | |Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| |Precondition|Menampilkan Jadwal Try Out | |Basic Path|1. Users Login ke dalam Sistem 
-2. Users Melihat Jadwal Try Out 
-3.Sistem menampilkan Jadwal Try Out| |Alternative|Tidak Ada| |Post Condition|Users dapat Melihat Jadwal Try Out | |Exception Push	|1. Tidak ada Koneksi |
+Nama Fungsi | Jadwal Try Out
+----------| ----------------
+|Ref|Bag 2.2, Jadwal Try Out | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| 
+|Precondition|Menampilkan Jadwal Try Out | 
+|Basic Path|1. Users Login ke dalam Sistem 
+||2. Users Melihat Jadwal Try Out 
+||3.Sistem menampilkan Jadwal Try Out| 
+|Alternative|Tidak Ada| 
+|Post Condition|Users dapat Melihat Jadwal Try Out | 
+|Exception Push	|1. Tidak ada Koneksi |
 
 **3.2.7 Data Jadwal Mata Pelajaran**
 
-|--|--| | Nama fungsi |Data Jadwal Mata Pelajaran | |Ref|Bag 2.2, Data Jadwal Mata Pelajaran | |Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| |Precondition|Menampilkan Data Jadwal Mata Pelajaran | |Basic Path|1. Users Login ke dalam Sistem 
-2. Users Melihat Data Jadwal Mata Pelajaran 
-3.Sistem menampilkan Data Jadwal Mata Pelajaran| |Alternative|Tidak Ada| |Post Condition|Users dapat Melihat Data Jadwal Mata Pelajaran | |Exception Push	|1. Tidak ada Koneksi |
-3.2.8 Data Bimbingan
-|--|--| | Nama fungsi |Bimbingan | |Ref|Bag 2.2, Bimbingan | |Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| |Precondition|Menampilkan Data Bimbingan| |Basic Path|1. Users Login ke dalam Sistem 
-2. Users Melakukan Bimbingan 
-3.Sistem menampilkan Data Bimbingan| |Alternative|Tidak Ada| |Post Condition|Users dapat Melakukan Bimbingan Dan Melihat Data Bimbingan| |Exception Push	|1. Tidak ada Koneksi |
+Nama Fungsi | Data Jadwal Mata Pelajaran
+----------| ----------------
+|Ref|Bag 2.2, Data Jadwal Mata Pelajaran | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| 
+|Precondition|Menampilkan Data Jadwal Mata Pelajaran | 
+|Basic Path|1. Users Login ke dalam Sistem 
+||2. Users Melihat Data Jadwal Mata Pelajaran 
+||3.Sistem menampilkan Data Jadwal Mata Pelajaran| 
+|Alternative|Tidak Ada| 
+|Post Condition|Users dapat Melihat Data Jadwal Mata Pelajaran | 
+|Exception Push	|1. Tidak ada Koneksi |
+
+**3.2.8 Data Bimbingan**
+
+Nama Fungsi | Bimbingan
+----------| ----------------
+|Ref|Bag 2.2, Bimbingan | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| 
+|Precondition|Menampilkan Data Bimbingan| 
+|Basic Path|1. Users Login ke dalam Sistem 
+||2. Users Melakukan Bimbingan 
+||3.Sistem menampilkan Data Bimbingan| 
+|Alternative|Tidak Ada| 
+|Post Condition|Users dapat Melakukan Bimbingan Dan Melihat Data Bimbingan|
+|Exception Push	|1. Tidak ada Koneksi |
 
 **3.2.9 CRUD Data Pelajaran**
 
-|--|--| | Nama fungsi |CRUD Data Pengajar | |Ref|Bag 2.2, CRUD Data Pengajar | |Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| |Precondition|Menampilkan CRUD Data Pengajar| |Basic Path|1. Admin Login ke dalam Sistem 
-2. Admin Melakukan CRUD Data Pengajar 
-3.Sistem menampilkan CRUD Data Pengajar| |Alternative|Tidak Ada| |Post Condition|Admin dapat Melakukan CRUD Data Pengajar dan Melihat Data Pengajar| |Exception Push	|1. Tidak ada Koneksi |
+Nama Fungsi | CRUD Data Pengajar
+----------| ----------------
+|Ref|Bag 2.2, CRUD Data Pengajar | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| 
+|Precondition|Menampilkan CRUD Data Pengajar| 
+|Basic Path|1. Admin Login ke dalam Sistem 
+||2. Admin Melakukan CRUD Data Pengajar 
+||3.Sistem menampilkan CRUD Data Pengajar| 
+|Alternative|Tidak Ada| 
+|Post Condition|Admin dapat Melakukan CRUD Data Pengajar dan Melihat Data Pengajar|
+|Exception Push	|1. Tidak ada Koneksi |
 
 **3.2.10 CRUD Data Pelajar**
 
-|--|--| | Nama fungsi |CRUD Data Pelajar | |Ref|Bag 2.2, CRUD Data Pelajar | |Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| |Precondition|Menampilkan CRUD Data Pelajar| |Basic Path|1. Admin Login ke dalam Sistem 
-2. Admin Melakukan CRUD Data Pelajar 
-3.Sistem menampilkan CRUD Data Pelajar| |Alternative|Tidak Ada| |Post Condition|Admin dapat Melakukan CRUD Data Pelajar dan Melihat Data Pelajaran| |Exception Push	|1. Tidak ada Koneksi |
+Nama Fungsi | CRUD Data Pengajar
+----------| ----------------
+|Ref|Bag 2.2, CRUD Data Pelajar | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| 
+|Precondition|Menampilkan CRUD Data Pelajar| 
+|Basic Path|1. Admin Login ke dalam Sistem 
+||2. Admin Melakukan CRUD Data Pelajar 
+||3.Sistem menampilkan CRUD Data Pelajar| 
+|Alternative|Tidak Ada| 
+|Post Condition|Admin dapat Melakukan CRUD Data Pelajar dan Melihat Data Pelajaran|
+|Exception Push	|1. Tidak ada Koneksi |
 
 **3.2.11 CRUD Data Jadwal Try Out**
 
-|--|--| | Nama fungsi |CRUD Data Jadwal Try Out | |Ref|Bag 2.2, CRUD Data Jadwal Try Out | |Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| |Precondition|Menampilkan CRUD Data Jadwal Try Out| |Basic Path|1. Admin Login ke dalam Sistem 
-2. Admin Melakukan CRUD Data Jadwal Try Out 
-3.Sistem menampilkan CRUD Data Jadwal Try Out| |Alternative|Tidak Ada| |Post Condition|Admin dapat Melakukan CRUD Data Jadwal Try Out dan Melihat Data Jadwal Try Out| |Exception Push	|1. Tidak ada Koneksi |
+Nama Fungsi | CRUD Data Jadwal Try Out
+----------| ----------------
+|Ref|Bag 2.2, CRUD Data Jadwal Try Out | 
+|Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| 
+|Precondition|Menampilkan CRUD Data Jadwal Try Out| 
+|Basic Path|1. Admin Login ke dalam Sistem 
+||2. Admin Melakukan CRUD Data Jadwal Try Out 
+||3.Sistem menampilkan CRUD Data Jadwal Try Out| 
+|Alternative|Tidak Ada| 
+|Post Condition|Admin dapat Melakukan CRUD Data Jadwal Try Out dan Melihat Data Jadwal Try Out| 
+|Exception Push	|1. Tidak ada Koneksi |
 
 **3.2.12 Laporan Nilai Dan Absensi**
 
-|--|--| | Nama fungsi |Laporan Nilai Dan Absensi | |Ref|Bag 2.2, Laporan Nilai Dan Absensi | |Trigger|Membuka web aplikasi SIMBEL, sudah terdaftar| |Precondition|Menampilkan Laporan Nilai Dan Absensi| |Basic Path|1. User Login ke dalam Sistem 
-2.Admin Melakukan Data Laporan Nilai Dan Absensi
-3.Sistem menampilkan Data Laporan Nilai Dan Absensi| |Alternative|Tidak Ada| |Post Condition|Admin dapat Melakukan Data Laporan Nilai Dan Absensi dan Melihat Data Laporan dan Absensi| |Exception Push	|1. Tidak ada Koneksi |
+Nama Fungsi     | Laporan Nilai dan Absensi
+----------      |----------------
+|Ref            |Bag 2.2, Laporan Nilai Dan Absensi | 
+|Trigger        |Membuka web aplikasi SIMBEL, sudah terdaftar| 
+|Precondition   |Menampilkan Laporan Nilai Dan Absensi| 
+|Basic Path     |1. User Login ke dalam Sistem 
+||2.Admin Melakukan Data Laporan Nilai Dan Absensi
+||3.Sistem menampilkan Data Laporan Nilai Dan Absensi| 
+|Alternative    |Tidak Ada| 
+|Post Condition |Admin dapat Melakukan Data Laporan Nilai Dan Absensi dan Melihat Data Laporan dan Absensi| 
+|Exception Push	|1. Tidak ada Koneksi |
 
-##3.3 Struktur Detail Kebutuhan Non - Fungsional
+#### 3.3 Struktur Detail Kebutuhan Non - Fungsional
 
 __3.3.1. Logika Struktur Data__
 
