@@ -210,11 +210,12 @@ Kami membutuhkan technical support di bagian desain project sebanyak 1 orang. Ka
 
 | No | Nama | Jabatan | Modul | Rincian Pekerjaan |
 |----|------|-----------|-----|-------------------|
-| 1  | Fikih Nur Ramadan | Project Manager | - | - |
-| 2  | Firda Faradila | Database | - | - |
-| 3  | Lulu Mukhoyyaroh | Analisys | - | - |
-| 4  | Muhammad Bimo Abditama | Programmer | - | - |
-| 5  | Widi Indriyani | Desain UI/UX | - | - |
+| 1  | Fikih Nur Ramadan | Project Manager | Admin | Update dan Delete Data Pelajar, Pengajar, Orangtua, Kelas dan Mata Pelajaran |
+| 2  | Firda Faradila | Database | Pengajar | Bimbingan (Notif History) |
+| 3  | Lulu Mukhoyyaroh | Analisys | Pengajar | Data Absensi |
+| 4  | Muhammad Bimo Abditama | Programmer | Admin | Create dan Read Data Pelajar, Pengajar, Orangtua, Kelas dan Mata Pelajaran  |
+|	 | 	 |	 | Login | Admin, Pengajar, Pelajar dan Orangtua |
+| 5  | Widi Indriyani | Desain UI/UX | Pengajar | Input Nilai dan Laporan |
 
 __Kategori Kegiatan :__
 
