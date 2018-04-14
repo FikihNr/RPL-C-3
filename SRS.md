@@ -660,7 +660,7 @@ Availability |	24 jam nonstop, kecuali ada maintenance / perbaikan sistem
 Reliability |	Kegagalan yang ditolerir sekitar 5%
 Ergonomy	| Sistem informasi ini harus user friendly
 Portability	| Aplikasi ini berjalan pada platform atau sistem operasi apa
-saja yang mendukung aplikasi berbasis web
+|| saja yang mendukung aplikasi berbasis web
 Memory	| Minimum memory 128 MB
 Security|	Login (manajemen user) dan validasi data sangat penting
 Bahasa	|Menggunakan bahasa Indonesia, kecuali ada penambahan
