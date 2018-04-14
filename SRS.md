@@ -672,29 +672,25 @@ __2.4. Karakteristik pengguna__
 
 Dalam website SIMBEL ini. Terdapat empat user berdasarkan (privilege) dalam system, antara lain :
 
-__1. Administrator__
+1. Administrator
+ * Memiliki hak penuh terhadap system, mampu merubah isi system.
+ * Memiliki hak akses secara langsung pada database system.
+ * User ini ada untuk melakukan maintenance terhadap system (jika diperlukan dan keadaan darurat).
 
-* Memiliki hak penuh terhadap system, mampu merubah isi system.
-* Memiliki hak akses secara langsung pada database system.
-* User ini ada untuk melakukan maintenance terhadap system (jika diperlukan dan keadaan darurat).
+2. Pengajar (Tentor)
+ * Memberikan pengajaran terhadap pelajar (siswa) setelah melakukan keikut sertaan dalam kerja sama.
+ * Memberikan laporan data penilaian dan absensi yang dapat diinformasikan kepada user melalui SIMBEL.
+ * Menjawab konsultasi bimbingan yang diberikan oleh pelajar (tenor).
+ * Tidak memiliki hak penuh terhadap system dan database secara langsung.
 
-__2.Pengajar (Tentor)__
+3. Pelajar (Siswa)
+ * Haknya sangat terbatas, user ini hanya diizinkan untuk melihat nilai, mata pelajaran, jadwal try out, sarana dan prasarana dan data absensi yang di berikan oleh pengajar (tenor) melalui SIMBEL.
+ * Memberikan konsultasi bimbingan kepada pengajar (tenor).
+ * Tidak memiliki hak akses apapun.
 
-* Memberikan pengajaran terhadap pelajar (siswa) setelah melakukan keikut sertaan dalam kerja sama.
-* Memberikan laporan data penilaian dan absensi yang dapat diinformasikan kepada user melalui SIMBEL.
-* Menjawab konsultasi bimbingan yang diberikan oleh pelajar (tenor).
-* Tidak memiliki hak penuh terhadap system dan database secara langsung.
-
-__3.Pelajar (Siswa)__
-
-* Haknya sangat terbatas, user ini hanya diizinkan untuk melihat nilai, mata pelajaran, jadwal try out, sarana dan prasarana dan data absensi yang di berikan oleh pengajar (tenor) melalui SIMBEL.
-* Memberikan konsultasi bimbingan kepada pengajar (tenor).
-* Tidak memiliki hak akses apapun.
-
-__4.Orang Tua__
- 
-* Haknya sangat terbatas, eser ini hanya diizinkan melihat nilai, mata pelajaran, jadwal try out, sarana dan prasarana dan data absensi yang di berikan oleh pengajar (tenor) melalui SIMBEL.
-* Tidak memiliki hak akses apapun.
+4. Orang Tua / Wali
+ * Haknya sangat terbatas, eser ini hanya diizinkan melihat nilai, mata pelajaran, jadwal try out, sarana dan prasarana dan data absensi yang di berikan oleh pengajar (tenor) melalui SIMBEL.
+ * Tidak memiliki hak akses apapun.
 
 __2.5.  Batasan – Batasan__
 
