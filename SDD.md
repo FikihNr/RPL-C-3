@@ -307,7 +307,15 @@ Event : Login
 |---|
 | Form login masih kosong 
 
+<<<<<<< HEAD
 |Final State (FS)|
+=======
+<<<<<<< HEAD
+|Final State (FS)|
+=======
+|Initial State (IS)|
+>>>>>>> 5434e14010e1a4c1b0080d18cdf5165524afc015
+>>>>>>> e01a31bbb23b1ca894a11010f2a7108824aead7c
 |---|
 | menentukan otoritas user
 
@@ -347,7 +355,15 @@ Event : Login
 | alamat | alamat | select alamat from siswa |input data berhasil |input data pelajar|
 
 ##### 3.3.2.5 Spesifikasi objek objek pada layar
+<<<<<<< HEAD
 |id_objek | jenis | keterangan |
+=======
+<<<<<<< HEAD
+|id_objek | jenis | keterangan |
+=======
+|id_objek | jenis | keteranagan |
+>>>>>>> 5434e14010e1a4c1b0080d18cdf5165524afc015
+>>>>>>> e01a31bbb23b1ca894a11010f2a7108824aead7c
 |---|--------|-------|
 | nama| input type text | memasukan nama ke database |
 | nis |input type text | memasukan NIS ke database |
@@ -366,7 +382,15 @@ Event : Input Data Pelajar
 |---|
 | Tabel sudah dibuat strukturnya tetapi mungkin masih kosong |
 
+<<<<<<< HEAD
 |Final State (FS)|
+=======
+<<<<<<< HEAD
+|Final State (FS)|
+=======
+|Initial State (IS)|
+>>>>>>> 5434e14010e1a4c1b0080d18cdf5165524afc015
+>>>>>>> e01a31bbb23b1ca894a11010f2a7108824aead7c
 |---|
 | Menghasilkan tabel siswa yang telah ditambahkan satu rekord |
 
@@ -377,6 +401,10 @@ Event : Input Data Pelajar
 |   ELSE Jika sudah ada, maka tambahkan data yang berbeda |
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e01a31bbb23b1ca894a11010f2a7108824aead7c
 #### 3.3.3 Input Data Pengajar
 
 ##### 3.3.3.1 Fungsi Modul
@@ -645,3 +673,16 @@ input_data_orang_tua | 3.3.4 input data orang tua | memasukan data orangtua ke d
 
 
 
+<<<<<<< HEAD
+=======
+=======
+##### 3.3.2.4 Spesifikasi Field Data Layar
+
+
+##### 3.3.2.5 Spesifikasi Objek - Objek Pada Layar
+
+##### 3.3.2.6 Spesifikasi Proses/Algoritma
+
+#### 3.4 Matriks Keturunan
+>>>>>>> 5434e14010e1a4c1b0080d18cdf5165524afc015
+>>>>>>> e01a31bbb23b1ca894a11010f2a7108824aead7c

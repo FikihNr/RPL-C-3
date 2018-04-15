@@ -210,6 +210,10 @@ Kami membutuhkan technical support di bagian desain project sebanyak 1 orang. Ka
 
 | No | Nama | Jabatan | Modul | Rincian Pekerjaan |
 |----|------|-----------|-----|-------------------|
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e01a31bbb23b1ca894a11010f2a7108824aead7c
 | 1  | Fikih Nur Ramadan | Project Manager | CRUD | Update dan Delete Data Pelajar, Pengajar, Orangtua, Kelas dan Mata Pelajaran |
 | 2  | Firda Faradila | Database | bimbingan | Membuat Notifikasi ketika ada pesan masuk lalu membuat History tentang pesan pesan sebelum nya |
 | 3  | Lulu Mukhoyyaroh | Analisys | input data absensi | membuat fungsi untuk menginputkan Data Absensi sesuai dengan id_siswa |
@@ -218,6 +222,17 @@ Kami membutuhkan technical support di bagian desain project sebanyak 1 orang. Ka
 |   |   |   | Upload Jadwal | membuat jadwal secara dinamis sehingga jadwal dapat di ekport dalam bentuk excel |
 |   |   |   | bimbingan | membuat fitur chat
 | 5  | Widi Indriyani | Desain UI/UX | Input Nilai siswa dan Laporan | membuat funsi untuk menginputkan Ddata Nilai sesuai dengan id_siswa yang bersangkutan dan Laporan untuk ditampilkan kepada oarng tua siswa |
+<<<<<<< HEAD
+=======
+=======
+| 1  | Fikih Nur Ramadan | Project Manager | Admin | Update dan Delete Data Pelajar, Pengajar, Orangtua, Kelas dan Mata Pelajaran |
+| 2  | Firda Faradila | Database | Pengajar | Bimbingan (Notif History) |
+| 3  | Lulu Mukhoyyaroh | Analisys | Pengajar | Data Absensi |
+| 4  | Muhammad Bimo Abditama | Programmer | Admin | Create dan Read Data Pelajar, Pengajar, Orangtua, Kelas dan Mata Pelajaran  |
+|	 | 	 |	 | Login | Admin, Pengajar, Pelajar dan Orangtua |
+| 5  | Widi Indriyani | Desain UI/UX | Pengajar | Input Nilai dan Laporan |
+>>>>>>> 5434e14010e1a4c1b0080d18cdf5165524afc015
+>>>>>>> e01a31bbb23b1ca894a11010f2a7108824aead7c
 
 __Kategori Kegiatan :__
 
