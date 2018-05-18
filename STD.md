@@ -95,6 +95,7 @@ Pada program “Sistem Informasi Bimbingan Belajar Akademik” ini siusers dapat
 ### 2.4 Sumber Daya Manusia  
 
 Persyaratan sumberdaya manusia yang akan terlibat dalam proses pengujian perangkat lunak ini adalah :  
+
 * Memahami konsep pemrograman berorientasi objek dalam PHP.  
 * Memahami konsep framework dalam CodeIgniter.  
 * Memahami proses pengujian perangkat lunak berorientasi objek.  
