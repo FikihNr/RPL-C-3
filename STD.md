@@ -55,20 +55,13 @@ dan Rencana Pengujian, Deskripsi dan Uji Hasil.
 
 | No | Singkatan | Arti Kata |
 |----|-----------|-----------|
-| 1  | SKPL | Spesifikasi Kebutuhan Perangkat Lunak, atau dalam bahasa
-Inggris-nya sering juga disebut sebagai Software Requirements Spesification
-(SRS), dan merupakan spesifikasi dari perangkat lunak yang akan
-dikembangkan |
+| 1  | SKPL | Spesifikasi Kebutuhan Perangkat Lunak, atau dalam bahasa Inggris-nya sering juga disebut sebagai Software Requirements Spesification (SRS), dan merupakan spesifikasi dari perangkat lunak yang akan dikembangkan |
 | 2  | SKPL-SK.K-xxxx | Kode yang digunakan untuk merepresentasikan
-kebutuhan (requirement) pada SK, dengan SK merupakan kode perangkat
-lunak, SK.K adalah kode fase, dan xxxx adalah digit/nomor kebutuhan
-(requirement). |
-| 3  | DFD | Data Flow Diagram, diagram dan notasi yang digunakan untuk
-menunjukkan aliran data pada perangkat lunak. |
+kebutuhan (requirement) pada SK, dengan SK merupakan kode perangkat lunak, SK.K adalah kode fase, dan xxxx adalah digit/nomor kebutuhan (requirement). |
+| 3  | DFD | Data Flow Diagram, diagram dan notasi yang digunakan untuk menunjukkan aliran data pada perangkat lunak. |
 | 4  | ERD | Entity Relationship Diagram, diagram dan notasi yang digunakan
 untuk merepresentasikan struktur data statis pada perangkat lunak. |
-| 5  | DPPL-Akkses.K-xxxx | Kode yang digunakan untuk
-mengimplementasikan perancangan pada Akkses, dengan Akkses merupakan
+| 5  | DPPL-Akkses.K-xxxx | Kode yang digunakan untuk mengimplementasikan perancangan pada Akkses, dengan Akkses merupakan
 kode perangkat lunak, Akkses.Kadalah kode fase, dan xxxx adalahdigit/nomor
 perancangan. |
 
