@@ -140,6 +140,78 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SRS dengan m
 
 Dokumen hasil uji dari aplikasi ini akan diberikan kepada asisten praktikum dan dievaluasi oleh asisten dan kelompok lain yang bertindak sebagai klien daro kelompok kami. Sehingga aplikasi mendapatkan umpan balik dalam pengembangan perangkat lunak ini selanjutnya.
 
+## 3. Identifikasi dan Rencana Pengujian
+
+### Tabel 1 Identifikasi dan Rencana Pengujian
+
+| Kelas Uji | Butir Uji |Identifikasi| Tingkat Pengujian | Jenis Pengujian | Penguji|
+|-----|-----|-----|-----|-----|-----|
+|Pengujian Login |Pengujian nama pengguna dan kata sandi untuk semua user|DUPL - 01|Pengujian sistem| Black Box | Bimo|
+||Kebenaran nama pengguna dan kata sandi untuk semua user|DUPL - 02|
+|Pengujian Menambahkan Data Siswa |Pengujian Penambahan Data Siswa|DUPL - 03 | Pengujian sistem|Black Box|Firda|
+||Kebenaran Penambahan Data Siswa | DUPL - 04|
+|Pengujian Melihat Data Siswa |Pengujian Melihat Data Siswa|DUPL - 05 | Pengujian sistem|Black Box|Firda|
+||Kebenaran dalam menampilkan data siswa | DUPL - 06|
+|Pengujian Update Data Siswa |Pengujian Update Data Siswa|DUPL - 07 | Pengujian sistem|Black Box|Firda|
+||Kebenaran Update Data Siswa | DUPL - 08|
+|Pengujian Hapus Data Siswa |Pengujian Hapus Data Siswa|DUPL - 09 | Pengujian sistem|Black Box|Firda|
+||Kebenaran Hapus Data Siswa | DUPL - 10|
+|Pengujian Menambahkan Data Pengajar |Pengujian Penambahan Data Pengajar|DUPL - 11 | Pengujian sistem|Black Box|Lulu|
+||Kebenaran Penambahan Data Pengajar | DUPL - 12|
+|Pengujian Melihat Data Pengajar |Pengujian Melihat Data Pengajar|DUPL - 13 | Pengujian sistem|Black Box|Lulu|
+||Kebenaran dalam menampilkan data pengajar | DUPL - 14|
+|Pengujian Update Data Pengajar |Pengujian Update Data Pengajar|DUPL - 15 | Pengujian sistem|Black Box|Lulu|
+||Kebenaran Update Data Pengajar | DUPL - 16|
+|Pengujian Hapus Data Pengajar |Pengujian Hapus Data Pengajar|DUPL - 17 | Pengujian sistem|Black Box|Lulu|
+||Kebenaran Hapus Data Pengajar | DUPL - 18|
+|Pengujian Menambahkan Data Orang Tua |Pengujian Penambahan Data Orang Tua|DUPL - 19 | Pengujian sistem|Black Box|Fikih|
+||Kebenaran Penambahan Data Orang Tua | DUPL - 20|
+|Pengujian Melihat Data Orang Tua |Pengujian Melihat Data Orang Tua|DUPL - 21 |Pengujian sistem|Black Box|Fikih|
+||Kebenaran dalam menampilkan data orang tua | DUPL - 22|
+|Pengujian Update Data Orang Tua |Pengujian Update Data Orang Tua|DUPL - 23 | Pengujian sistem|Black Box|Fikih|
+||Kebenaran Update Data Orang Tua | DUPL - 24|
+|Pengujian Hapus Data Orang Tua |Pengujian Hapus Data Orang Tua|DUPL - 25 | Pengujian sistem|Black Box|Fikih|
+||Kebenaran Hapus Data Orang Tua | DUPL - 26|
+|Pengujian Menambahkan Mata Pelajaran |Pengujian Penambahan Data Mata Pelajaran|DUPL - 27 | Pengujian sistem|Black Box|Widi|
+||Kebenaran Penambahan Data Mata Pelajaran | DUPL - 28|
+|Pengujian Melihat Data Mata Pelajaran |Pengujian Melihat Data Mata Pelajaran|DUPL - 29 |Pengujian sistem|Black Box|Widi|
+||Kebenaran dalam menampilkan data mata pelajaran | DUPL - 30|
+|Pengujian Update Data Mata Pelajaran |Pengujian Update Data Mata Pelajaran|DUPL - 31 | Pengujian sistem|Black Box|Widi|
+||Kebenaran Update Data Mata Pelajaran | DUPL - 32|
+|Pengujian Hapus Data Mata Pelajaran |Pengujian Hapus Data Mata Pelajaran|DUPL - 33 | Pengujian sistem|Black Box|Widi|
+||Kebenaran Hapus Data Mata Pelajaran | DUPL - 34|
+|Pengujian Menambahkan Data Kelas |Pengujian Penambahan Data Kelas|DUPL - 35 | Pengujian sistem|Black Box|Bimo|
+||Kebenaran Penambahan Data Kelas | DUPL - 36|
+|Pengujian Melihat Data Kelas |Pengujian Melihat Data Kelas|DUPL - 37 |Pengujian sistem|Black Box|Bimo|
+||Kebenaran dalam menampilkan data kelas | DUPL - 38|
+|Pengujian Update Data Kelas |Pengujian Update Data Kelas|DUPL - 39 | Pengujian sistem|Black Box|Bimo|
+||Kebenaran Update Data Kelas | DUPL - 40|
+|Pengujian Hapus Data Kelas |Pengujian Hapus Data Kelas|DUPL - 41 | Pengujian sistem|Black Box|Bimo|
+||Kebenaran Hapus Data Kelas | DUPL - 41|
+|Pengujian Menambahkan Data Jadwal |Pengujian Penambahan Data Jadwal|DUPL - 42 | Pengujian sistem|Black Box|Fikih|
+||Kebenaran Penambahan Data Jadwal | DUPL - 43|
+|Pengujian Melihat Data Jadwal |Pengujian Melihat Data Jadwal|DUPL - 44 |Pengujian sistem|Black Box|Fikih|
+||Kebenaran dalam menampilkan data jadwal | DUPL - 45|
+|Pengujian Update Data Jadwal |Pengujian Update Data Jadwal|DUPL - 46 | Pengujian sistem|Black Box|Fikih|
+||Kebenaran Update Data Jadwal | DUPL - 47|
+|Pengujian Hapus Data Jadwal |Pengujian Hapus Data Jadwal|DUPL - 48 | Pengujian sistem|Black Box|Fikih|
+||Kebenaran Hapus Data Jadwal | DUPL - 49|
+|Pengujian Melihat Laporan Nilai |Pengujian Melihat Laporan Nilai|DUPL - 50 | Pengujian sistem|Black Box|Firda|
+||Kebenaran Melihat Laporan Nilai | DUPL - 51|
+|Pengujian Menambahkan Data Nilai |Pengujian Penambahan Data Nilai|DUPL - 52 | Pengujian sistem|Black Box|Firda|
+||Kebenaran Penambahan Data Nilai | DUPL - 53|
+|Pengujian Hapus Data Nilai |Pengujian Hapus Data Nilai|DUPL - 54 | Pengujian sistem|Black Box|Bimo|
+||Kebenaran Hapus Data Nilai | DUPL - 55|
+|Pengujian Update Data Nilai |Pengujian Update Data Nilai|DUPL - 56|Pengujian sistem|Black Box|Bimo|
+||Kebenaran Update Data Nilai | DUPL - 57|
+|Pengujian Melihat Laporan Absensi |Pengujian Melihat Laporan Absensi|DUPL - 58 | Pengujian sistem|Black Box|Lulu|
+||Kebenaran Melihat Laporan Absensi | DUPL - 59|
+|Pengujian Menambahkan Data Absensi |Pengujian Penambahan Data Absensi|DUPL - 60 | Pengujian sistem|Black Box|Lulu|
+||Kebenaran Penambahan Data Absensi | DUPL - 61|
+|Pengujian Live Chat |Pengujian Live Chat|DUPL - 62 | Pengujian sistem|Black Box|Firda|
+||Kebenaran Live Chat | DUPL - 63|
+
+
 ## 4. Deskripsi dan Hasil Uji 
 
 |Identifikasi | DUPL-1 | 
