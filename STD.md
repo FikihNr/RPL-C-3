@@ -29,9 +29,9 @@
 
 --------
 
-# Pendahuluan #
+## Pendahuluan 
 
-#### 1.1.Tujuan Pembuatan Dokumen
+### 1.1.Tujuan Pembuatan Dokumen
 
 Dokumen ini digunakan sebagai panduan untuk melakukan pengujian
 terhadap perangkat lunak Sistem Informasi Bimbingan Belajar. Dokumen ini
@@ -40,18 +40,18 @@ dengan keinginan dari pengguna. Pembuatan dokumen ini ditujukan untuk
 menguji perangkat lunak Sistem Informasi Bimbingan Belajar yang merupakan
 bagian dari tugas mata kuliah Rekayasa Perangkat Lunak.
 
-#### 1.2.Deskripsi Umum Sistem
+### 1.2.Deskripsi Umum Sistem
 
 Perangkat lunak yang akan diuji adalah “Sistem Informasi Akademik Bimbingan Belajar”. Perangkat lunak ini adalah perangkat lunak yang digunakan untuk
 melakukan bimbingan belajar secara terorganisir, seperti mempermudah pengguna dan penyedia dalam pengolahan nilai, pengolahan absens, lihat jadwal dan konsultasi bimbingan. Sistem ini diimplementasikan melalui komunikasi di media antara sesama pengguna dengan
 sistem.
 
-#### 1.3.Deskripsi Dokumen (Ikhtisar)
+### 1.3.Deskripsi Dokumen (Ikhtisar)
 
 Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi
 dan Rencana Pengujian, Deskripsi dan Uji Hasil.
 
-#### 1.4.Definisi dan Singkatan
+### 1.4.Definisi dan Singkatan
 
 | No | Singkatan | Arti Kata |
 |------|----|--------|
@@ -61,7 +61,7 @@ dan Rencana Pengujian, Deskripsi dan Uji Hasil.
 | 4 | ERD | Entity Relationship Diagram, diagram dan notasi yang digunakan untuk merepresentasikan struktur data statis pada perangkat lunak. |
 | 5  | DPPL-Akkses.K-xxxx | Kode yang digunakan untuk mengimplementasikan perancangan pada Akkses, dengan Akkses merupakan kode perangkat lunak, Akkses.Kadalah kode fase, dan xxxx adalahdigit/nomor perancangan. |
 
-#### 1.5.Dokumen Referensi
+### 1.5.Dokumen Referensi
 
 * Ernita H. GL03. Dokumen Uji Perangkat Lunak (DUPL) SDS. Bogor.
 * Sistem Pentiketan Elektronik Konser.2013. Spesifikasi Kebutuhan Perangkat
