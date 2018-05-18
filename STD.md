@@ -69,3 +69,28 @@ Lunak (SKPL)SPEK. Bogor.
 * Sistem Pentiketan Elektronik Konser.2013. Dokumen Perancangan Perangkat
 Lunak (DPPL)SPEK. Bogor.
 
+## 2. Lingkungan Pengujian Perangkat Lunak  
+
+### 2.1 Perangkat Lunak Pengujian  
+Perangkat lunak ini (SIMBEL) diujikan dengan beberapa perangkat lunak lain, yaitu :  
+  
+|Sistem Operasi | Windows 7|  
+|------|-------|  
+| Bahasa Pemrograman | PHP, CSS, HTML, MYSQL, Javascript|  
+| Framework | CodeIgniter|  
+| Database | XAMPP|  
+| Text Editor | Sublime|  
+| Web Browser | Modzila, Firefox, Google Chrome, Opera Browser dll.|  
+| Web Server | Apache|  
+  
+### 2.2 Perangkat Keras Pengujian  
+Perangkat keras yang diperlukan untuk menguji website SIMBEL ini adalah satu set computer.  
+  
+### 2.3 Material Pengujian  
+Pada program “Sistem Informasi Bimbingan Belajar Akademik” ini siusers dapat melihat data orang tua, guru, siswa, mata elajaran, jadwal, kelas, laporan atau rekap nilai dan absensi tanpa melalui guru atau admin. Admin sendiri dapat menginputkan semua data tersebut. Siuser dapat melihat data tersebut hanya dengan membuka website ini kemudian login selain itu guru dan siswa dapat melakukan bimbingan lewat chat yang telah disedikan tanpa harus meluangkan waktu untuk bertemu. Orang tua pun dapat melakukan chat dengan guru tersebut untuk memantau anaknya tanpa harus ke tempatnya langsung.  
+### 2.4 Sumber Daya Manusia  
+Persyaratan sumberdaya manusia yang akan terlibat dalam proses pengujian perangkat lunak ini adalah :  
+* Memahami konsep pemrograman berorientasi objek dalam PHP.  
+* Memahami konsep framework dalam CodeIgniter.  
+* Memahami proses pengujian perangkat lunak berorientasi objek.  
+* Memhami konsep pemrograman database XAMPP.
