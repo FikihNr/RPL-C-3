@@ -139,3 +139,484 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak SRS dengan m
 #### 2.5.4 Pelaporan Hasil
 
 Dokumen hasil uji dari aplikasi ini akan diberikan kepada asisten praktikum dan dievaluasi oleh asisten dan kelompok lain yang bertindak sebagai klien daro kelompok kami. Sehingga aplikasi mendapatkan umpan balik dalam pengembangan perangkat lunak ini selanjutnya.
+
+## 4. Deskripsi dan Hasil Uji 
+
+|Identifikasi | DUPL-1 | 
+| ----- | -------|
+| Nama Butir Uji | Login |
+| Tujuan | Memerikasa apakah user dapat masuk kedalam sistem|
+| Kondisi Awal | From Login sudah ada dan masih Kosong |
+|| Pengguna sudah membuka halaman web |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan Username & Password |
+|| 2. Tekan Tombol Sign in jika Username & Password  sudah di isi |
+|Hasil
+| Data yang diberikan | Username = Admin 
+|| Password = Admin |
+| Yang Diharapkan | Pengguna dapat Masuk kedalam sistem |
+| Pengamatan | Username dan Password tidak boleh kosong |
+|| Data yang dimasukkan harus sesuai dengan Database |
+|| Jika data yang dimasukkan salah, Maka akan muncul peringatan |
+| Kesimpulan | Diterima |
+| Catatan | Login Sukses, Karena Mengikuti Prosedur yang ada di Use Cases |
+
+|Identifikasi | DUPL-1 | 
+| ----- | -------|
+| Nama Butir Uji | Login |
+| Tujuan | Memerikasa apakah user dapat masuk kedalam sistem|
+| Kondisi Awal | From Login sudah ada dan masih Kosong |
+|| Pengguna sudah membuka halaman web |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan Username & Password |
+|| 2. Tekan Tombol Sign in jika Username & Password  sudah di isi |
+|Hasil
+| Data yang diberikan | Username = xzyxz 
+|| Password = zxvcx |
+| Yang Diharapkan | Pengguna dapat Masuk kedalam sistem |
+| Pengamatan | Username dan Password tidak sesuai dengan database |
+| Kesimpulan | Tidak Diterima |
+| Catatan | Data yang dimasukkan tidak sesuai dengan database, maka Login Gagal |
+
+|Identifikasi | DUPL-1 | 
+| ----- | -------|
+| Nama Butir Uji | Login |
+| Tujuan | Memerikasa apakah user dapat masuk kedalam sistem|
+| Kondisi Awal | From Login sudah ada dan masih Kosong |
+|| Pengguna sudah membuka halaman web |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan Username & Password |
+|| 2. Tekan Tombol Sign in jika Username & Password  sudah di isi |
+|Hasil
+| Data yang diberikan | Username = kosong 
+|| Password = kosong |
+| Yang Diharapkan | Pengguna dapat Masuk kedalam sistem |
+| Pengamatan | Username dan Password Masih Kosong dan harus di isi |
+| Kesimpulan | Tidak Diterima |
+| Catatan | Tidak ada data yang dimasukkan atau from login masih kosong, maka Login Gagal |
+
+
+| Identifikasi | DUPL-2|
+|---|---|
+|Nama Butir Uji | Penambahan data induk siswa dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk siswa |
+|Kondisi Awal | Tabel Induk Siswa sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk siswa |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama = Muhammad Bimo Abditama
+|| NIS = 1603078 |
+|| Username = bimo |
+|| Password = bimo |
+|| Jenis Kelamin = Laki Laki |
+|| Alamat = Tukdana |
+|| NO HP = 08966098278 |
+| Yang Diharapkan | Data siswa terrekam ke tabel siswa |
+| Pengamatan | Tombol Simpan dapat di-klik jika field nama, nis, username, password, jenis kelamin, no hp sudah terisi |
+| Kesimpulan | Diterima |
+| Catatan | Data berhasil disimpan karena mengikuti prosedur yang ada di Use Case|
+
+| Identifikasi | DUPL-2|
+|---|---|
+|Nama Butir Uji | Penambahan data induk siswa dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk siswa |
+|Kondisi Awal | Tabel Induk Siswa sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk siswa |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama = Muhammad Bimo Abditama
+|| NIS = satu enam nol tiga nol tujuh delapan |
+|| Username = bimo |
+|| Password = bimo |
+|| Jenis Kelamin = Laki Laki |
+|| Alamat = Tukdana |
+|| NO HP = 08966098278 |
+| Yang Diharapkan | Data siswa terrekam ke tabel siswa |
+| Pengamatan | Tidak bisa menyimpan data Karena field NIS di isi dengan Varchar, seharus nya dengan int (angka) |
+| Kesimpulan | Tidak diterima |
+| Catatan | Gagal Menyimpan Data, karena Data yang dimasukkan tidak sesuai dengan tipe data yang ada di database |
+
+
+| Identifikasi | DUPL-2|
+|---|---|
+|Nama Butir Uji | Penambahan data induk siswa dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk siswa |
+|Kondisi Awal | Tabel Induk Siswa sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk siswa |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama = Muhammad Bimo Abditama
+|| NIS = 1603078 |
+|| Username = kosong |
+|| Password = kosong |
+|| Jenis Kelamin = Laki Laki |
+|| Alamat = Tukdana |
+|| NO HP = 08966098278 |
+| Yang Diharapkan | Data siswa terrekam ke tabel siswa |
+| Pengamatan | Tidak bisa menyimpan data Karena ada filed yang masih kosong (belum diisi) |
+| Kesimpulan | Tidak diterima |
+| Catatan | Gagal Menyimpan Data, karena Masih ada data yang kosong (belum diisi) |
+
+| Identifikasi | DUPL-3|
+|---|---|
+|Nama Butir Uji | Penambahan data induk pengajar dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk pengajar |
+|Kondisi Awal | Tabel Induk pengajar sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk pengajar |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama = Fikih Nur Ramadan
+|| NIP = 1603068 |
+|| Username = fikih |
+|| Password = fikih |
+|| Jenis Kelamin = Laki Laki |
+|| Alamat = Bangkir |
+|| NO HP = 087727675654 |
+| Yang Diharapkan | Data pengajar terrekam ke tabel pengajar |
+| Pengamatan | Tombol Simpan dapat di-klik jika field nama, nip, username, password, jenis kelamin, no hp sudah terisi |
+| Kesimpulan | diterima |
+| Catatan | Data berhasil disimpan karena mengikuti prosedur yang ada di Use Case |
+
+| Identifikasi | DUPL-3|
+|---|---|
+|Nama Butir Uji | Penambahan data induk pengajar dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk pengajar |
+|Kondisi Awal | Tabel Induk pengajar sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk pengajar |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama = Fikih Nur Ramadan
+|| NIP = satu enam nol tiga nol enam delapan |
+|| Username = fikih |
+|| Password = fikih |
+|| Jenis Kelamin = Laki Laki |
+|| Alamat = Bangkir |
+|| NO HP = 087727675654 |
+| Yang Diharapkan | Data pengajar terrekam ke tabel pengajar |
+| Pengamatan |  Tidak bisa menyimpan data Karena field NIP di isi dengan Varchar, seharus nya dengan int (angka) |
+| Kesimpulan | Tidak diterima |
+| Catatan | Gagal Menyimpan Data, karena Data yang dimasukkan tidak sesuai dengan tipe data yang ada di database |
+
+| Identifikasi | DUPL-3|
+|---|---|
+|Nama Butir Uji | Penambahan data induk pengajar dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk pengajar |
+|Kondisi Awal | Tabel Induk pengajar sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk pengajar |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama = Fkih Nur Ramadan
+|| NIP = 1603068|
+|| Username = kosong |
+|| Password = kosong |
+|| Jenis Kelamin = Laki Laki |
+|| Alamat = Bangkir |
+|| NO HP = 087727675654 |
+| Yang Diharapkan | Data pengajar terrekam ke tabel pengajar |
+| Pengamatan | Tidak bisa menyimpan data Karena ada filed yang masih kosong (belum diisi) |
+| Kesimpulan | Tidak diterima |
+| Catatan | Gagal Menyimpan Data, karena Masih ada data yang kosong (belum diisi) |
+
+| Identifikasi | DUPL-4|
+|---|---|
+|Nama Butir Uji | Penambahan data induk orang tua dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk orang tua |
+|Kondisi Awal | Tabel Induk orang tua sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk orang tua |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama = Firda Faradila
+|| NIP = 1603069 |
+|| Username = firda |
+|| Password = firda |
+|| Jenis Kelamin = perempuan |
+|| Alamat = Cirebon |
+|| NO HP = 0817827678276 |
+| Yang Diharapkan | Data orang tua terrekam ke tabel orang tua |
+| Pengamatan | Tombol Simpan dapat di-klik jika field nama, username, password, jenis kelamin, no hp sudah terisi |
+| Kesimpulan | diterima |
+| Catatan | Data berhasil disimpan karena mengikuti prosedur yang ada di Use Case |
+
+| Identifikasi | DUPL-4|
+|---|---|
+|Nama Butir Uji | Penambahan data induk orang tua dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk orang tua |
+|Kondisi Awal | Tabel Induk orang tua sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk orang tua |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama = Firda Faradila |
+|| Username = firda |
+|| Password = firda |
+|| Jenis Kelamin = perempuan |
+|| Alamat = Cirebon |
+|| NO HP = kosong delapan satu enam enam dua tiga satu satu dua tiga empat |
+| Yang Diharapkan | Data orang tua terrekam ke tabel orang tua |
+| Pengamatan | Tidak dapat menyimpan data, karena Filed No Hp diisi dengan Varchar, seharusnya dengan INT (angka) |
+| Kesimpulan | Tidak diterima |
+| Catatan | Data gagal disimpan karena tipe data tidak sesuai dengan Database |
+
+| Identifikasi | DUPL-4|
+|---|---|
+|Nama Butir Uji | Penambahan data induk orang tua dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk orang tua |
+|Kondisi Awal | Tabel Induk orang tua sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk orang tua |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama = Firda Faradila |
+|| Username = kosong |
+|| Password = kosong |
+|| Jenis Kelamin = perempuan |
+|| Alamat = Cirebon |
+|| NO HP = kosong delapan satu enam enam dua tiga satu satu dua tiga empat |
+| Yang Diharapkan | Data orang tua terrekam ke tabel orang tua |
+| Pengamatan | Tidak dapat menyimpan data, karena Filed username dan password masih kosong dan harus diisi |
+| Kesimpulan | Tidak diterima |
+| Catatan | Data gagal disimpan karena masih ada field yang tidak diisi |
+
+| Identifikasi | DUPL-5|
+|---|---|
+|Nama Butir Uji | Penambahan data induk kelas dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk kelas |
+|Kondisi Awal | Tabel Induk kelas sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk kelas |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Lulu Mukhoyyaroh |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama = TI2C |
+| Yang Diharapkan | Data kelas terrekam ke tabel kelas |
+| Pengamatan | Tombol Simpan dapat di-klik jika field nama sudah terisi |
+| Kesimpulan | diterima |
+| Catatan | Data berhasil disimpan karena mengikuti prosedur yang ada di Use Case |
+
+
+| Identifikasi | DUPL-5|
+|---|---|
+|Nama Butir Uji | Penambahan data induk kelas dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk kelas |
+|Kondisi Awal | Tabel Induk kelas sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk kelas |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Lulu Mukhoyyaroh |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama = kosong |
+| Yang Diharapkan | Data kelas terrekam ke tabel kelas |
+| Pengamatan | Tombol Simpan tidak dapat diklik karena form nama masih kosong |
+| Kesimpulan | tidak diterima |
+| Catatan | Data tidak berhasil disimpan karena field masih kosong |
+
+| Identifikasi | DUPL-5|
+|---|---|
+|Nama Butir Uji | Penambahan data induk kelas dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk kelas |
+|Kondisi Awal | Tabel Induk kelas sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk kelas |
+| Tanggal Pengujian | 14/05/2018 |
+| Penguji | Lulu Mukhoyyaroh |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama = huruf lebih dari jumlah yang ditentukan di database  |
+| Yang Diharapkan | Data kelas terrekam ke tabel kelas |
+| Pengamatan | Data Tersimpan, tetapi huruf nya terpotong kareana jumlah karakter yang di masukkan lebih dari jumlah yang di tentukan di database |
+| Kesimpulan | tidak diterima |
+| Catatan | Data Tersimpan, Tetapi huruf terpotong, karena di database jumlah karakter varchar(20), tetapi yang dimasukkan lebih dari 20 |
+
+| Identifikasi | DUPL-6|
+|---|---|
+|Nama Butir Uji | Penambahan data induk mata pelajaran dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk mata pelajaran|
+|Kondisi Awal | Tabel Induk mata pelajaran sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk mata pelajaran |
+| Tanggal Pengujian | 16/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama Mata Pelajaran = Matematika |
+| Yang Diharapkan | Data mata pelajaran terrekam ke tabel mata pelajaran |
+| Pengamatan | Tombol Simpan dapat di-klik jika field nama mata pelajaran sudah terisi |
+| Kesimpulan | diterima |
+| Catatan | Data berhasil disimpan karena mengikuti prosedur yang ada di Use Case |
+
+| Identifikasi | DUPL-6|
+|---|---|
+|Nama Butir Uji | Penambahan data induk mata pelajaran dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk mata pelajaran|
+|Kondisi Awal | Tabel Induk mata pelajaran sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk mata pelajaran |
+| Tanggal Pengujian | 16/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama Mata Pelajaran = kosong |
+| Yang Diharapkan | Data mata pelajaran terrekam ke tabel mata pelajaran |
+| Pengamatan | Data tidak dapat disimpan karena field nama mata pelajaran masih kosong |
+| Kesimpulan |tidak diterima |
+| Catatan | Data tidak dapat dismpan karena filed mata pelajaran masih kosong |
+
+| Identifikasi | DUPL-6|
+|---|---|
+|Nama Butir Uji | Penambahan data induk mata pelajaran dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk mata pelajaran|
+|Kondisi Awal | Tabel Induk mata pelajaran sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk mata pelajaran |
+| Tanggal Pengujian | 16/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama Mata Pelajaran = 123762 |
+| Yang Diharapkan | Data mata pelajaran terrekam ke tabel mata pelajaran |
+| Pengamatan | Data tidak dapat disimpan karena tipe data yang di isi berbeda dengan yang di tentukan di database |
+| Kesimpulan | tidak diterima |
+| Catatan | Data tidak dapat disimpan karena tipe data yang di isi berbeda dengan yang di tentukan di database |
+
+| Identifikasi | DUPL-7|
+|---|---|
+|Nama Butir Uji | Penambahan data induk jadwal dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk jadwal|
+|Kondisi Awal | Tabel Induk jadwal sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk jadwal |
+| Tanggal Pengujian | 16/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama Mata Pelajaran = Matematika |
+||tanggal =  	07-03-2018 |
+||jam =  	8:00 - 10:00 WIB |
+||detail = Tryout|
+| Yang Diharapkan | Data jadwal terrekam ke tabel jadwal |
+| Pengamatan | Tombol Simpan dapat di-klik jika field nama jadwal sudah terisi |
+| Kesimpulan | diterima |
+| Catatan | Data berhasil disimpan karena mengikuti prosedur yang ada di Use Case |
+
+| Identifikasi | DUPL-7|
+|---|---|
+|Nama Butir Uji | Penambahan data induk jadwal dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk jadwal|
+|Kondisi Awal | Tabel Induk jadwal sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk jadwal |
+| Tanggal Pengujian | 16/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama Mata Pelajaran = kosong |
+||tanggal =  	07-03-2018 |
+||jam =  	8:00 - 10:00 WIB |
+||detail = kosong|
+| Yang Diharapkan | Data jadwal terrekam ke tabel jadwal |
+| Pengamatan | Tombol Simpan tidak dapat di-klik karena ada field yang masih kosong |
+| Kesimpulan | Tidak diterima |
+| Catatan | Data tidak berhasil disimpan karena tidak mengikuti prosedur yang ada di Use Case |
+
+| Identifikasi | DUPL-7|
+|---|---|
+|Nama Butir Uji | Penambahan data induk jadwal dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk jadwal|
+|Kondisi Awal | Tabel Induk jadwal sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk jadwal |
+| Tanggal Pengujian | 16/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nama Mata Pelajaran = huruf lebih dari jumlah yang ditentukan di database |
+||tanggal =  	07-03-2018 |
+||jam =  	8:00 - 10:00 WIB |
+||detail = Tryout|
+| Yang Diharapkan | Data jadwal terrekam ke tabel jadwal |
+| Pengamatan | Data Tersimpan, tetapi huruf nya terpotong kareana jumlah karakter yang di masukkan lebih dari jumlah yang di tentukan di database |
+| Kesimpulan | Tidak diterima |
+| Catatan | Data Tersimpan, Tetapi huruf terpotong, karena di database jumlah karakter varchar(20), tetapi yang dimasukkan lebih dari 20 |
+
+| Identifikasi | DUPL-8|
+|---|---|
+|Nama Butir Uji | Penambahan data induk nilai dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk nilai|
+|Kondisi Awal | Tabel Induk nilai sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk nilai |
+| Tanggal Pengujian | 16/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nilai = 100 |
+| Yang Diharapkan | Data data terrekam ke tabel nilai |
+| Pengamatan | Tombol Simpan dapat di-klik jika field nilai sudah terisi |
+| Kesimpulan | diterima |
+| Catatan | Data berhasil disimpan karena mengikuti prosedur yang ada di Use Case |
+
+| Identifikasi | DUPL-8|
+|---|---|
+|Nama Butir Uji | Penambahan data induk nilai dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk nilai|
+|Kondisi Awal | Tabel Induk nilai sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk nilai |
+| Tanggal Pengujian | 16/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nilai = seratus |
+| Yang Diharapkan | Data data terrekam ke tabel nilai |
+| Pengamatan | Tombol Simpan dapat di-klik tetapi data tidak dapat disimpan |
+| Kesimpulan | Tidak diterima |
+| Catatan | Data Tersimpan, Tetapi huruf berubah menjadi nol karena di database menggunakan integer |
+
+| Identifikasi | DUPL-8|
+|---|---|
+|Nama Butir Uji | Penambahan data induk nilai dengan data yang baru |
+| Tujuan | Memeriksa apakah data baru yang ditambahkan terrekam ke tabel induk nilai|
+|Kondisi Awal | Tabel Induk nilai sudah ada |
+|| Pemakai (administrator) sudah memilih (membuka) halaman web untuk penambahan data induk nilai |
+| Tanggal Pengujian | 16/05/2018 |
+| Penguji | Muhammad Bimo Abditama |
+| Skenario | 1. Ketikkan data yang akan direkam (ditambahkan) |
+|| 2. Klik tombol Simpan jika data sudah selesai diketik secara lengkap dan benar |
+| Hasil |
+| Data yang diberikan | Nilai = kosong |
+| Yang Diharapkan | Data data terrekam ke tabel nilai |
+| Pengamatan | Tombol Simpan dapat di-klik tetapi data tidak dapat disimpan |
+| Kesimpulan | Tidak diterima |
+| Catatan | Data Tersimpan, Tetapi nilai menjadi nol karena di database menggunakan integer |
+
+
